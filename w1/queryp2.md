@@ -4,9 +4,10 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 ## Setup
 - From your codespace terminal make sure you are in the w1 folder and copy the following command:
   - ```curl -o longlist.db https://raw.githubusercontent.com/CIT28/files/main/w1/longlist.db```
-  - I'll also show you are a simple way to format output with the ```.mode box``` 
+  - I'll also show you are a simple way to format output with the ```.mode box```
+  - I'll rename the query.md to querying.md using ```git mv querying.md query.md```.
 - Once you see the longlist.db in your w1, then commit with message:
-- **COMMIT MESSAGE - "longlist.db in my codespace"**
+- **COMMIT MESSAGE - "longlist.db added & query.md renamed"**
 
 ## Timemark 12:25 to 21:49
 - After watching my setup video, start at 12:25 and do the same terminal commands and once you reach 16:43, select your command prompt output and create a new file in the w1 folder and name it pow1.txt and paste the terminal output into that file, then commit with message:
@@ -14,7 +15,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 - Continue from 16:32 and listen to the questions asked and add any question here you might have encounter and make sure you answer why we use style for our commands in your querying.md file at 19:37, then commit with message:
 - **COMMIT MESSAGE - "questions and style"**
   - Here are the git command I used to commit the file name change from query.md to querying.md
-  - ```git rm query.md"```
+  - ```git rm query.md```
   - then did the normal git workflow to update my github pri repo. 
 - Continue along from 19:37 and use the LIMIT commands and once you reach 21:49 save terminal output to pow2.txt
 - **COMMIT MESSAGE - "terminal output from LIMIT command"**

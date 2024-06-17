@@ -1,5 +1,5 @@
 # CS50 Query Part 1
-https://youtu.be/_2t18Hy9Z0Y?si=7B76YYfy79OjBW-z
+[CS50 SQL - Lecture 0 - Querying](https://youtu.be/vHYeChEf2lA?si=hKFR9GDxKMU2JEYo "(target|_blank)")
 ## Setup
 - In your private repo create a new file and name it query.md
 ## Timemark 0:00 to 12:25:

@@ -4,6 +4,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 ## Setup
 - From your codespace terminal make sure you are in the w1 folder and copy the following command:
   - ```curl -o longlist.db https://raw.githubusercontent.com/CIT28/files/main/w1/longlist.db```
+  - I'll also show you are a simple way to format output with the ```.mode box``` 
 - Once you see the longlist.db in your w1, then commit with message:
 - **COMMIT MESSAGE - "longlist.db in my codespace"**
 

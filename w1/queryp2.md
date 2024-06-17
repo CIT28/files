@@ -2,7 +2,9 @@
 Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Querying](https://youtu.be/vHYeChEf2lA?si=hKFR9GDxKMU2JEYo)
 
 ## Setup
-- Continue working in the w1 folder in your private repo, after you copy the have the longlist.db file in your codespace, then commit with message:
+- From your codespace terminal make sure you are in the w1 folder and copy the following command:
+  - ```curl -o longlist.db https://raw.githubusercontent.com/CIT28/files/main/w1/longlist.db```
+- Once you see the longlist.db in your w1, then commit with message:
 - **COMMIT MESSAGE - "longlist.db in my codespace"**
 
 ## Timemark 12:25 to 21:49

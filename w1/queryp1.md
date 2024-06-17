@@ -1,7 +1,7 @@
 # CS50 Query Part 1
 Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Querying](https://youtu.be/vHYeChEf2lA?si=hKFR9GDxKMU2JEYo)
 ## Setup
-- In your private repo create a new file and name it query.md
+- In your private repo w1 folder create a new file and name it querying.md (yes I did update this since the video)
 ## Timemark 0:00 to 12:25:
 - Watch take notes that will help you better understand the materials (like questions) at 4:13 stop and answer the question asked, then commit with message:
 - **COMMIT MESSAGE - "why move from spreadsheet"**

@@ -1,8 +1,7 @@
 # CS50 Query Part 1
-# In your file give your thoughts as you move thru the content. 
-## Instructions to complete this work, link to CS50 webpage for this work: https://cs50.harvard.edu/sql/2024/weeks/0/
+https://youtu.be/_2t18Hy9Z0Y?si=7B76YYfy79OjBW-z
 ## Setup
-- In your private repo create a new folder names notes and in that file create a new file named query.md
+- In your private repo create a new file and name it query.md
 ## Timemark 0:00 to 12:25:
 - Watch take notes that will help you better understand the materials (like questions) at stop at 4:13 and answer the question asked, after you do commit with message:
 - **COMMIT MESSAGE - "why move from spreadsheet"**

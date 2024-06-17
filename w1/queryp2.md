@@ -13,9 +13,12 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 - **COMMIT MESSAGE - "terminal output from SELECT command"**
 - Continue from 16:32 and listen to the questions asked and add any question here you might have encounter and make sure you answer why we use style for our commands in your querying.md file at 19:37, then commit with message:
 - **COMMIT MESSAGE - "questions and style"**
+  - Here are the git command I used to commit the file name change from query.md to querying.md
+  - ```git rm query.md"```
+  - then did the normal git workflow to update my github pri repo. 
 - Continue along from 19:37 and use the LIMIT commands and once you reach 21:49 save terminal output to pow2.txt
 - **COMMIT MESSAGE - "terminal output from LIMIT command"**
-- Submit your commit history URL for grading
+- Submit your commit history URL your w1 in your private repo for grading
 ## Grading
 This is how I will grade your work:
   1. Did you provide the correct URL for w1 folder - 15 points

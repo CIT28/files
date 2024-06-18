@@ -2,7 +2,7 @@
 Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Querying](https://youtu.be/vHYeChEf2lA?si=hKFR9GDxKMU2JEYo)
 
 ## Setup
-- From your codespace terminal make sure you are in the w1 folder and copy the following command:
+- From your codespace terminal make sure your current directory is w1 folder and then copy the following command:
   - ```curl -o longlist.db https://raw.githubusercontent.com/CIT28/files/main/w1/longlist.db```
   - I'll also show you are a simple way to format output with the ```.mode box```
   - I'll rename the query.md to querying.md using ```git mv querying.md query.md```.

@@ -6,7 +6,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 - Create a new folder named w2, which will be at the same folder level as w1 and copy the querying.md file from w1 into w2. You don't need to copy the longlist.db, but you would need to use this command to open it from w1:
 ```sqlite3 ../w1/longlist.db```
 - Make sure you are in the w2 folder for this command to work. 
-- I'll also cover the contiue line funcationality in the setup video. 
+- I'll also cover the continue line functionality in the setup video. 
 
 ## Timemark 21:49 to 46:01
 

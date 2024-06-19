@@ -37,7 +37,7 @@ You can also just do the additional SQL condition demostrated.  Either is fine.
 
 ## Grading
 This is how I will grade your work:
-  1. Did you provide the correct URL for w1 folder - 15 points
+  1. Did you provide the correct URL for w2 folder - 15 points
   2. Did you do all the commits required for this work - 25 points
   3. Did you create the pow1.txt, pow2.txt, pow3.tx and pow4.text files correctly and include all the required output - 35 points
   4. Did you include all the required content in the the markdown file - 45 points

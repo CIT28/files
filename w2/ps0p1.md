@@ -2,23 +2,31 @@
 ## Cyberchase 1 thru 7
 
 ## Setup
-In the video I will walk how to complete this work
-- Creata a few folder and name it ps0 (problem set 0) at the same level as w1 and w2.  
-- Then make sure you pwd is in the ps0 folder and use this command to copy the database file. 
+
+In the video I will walk how to complete this work:
+### Create a New Folder for Problem Set 0
+- Create a new folder at the same level as w1 and w2, and name it ps0 (short for "Problem Set 0").
+### Copy the Database File  
+- Navigate into the ps0 folder using the command cd ps0. Then, use the following command to copy the database file:
     - ```curl -o cyberchase.db https://raw.githubusercontent.com/CIT28/files/main/w2/cyberchoase.db```
-- For each problem you need to show a proof of work file (etc pow1.txt). 
-- Once you have the SQL creating the output required, see How to Test section below, then create your proof of work file (etc pow1.tx)t and then create a sql file named for each problem, etc 1.sql. 
-- Make sure your sql file runs by doing the following command in the sqlite3 command line:
+### Create Proof of Work and SQL Files for Each Problem
+- For each problem, you need to create:
+  1. A proof of work file (e.g., pow1.txt) containing the required output.
+  2. An SQL file named after each problem (e.g., 1.sql) that generates the output.
+ 
+### Test Your SQL File
+- Before committing your changes, test your SQL file by running the following commands in the sqlite3 command line:
     - ```sqlite3 cyberchase.db```
     - ```.read 1.sql```
+    - Verify that the output is correct and matches the contents of your proof of work file.
 - Then commit after each one with this message:
-- **COMMIT MESSAGE - "terminal output, pow1.txt and 1.sql complete"**
+- ex. **COMMIT MESSAGE - "terminal output, pow1.txt and 1.sql complete"**
 
 
 ## Schema
 Each database has some “schema” 
 
-the tables and columns into which the data is organized. In cyberchase.db you’ll find a single table, episodes. In the episodes table, you’ll find the following columns:
+The tables and columns into which the data is organized. In cyberchase.db you’ll find a single table, episodes. In the episodes table, you’ll find the following columns:
 
 - id, which uniquely identifies each row (episode) in the table
 - season, which is the season number in which the episode aired

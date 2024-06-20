@@ -54,7 +54,7 @@ Make sure you commit before moving on to the next problem.
 ## Grading
 - Submit your commit history URL your ps0 in your private repo for grading
 - This is how I will grade your work:
-    1. Did you provide the correct URL for ps0 folder - 15 points.
-    2. Did you do all the commits required for this work - 25 points - There should be 7 commits, 7 sql files and 7 pow.txt files.
-    3. Did your SQL files create the correct output - 40 points
-    4. Did you proof of work files show autheicate work - 20 ppoints
+1. Did you provide the correct URL for ps0 folder - 15 points.
+2. Did you do all the commits required for this work - 25 points - There should be 7 commits, 7 sql files and 7 pow.txt files.
+3. Did your SQL files create the correct output - 40 points
+4. Did you proof of work files show autheicate work - 20 ppoints

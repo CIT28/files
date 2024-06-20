@@ -7,14 +7,12 @@ In the video I will walk how to complete this work
 - Then make sure you pwd is in the ps0 folder and use this command to copy the database file. 
     - ```curl -o cyberchase.db https://raw.githubusercontent.com/CIT28/files/main/w2/cyberchoase.db```
 - For each problem you need to show a proof of work file (etc pow1.txt). 
-- Once you have the SLQ creating the output required, see How to Test below, then create your pow.txt file and then create a sql file named for each problem, etc 1.sql. 
-- Make sure you sql file runs by doing the following command in the sqlite3 command line:
+- Once you have the SQL creating the output required, see How to Test section below, then create your proof of work file (etc pow1.tx)t and then create a sql file named for each problem, etc 1.sql. 
+- Make sure your sql file runs by doing the following command in the sqlite3 command line:
     - ```sqlite3 cyberchase.db```
     - ```.read 1.sql```
 - Then commit after each one with this message:
 - **COMMIT MESSAGE - "terminal output, pow1.txt and 1.sql complete"**
-
-
 
 
 ## Schema
@@ -30,11 +28,13 @@ the tables and columns into which the data is organized. In cyberchase.db you’
 - air_date, which is the date (expressed as YYYY-MM-DD) on which the episode “aired” (i.e., was published)
 - production_code, which is the unique ID used by PBS to refer to each episode internally
 
-# Specification
+## Specification
 
 For each of the following questions, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query. You should not assume anything about the ids of any particular episodes: your queries should be accurate even if the id of any particular episode were different. Finally, each query should return only the data necessary to answer the question: if the problem only asks you to output the names of episodes, for example, then your query should not also output each episodes’s air date.
 
-1. In 1.sql, write a SQL query to list the titles of all episodes in Cyberchase’s original season, Season 1.
+Make sure you commit before moving on to the next problem. 
+
+1. In 1.sql, write a SQL query to list the titles of all episodes in Cyberchase’s original season, Season 1. 
 2. In 2.sql, list the season number of, and title of, the first episode of every season.
 3. In 3.sql, find the production code for the episode “Hackerized!”.
 4. In 4.sql, write a query to find the titles of episodes that do not yet have a listed topic.
@@ -42,7 +42,7 @@ For each of the following questions, you should write a single SQL query that ou
 6. In 6.sql, list the titles of episodes from season 6 (2008) that were released early, in 2007.
 7. In 7.sql, write a SQL query to list the titles and topics of all episodes teaching fractions.
 
-# How to Test
+## How to Test
 - Executing 1.sql results in a table with 1 column and 26 rows.
 - Executing 2.sql results in a table with 2 columns and 14 rows.
 - Executing 3.sql results in a table with 1 column and 1 row.
@@ -50,3 +50,11 @@ For each of the following questions, you should write a single SQL query that ou
 - Executing 5.sql results in a table with 1 column and 1 row.
 - Executing 6.sql results in a table with 1 column and 2 rows.
 - Executing 7.sql results in a table with 2 columns and 6 rows.
+
+## Grading
+- Submit your commit history URL your ps0 in your private repo for grading
+- This is how I will grade your work:
+    1. Did you provide the correct URL for ps0 folder - 15 points.
+    2. Did you do all the commits required for this work - 25 points - There should be 7 commits, 7 sql files and 7 pow.txt files.
+    3. Did your SQL files create the correct output - 40 points
+    4. Did you proof of work files show autheicate work - 20 ppoints

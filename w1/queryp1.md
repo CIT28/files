@@ -6,8 +6,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 - Before you start taking notes use a h1 (#) and this text - "Week 1 Querying Part 1", then commit with message:
   - **COMMIT MESSAGE - "setup done"**
 ## Timemark 0:00 to 12:25:
-- Watch and take notes using [markdown](https://www.markdownguide.org/cheat-sheet/) in the README.md file, 
-- that will help you better understand the material covered (like questions) then at timemark 4:13 stop and answer the question asked, then commit with message:
+- Watch and take notes that will help you better understand the material covered (like questions) then at timemark 4:13 stop and answer the question asked, then commit with message:
   - **COMMIT MESSAGE - "why move from spreadsheet"**
 - Continue watching and take note of what is a database and what role the database management system (DBMS) plays and then answer the question at 6:59 of what other DBMS you might have heard of, then commit with message:
   - **COMMIT MESSAGE - "terms and other"**

@@ -3,38 +3,32 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 
 ## Setup
 
-- Create a new folder named w2, which will be at the same folder level as w1 and copy the querying.md file from w1 into w2. You don't need to copy the longlist.db, but you would need to use this command to open it from w1:
-```sqlite3 ../w1/longlist.db```
-- Make sure you are in the w2 folder for this command to work. 
-- I'll also cover the continue line functionality in the setup video. 
+- Make sure you watch the video before starting this work. 
+- For this work we will still be working in the querying folder and will be saving our queries in a new file named p3-q.sql, create that file now and then add this text as h1 (#) in your README.md file "Week 2 Querying Part 3", then commit with message: 
+  - **COMMIT MESSAGE - "query file and README.md ready"**
 
 ## Timemark 21:49 to 46:01
 
-- Start watching in 21:49 and then follow along with the video and complete the SQL on the terminal and at 25:03 copy the output into a file named pow1.txt
-- Make sure you also capture the operations and what they mean to you in the querying.md.
-- Listen to the questions asked and add any question here you might have encounter. If you don't have questions then capture at least 2 of the questions asked in your querying.md file. 
-- **COMMIT MESSAGE - "terminal output from WHERE and QA"**
-- Contine at 25:02 and complete commands along with the video in the terminal window, learning about NOT, AND, OR, (). 
-- At 31:49 copy the output of the terminal into a new file named pow2.txt
--  Thne listen to the questions asked and add any question here you might have encounter. If you don't have questions then capture the of the questions asked in your querying.md file.
-- Write your understanding of NOT, AND, OR, () in your querying.md file. 
-- **COMMIT MESSAGE - "terminal output from WHERE w NOT, AND, OR, () and QA"**
-- Continue at 31:49 and complete commands along with the video in the terminal window
-- Consider closing the sqlite3 terminal and opening it up again, so that it clears the previous outout. 
-- Follow along with the video and complete the SQL on WHERE with NULL and IS NOT NULL at 34:26 copy the output of the terminal into a new file named pow3.txt
-- In your querying.md file, take a few notes on your understanding of the how they are used.  
-- **COMMIT MESSAGE - "terminal output from WHERE w NULL and notes"**
-- Continue at 34:26 and complete commands along with the video in the terminal window
-- Clear your terminal output and follow along with the video and complete SQL with WHERE and LIKE, % and _ .
-- Listen to the questions asked and add any question here you might have encounter. If you don't have questions then capture at least 2 of the questions asked in your querying.md, stop at 46:01. 
-- Copy your terminal output into a new file named pow4.txt.
-You can also just do the additional SQL condition demostrated.  Either is fine. 
-- **COMMIT MESSAGE - "terminal output from WHERE w LIKE and %, _ and QA"** 
-- Submit your commit history URL your w2 in your private repo for grading
+- Start watching in 21:49 and then follow along with the video and write the SQL statements in the query file (p3-q.sql), for this one there will be 6 queries using WHERE. 
+- For each query, make sure your queries run successfully and then change your terminal shell output (.output powp3-1.txt) and then change the output to be stdout. 
+- Then at 28:20 commit your work with message: 
+  - **COMMIT MESSAGE - "WHERE, operators, NOT"**
+- Then contine and write the queries along with the video in the p3-q.sql, learning about AND, OR, (). Like before make sure each query runs successfully and then output the shell to powp3-2.txt as we did above above. There will be 2 queries for this work. 
+- At 31:49 write your understanding of NOT, AND, OR, () in your README.md file, using a markdown heading to show your content, then commit your work 
+  - **COMMIT MESSAGE - "WHERE, AND, OR and notes"**
+- Then continue and write the queries along with the video in the p3-q.sql, learning WHERE with NULL and IS NOT NULL. Like before make sure each query runs sucessfuly and then output the shell to powp3-3.txt. There will be 2 queries for this work. 
+- At 34:26 stop and in your README.md file, take a few notes on your understanding of the how these commands are used and use a markdown heading ot show your content, then commit your work with message:
+  - **COMMIT MESSAGE - "WHERE, NULL, IS NOT NULL and notes"**
+- Then continue and write the queries along with the video in the p3-q.sql, learning about WHERE and LIKE, % and _. Like before make sure each query runs successfully and then output the shell to powp3-4.txt as we did above above. There will be 6 queries for this work, maybe 7 if you did the SELECT *. 
+- At 44:40 stop and in your README.md file, take a few notes on your understanding of the how these commands are used and use a markdown heading ot show your content, then commit your work with message:
+  - **COMMIT MESSAGE - "WHERE, LIKE, %, _ and notes"** 
+- Make sure to push your code to github
+- Submit your commit history URL the querying in your private repo for grading
 ## Grading
 This is how I will grade your work:
-  1. Did you provide the correct URL for w2 folder - 15 points
-  2. Did you do all the commits required for this work - 25 points
-  3. Did you create the pow1.txt, pow2.txt, pow3.tx and pow4.text files correctly and include all the required output - 35 points
-  4. Did you include all the required content in the the markdown file - 45 points
+  1. Did you provide the correct URL for querying folder = 5 points
+  2. Did you do all the commits required for this work = 20 points
+  3. Did you have all the queries in the p3-q.sql file = 30 points
+  3. Did you create the powp3-1.txt, powp3-2.txt, powp3-3.txt and powp3-4.txt files correctly and include all the required output = 20 points
+  4. Did you include all the required content in the the markdown file = 25 points
   5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

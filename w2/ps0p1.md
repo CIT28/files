@@ -5,7 +5,7 @@ In the video I will walk how to complete this work:
 ### Setup
 - Create a new folder at the same level as w1, w2 and querying, name it ps0 (short for "Problem Set 0") and then inside that folder create another folder named cyberchase.   
 - Change the current folder to cyberchase, then use the following command to copy the database file:
-    - ```curl -o cyberchase.db https://raw.githubusercontent.com/CIT28/files/main/w2/cyberchoase.db```
+    - ```curl -o cyberchase.db https://raw.githubusercontent.com/CIT28/files/main/w2/cyberchase.db```
     - Create a file to store the queries name it p1-q.sql and a README.md with a heading for each problem 1 thru 7, commit with message:
       - **COMMIT MESSAGE - "setup complete**
 ### For each problem you need to do the following

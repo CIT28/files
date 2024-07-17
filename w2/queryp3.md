@@ -6,6 +6,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 - Make sure you watch the video before starting this work. 
 - For this work we will still be working in the querying folder and will be saving our queries in a new file named p3-q.sql, create that file now and then add this text as h1 (#) in your README.md file "Week 2 Querying Part 3", then commit with message: 
   - **COMMIT MESSAGE - "query file and README.md ready"**
+- After watching the video I see that I didn't discuss that you can also have another terminal session with bash so that you can do your commits in a session.  
 
 ## Timemark 21:49 to 46:01
 

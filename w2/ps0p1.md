@@ -10,14 +10,12 @@ In the video I will walk how to complete this work:
       - **COMMIT MESSAGE - "setup complete**
 ### For each problem you need to do the following
 - For each problem, you need to:
-  1. Write the query in the p1-q.sql file and make sure you get the correct output (see below) 
-  2. In the README.md, once you get the query working copy the shell ouput into to show authenicate your work.  
-  3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
-      - **COMMIT MESSAGE - "1. query and pow complete**
-      - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query and pow")
+1. Write the query in the p1-q.sql file and make sure you get the correct output (see below) 
+2. In the README.md, authenicate your work by copying the steps you took to get the correct output, do this under the heading for each problem.    
+3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
+  - **COMMIT MESSAGE - "1. query and pow complete**
+  - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query and pow")
  
-
-
 ## Schema
 Each database has some “schema” 
 
@@ -58,7 +56,7 @@ Make sure you commit before moving on to the next problem.
 - Submit your commit history URL your cyberchase in your private repo for grading
 - This is how I will grade your work:
 1. Did you provide the correct URL for cyberchaes folder = 5 points.
-2. Did you do all the commits required for this work = 650 points
+2. Did you do all the commits required for this work = 65 points
     -  There should be 8 commits, 1 for the setup and 7 that show the current query (uncommented), proof of work and autenciate work in README.md
 3. Did your README.md file show authenicate work =  30 points
 4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

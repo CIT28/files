@@ -1,26 +1,21 @@
 # CS50 Problem Set 0 Part 1 
 ## Cyberchase 1 thru 7
 
-## Setup
-
 In the video I will walk how to complete this work:
-### Create a New Folder for Problem Set 0
-- Create a new folder at the same level as w1 and w2, and name it ps0 (short for "Problem Set 0").
-### Copy the Database File  
-- Navigate into the ps0 folder using the command cd ps0. Then, use the following command to copy the database file:
+### Setup
+- Create a new folder at the same level as w1, w2 and querying, name it ps0 (short for "Problem Set 0") and then inside that folder create another folder named cyberchase.   
+- Change the current folder to cyberchase, then use the following command to copy the database file:
     - ```curl -o cyberchase.db https://raw.githubusercontent.com/CIT28/files/main/w2/cyberchoase.db```
-### Create Proof of Work and SQL Files for Each Problem
-- For each problem, you need to create:
-  1. A proof of work file (e.g., pow1.txt) containing the required output.
-  2. An SQL file named after each problem (e.g., 1.sql) that generates the output.
+    - Create a file to store the queries name it p1-q.sql and a README.md with a heading for each problem 1 thru 7, commit with message:
+      - **COMMIT MESSAGE - "setup complete**
+### For each problem you need to do the following
+- For each problem, you need to:
+  1. Write the query in the p1-q.sql file and make sure you get the correct output (see below) 
+  2. In the README.md, once you get the query working copy the shell ouput into to show authenicate your work.  
+  3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
+      - **COMMIT MESSAGE - "1. query and pow complete**
+      - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query and pow")
  
-### Test Your SQL File
-- Before committing your changes, test your SQL file by running the following commands in the sqlite3 command line:
-    - ```sqlite3 cyberchase.db```
-    - ```.read 1.sql```
-    - Verify that the output is correct and matches the contents of your proof of work file.
-- Then commit after each one with this message:
-- ex. **COMMIT MESSAGE - "terminal output, pow1.txt and 1.sql complete"**
 
 
 ## Schema
@@ -42,27 +37,28 @@ For each of the following questions, you should write a single SQL query that ou
 
 Make sure you commit before moving on to the next problem. 
 
-1. In 1.sql, write a SQL query to list the titles of all episodes in Cyberchase’s original season, Season 1. 
-2. In 2.sql, list the season number of, and title of, the first episode of every season.
-3. In 3.sql, find the production code for the episode “Hackerized!”.
-4. In 4.sql, write a query to find the titles of episodes that do not yet have a listed topic.
-5. In 5.sql, find the title of the holiday episode that aired on December 31st, 2004.
-6. In 6.sql, list the titles of episodes from season 6 (2008) that were released early, in 2007.
-7. In 7.sql, write a SQL query to list the titles and topics of all episodes teaching fractions.
+1. Write a SQL query to list the titles of all episodes in Cyberchase’s original season, Season 1. 
+2. List the season number of, and title of, the first episode of every season.
+3. Find the production code for the episode “Hackerized!”.
+4. Write a query to find the titles of episodes that do not yet have a listed topic.
+5. Find the title of the holiday episode that aired on December 31st, 2004.
+6. List the titles of episodes from season 6 (2008) that were released early, in 2007.
+7. Write a SQL query to list the titles and topics of all episodes teaching fractions.
 
 ## How to Test
-- Executing 1.sql results in a table with 1 column and 26 rows.
-- Executing 2.sql results in a table with 2 columns and 14 rows.
-- Executing 3.sql results in a table with 1 column and 1 row.
-- Executing 4.sql results in a table with 1 column and 26 rows.
-- Executing 5.sql results in a table with 1 column and 1 row.
-- Executing 6.sql results in a table with 1 column and 2 rows.
-- Executing 7.sql results in a table with 2 columns and 6 rows.
+- Executing 1. results in a table with 1 column and 26 rows.
+- Executing 2. results in a table with 2 columns and 14 rows.
+- Executing 3. results in a table with 1 column and 1 row.
+- Executing 4. results in a table with 1 column and 26 rows.
+- Executing 5. results in a table with 1 column and 1 row.
+- Executing 6. results in a table with 1 column and 2 rows.
+- Executing 7. results in a table with 2 columns and 6 rows.
 
 ## Grading
-- Submit your commit history URL your ps0 in your private repo for grading
+- Submit your commit history URL your cyberchase in your private repo for grading
 - This is how I will grade your work:
-1. Did you provide the correct URL for ps0 folder - 15 points.
-2. Did you do all the commits required for this work - 25 points - There should be 7 commits, 7 sql files and 7 pow.txt files.
-3. Did your SQL files create the correct output - 40 points
-4. Did you proof of work files show autheicate work - 20 ppoints
+1. Did you provide the correct URL for cyberchaes folder = 5 points.
+2. Did you do all the commits required for this work = 650 points
+    -  There should be 8 commits, 1 for the setup and 7 that show the current query (uncommented), proof of work and autenciate work in README.md
+3. Did your README.md file show authenicate work =  30 points
+4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

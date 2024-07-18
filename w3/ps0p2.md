@@ -2,21 +2,17 @@
 ## Cyberchase 8 thru 13
 
 ## Setup
-
-In the video I will walk how to complete this work:
-### Create Proof of Work and SQL Files for Each Problem
 - You will use the same folder ps0 that we used in part 1.
-- For each problem, you need to create:
-  1. A proof of work file (e.g., pow8.txt) containing the required output.
-  2. An SQL file named after each problem (e.g., 8.sql) that generates the output.
- 
-### Test Your SQL File
-- Before committing your changes, test your SQL file by running the following commands in the sqlite3 command line:
-    - ```sqlite3 cyberchase.db```
-    - ```.read 8.sql```
-    - Verify that the output is correct and matches the contents of your proof of work file.
-- Then commit after each one with this message:
-- ex. **COMMIT MESSAGE - "terminal output, pow8 .txt and 8.sql complete"**
+- Create a file to store the queries name it p2-q.sql and then the README.md with a heading for each problem 8 thru 7, commit with message:
+      - **COMMIT MESSAGE - "setup complete"**
+
+### For each problem you need to do the following
+- For each problem, you need to:
+1. Write the query in the p2-q.sql file and make sure you get the correct output (see below) 
+2. In the README.md, authenicate your work by copying the steps you took to get the correct output, do this under the heading for each problem.    
+3. Open another terminal session to change the standard output to sent the output to powp2.txt, commit with message:
+  - **COMMIT MESSAGE - "8. query, pow and README.md complete"**
+  - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "9. query, pow and README.md")
 
 
 ## Schema
@@ -38,13 +34,13 @@ For each of the following questions, you should write a single SQL query that ou
 
 Make sure you commit before moving on to the next problem. 
 
-8. In 8.sql, write a query that counts the number of episodes released in the last 6 years, from 2018 to 2023, inclusive.
+8. Write a query that counts the number of episodes released in the last 6 years, from 2018 to 2023, inclusive.
   - You might find it helpful to know you can use BETWEEN with dates, such as BETWEEN '2000-01-01' AND '2000-12-31'.
-9. In 9.sql, write a query that counts the number of episodes released in Cyberchase’s first 6 years, from 2002 to 2007, inclusive.
-10. In 10.sql, write a SQL query to list the ids, titles, and production codes of all episodes. Order the results by production code,   from earliest to latest.
-11. In 11.sql, list the titles of episodes from season 5, in reverse alphabetical order.
-12. In 12.sql, count the number of unique episode titles.
-13. In 13.sql, write a SQL query to explore a question of your choice. This query should:
+9. Write a query that counts the number of episodes released in Cyberchase’s first 6 years, from 2002 to 2007, inclusive.
+10. Write a SQL query to list the ids, titles, and production codes of all episodes. Order the results by production code,   from earliest to latest.
+11. List the titles of episodes from season 5, in reverse alphabetical order.
+12. Count the number of unique episode titles.
+13. Write a SQL query to explore a question of your choice. This query should:
  - Involve at least one condition, using WHERE with AND or OR
 
 
@@ -57,9 +53,10 @@ Make sure you commit before moving on to the next problem.
 
 
 ## Grading
-- Submit your commit history URL your ps0 in your private repo for grading
+- Submit your commit history URL your cyberchase in your private repo for grading
 - This is how I will grade your work:
-1. Did you provide the correct URL for ps0 folder - 15 points.
-2. Did you do all the commits required for this work - 25 points - There should be 6 commits, 6 sql files and 6 pow.txt files.
-3. Did your SQL files create the correct output - 40 points
-4. Did you proof of work files show autheicate work - 20 ppoints
+1. Did you provide the correct URL for cyberchase folder = 5 points.
+2. Did you do all the commits required for this work = 65 points
+    -  There should be 7 commits, 1 for the setup and 6 that show the current query (uncommented), proof of work and autenciate work in README.md
+3. Did your README.md file show authenicate work =  30 points
+4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

@@ -55,7 +55,7 @@ Make sure you commit before moving on to the next problem.
 ## Grading
 - Submit your commit history URL your cyberchase in your private repo for grading
 - This is how I will grade your work:
-1. Did you provide the correct URL for cyberchaes folder = 5 points.
+1. Did you provide the correct URL for cyberchase folder = 5 points.
 2. Did you do all the commits required for this work = 65 points
     -  There should be 8 commits, 1 for the setup and 7 that show the current query (uncommented), proof of work and autenciate work in README.md
 3. Did your README.md file show authenicate work =  30 points

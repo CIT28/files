@@ -1,12 +1,12 @@
 # CS50 Problem Set 0 Part 1 
-## Normals 1 thru 7
+## Normals 1 thru 6
 
 In the video I will walk how to complete this work:
 ### Setup
 - In the ps0 folder, create another folder named normals.   
 - Change the current folder to normals, then use the following command to copy the database file:
     - ```curl -o normals.db https://raw.githubusercontent.com/CIT28/files/main/w4/normals.db```
-    - Create a file to store the queries name it p1-q.sql and a README.md with a heading for each problem 1 thru 7, commit with message:
+    - Create a file to store the queries name it p1-q.sql and a README.md with a heading for each problem 1 thru 6, commit with message:
       - **COMMIT MESSAGE - "setup complete"**
 ### For each problem you need to do the following
 - For each problem, you need to:
@@ -45,6 +45,11 @@ For each of the following questions, you should write a single SQL query that ou
 3. Choose a location of your own and write a SQL query to find the normal temperature at 0 meters, 100 meters, and 200 meters. You might find Google Earth helpful if you’d like to find some coordinates to use!
 4. Write a SQL query to find the lowest normal ocean surface temperature.
 5. Write a SQL query to find the highest normal ocean surface temperature.
+6 Write a SQL query to return all normal ocean temperatures at 50m of depth, as well as their respective degrees of latitude and longitude, within the Arabian Sea[https://en.wikipedia.org/wiki/Arabian_Sea]. Include latitude, longitude, and temperature columns. For simplicity, assume the Arabian Sea is encased in the following four coordinates:
+    - 20° of latitude, 55° of longitude
+    - 20° of latitude, 75° of longitude
+    - 0° of latitude, 55° degrees of longitude
+    - 0° of latitude, 75° degrees of longitude
 
 ## How to Test
 Executing 1. results in a table with 1 column and 1 row.
@@ -52,12 +57,13 @@ Executing 2.  results in a table with 1 column and 1 row.
 3.sql is up to you!
 Executing 4. results in a table with 1 column and 1 row.
 Executing 5. results in a table with 1 column and 1 row.
+Executing 6 results in a table with 3 columns and 383 rows.
 
 ## Grading
 - Submit your commit history URL your normals in your private repo for grading
 - This is how I will grade your work:
 1. Did you provide the correct URL for normals folder = 5 points.
 2. Did you do all the commits required for this work = 65 points
-    -  There should be 6 commits, 1 for the setup and 5 that show the current query (uncommented), proof of work and autenciate work in README.md
+    -  There should be 7 commits, 1 for the setup and 6 that show the current query (uncommented), proof of work and autenciate work in README.md
 3. Did your README.md file show authenicate work =  30 points
 4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

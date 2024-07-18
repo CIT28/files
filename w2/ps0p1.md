@@ -7,13 +7,13 @@ In the video I will walk how to complete this work:
 - Change the current folder to cyberchase, then use the following command to copy the database file:
     - ```curl -o cyberchase.db https://raw.githubusercontent.com/CIT28/files/main/w2/cyberchase.db```
     - Create a file to store the queries name it p1-q.sql and a README.md with a heading for each problem 1 thru 7, commit with message:
-      - **COMMIT MESSAGE - "setup complete**
+      - **COMMIT MESSAGE - "setup complete"**
 ### For each problem you need to do the following
 - For each problem, you need to:
 1. Write the query in the p1-q.sql file and make sure you get the correct output (see below) 
 2. In the README.md, authenicate your work by copying the steps you took to get the correct output, do this under the heading for each problem.    
 3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
-  - **COMMIT MESSAGE - "1. query and pow complete**
+  - **COMMIT MESSAGE - "1. query and pow complete"**
   - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query and pow")
  
 ## Schema

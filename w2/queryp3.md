@@ -21,7 +21,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 - At 34:26 stop and in your README.md file, take a few notes on your understanding of the how these commands are used and use a markdown heading ot show your content, then commit your work with message:
   - **COMMIT MESSAGE - "WHERE, NULL, IS NOT NULL and notes"**
 - Then continue and write the queries along with the video in the p3-q.sql, learning about WHERE and LIKE, % and _. Like before make sure each query runs successfully and then output the shell to powp3.txt as we did above above. There will be 6 queries for this work, maybe 7 if you did the SELECT *. 
-- At 44:40 stop and in your README.md file, take a few notes on your understanding of the how these commands are used and use a markdown heading ot show your content, then commit your work with message:
+- At 46:01 stop and in your README.md file, take a few notes on your understanding of the how these commands are used and use a markdown heading ot show your content, then commit your work with message:
   - **COMMIT MESSAGE - "WHERE, LIKE, %, _ and notes"** 
 - Make sure to push your code to github
 - Submit your commit history URL the querying in your private repo for grading
@@ -31,5 +31,5 @@ This is how I will grade your work:
   2. Did you do all the commits required for this work = 20 points
   3. Did you have all the queries in the p3-q.sql file = 30 points
   3. Did you create the powp3.txt file correctly and include all the required output = 20 points
-  4. Did you include all the required content in the the markdown file = 25 points
+  4. Did you include all the required content in the README.md file = 25 point
   5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

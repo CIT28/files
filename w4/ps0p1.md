@@ -45,7 +45,7 @@ For each of the following questions, you should write a single SQL query that ou
 3. Choose a location of your own and write a SQL query to find the normal temperature at 0 meters, 100 meters, and 200 meters. You might find Google Earth helpful if you’d like to find some coordinates to use!
 4. Write a SQL query to find the lowest normal ocean surface temperature.
 5. Write a SQL query to find the highest normal ocean surface temperature.
-6 Write a SQL query to return all normal ocean temperatures at 50m of depth, as well as their respective degrees of latitude and longitude, within the Arabian Sea[https://en.wikipedia.org/wiki/Arabian_Sea]. Include latitude, longitude, and temperature columns. For simplicity, assume the Arabian Sea is encased in the following four coordinates:
+6.  Write a SQL query to return all normal ocean temperatures at 50m of depth, as well as their respective degrees of latitude and longitude, within the Arabian Sea[https://en.wikipedia.org/wiki/Arabian_Sea]. Include latitude, longitude, and temperature columns. For simplicity, assume the Arabian Sea is encased in the following four coordinates:
     - 20° of latitude, 55° of longitude
     - 20° of latitude, 75° of longitude
     - 0° of latitude, 55° degrees of longitude

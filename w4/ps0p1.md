@@ -52,12 +52,12 @@ For each of the following questions, you should write a single SQL query that ou
     - 0° of latitude, 75° degrees of longitude
 
 ## How to Test
-Executing 1. results in a table with 1 column and 1 row.
-Executing 2.  results in a table with 1 column and 1 row.
-3.sql is up to you!
-Executing 4. results in a table with 1 column and 1 row.
-Executing 5. results in a table with 1 column and 1 row.
-Executing 6 results in a table with 3 columns and 383 rows.
+- Executing 1. results in a table with 1 column and 1 row.
+- Executing 2.  results in a table with 1 column and 1 row.
+- 3.sql is up to you!
+- Executing 4. results in a table with 1 column and 1 row.
+- Executing 5. results in a table with 1 column and 1 row.
+- Executing 6 results in a table with 3 columns and 383 rows.
 
 ## Grading
 - Submit your commit history URL your normals in your private repo for grading

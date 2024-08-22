@@ -62,8 +62,8 @@ For each of the following questions, you should write a single SQL query that ou
 ## Grading
 - Submit your commit history URL your normals in your private repo for grading
 - This is how I will grade your work:
-1. Did you provide the correct URL for normals folder = 5 points.
-2. Did you do all the commits required for this work = 65 points
-    -  There should be 7 commits, 1 for the setup and 6 that show the current query (uncommented), proof of work and autenciate work in README.md
-3. Did your README.md file show authenicate work =  30 points
-4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
+    1. Did you provide the correct URL for normals folder = 5 points.
+    2. Did you do all the commits required for this work = 65 points
+        -  There should be 7 commits, 1 for the setup and 6 that show the current query (uncommented), proof of work and autenciate work in README.md
+    3. Did your README.md file show authenicate work =  30 points
+    4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

@@ -1,9 +1,8 @@
 # CS50 Problem Set 0 Part 1 
 ## Normals 1 thru 6
 
-In the video I will walk how to complete this work:
 ### Setup
-- In the ps0 folder, create another folder named normals.   
+- In the root of your codespace create a new folder and name is ps1 folder, make sure it is at the same level as ps0 then create another folder named normals.   
 - Change the current folder to normals, then use the following command to copy the database file:
     - ```curl -o normals.db https://raw.githubusercontent.com/CIT28/files/main/w4/normals.db```
     - Create a file to store the queries name it p1-q.sql and a README.md with a heading for each problem 1 thru 6, commit with message:
@@ -62,7 +61,7 @@ For each of the following questions, you should write a single SQL query that ou
 ## Grading
 - Submit your commit history URL your normals in your private repo for grading
 - This is how I will grade your work:
-    1. Did you provide the correct URL for normals folder = 5 points.
+    1. Did you provide the correct URL for normals folder commits = 5 points.
     2. Did you do all the commits required for this work = 65 points
         -  There should be 7 commits, 1 for the setup and 6 that show the current query (uncommented), proof of work and autenciate work in README.md
     3. Did your README.md file show authenicate work =  30 points

@@ -1,9 +1,8 @@
 # CS50 Problem Set 0 Part 1 
 ## Normals 7 thru 10
 
-In the video I will walk how to complete this work:
 ### Setup
-- We will continue working in the ps0/normals folder. 
+- We will continue working in the ps1/normals folder. 
     - Create a file to store the queries name it p2-q.sql and in README.md add an heading for each problem 7 thru 10, commit with message:
       - **COMMIT MESSAGE - "setup complete"**
 ### For each problem you need to do the following
@@ -53,7 +52,7 @@ Executing 10 results in a table with 1 column and 1 row.
 ## Grading
 - Submit your commit history URL your normals in your private repo for grading
 - This is how I will grade your work:
-1. Did you provide the correct URL for normals folder = 5 points.
+1. Did you provide the correct URL for normals folder commits = 5 points.
 2. Did you do all the commits required for this work = 65 points
     -  There should be 5 commits, 1 for the setup and 4 that show the current query (uncommented), proof of work and autenciate work in README.md
 3. Did your README.md file show authenicate work =  30 points

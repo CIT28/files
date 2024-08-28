@@ -2,7 +2,7 @@
 ## Normals 1 thru 6
 
 ### Setup
-- In the root of your codespace create a new folder and name is ps1 folder, make sure it is at the same level as ps0 then create another folder named normals.   
+- In your codespace create a new folder inside the ps0 folder, make sure it is at the same level as cyberchase then create another folder named normals.   
 - Change the current folder to normals, then use the following command to copy the database file:
     - ```curl -o normals.db https://raw.githubusercontent.com/CIT28/files/main/w4/normals.db```
     - Create a file to store the queries name it p1-q.sql and a README.md with a heading for each problem 1 thru 6, commit with message:
@@ -10,7 +10,7 @@
 ### For each problem you need to do the following
 - For each problem, you need to:
 1. Write the query in the p1-q.sql file and make sure you get the correct output (see below) 
-2. In the README.md, authenicate your work by copying the steps you took to get the correct output, do this under the heading for each problem.    
+2. In the README.md, authenicate your work by copying the steps you took to get the correct output, do this under the heading for each problem.  Create a new heading for this work name Normals Problem Set Part 1 
 3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
   - **COMMIT MESSAGE - "1. query, pow  and README.md complete"**
   - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query, pow  and README.md complete")

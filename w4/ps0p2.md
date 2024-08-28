@@ -8,7 +8,7 @@
 ### For each problem you need to do the following
 - For each problem, you need to:
 1. Write the query in the p2-q.sql file and make sure you get the correct output (see below) 
-2. In the README.md, authenicate your work by copying the steps you took to get the correct output, do this under the heading for each problem.  Create a new heading for this work name Normals Problem Set Part 2  
+2. In the README.md, as covered in the Week 4 attendance, create a new heading for this work name Normals Problem Set Part 2 and a heading for each problem. 
 3. Open another terminal session to change the standard output to sent the output to powp2.txt, commit with message:
   - **COMMIT MESSAGE - "7. query, pow and README.md complete"**
   - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "8. query, pow  and README.md complete")

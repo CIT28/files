@@ -4,8 +4,9 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 ## Setup
 - Continue working in the relating folder usng the  then create the README.md and p2-r.sql files.
 - get sealoins data
-- Before you start taking notes in your README.md file use a h1 (#) and this text - "Week 5 Relating Part 2" and commit with message:
-    - **COMMIT MESSAGE - "README.md ready"**
+- ```curl -o sea_lions.db https://raw.githubusercontent.com/CIT28/files/main/w6/sea_lions.db```
+- Before you start taking notes in your README.md file use a h1 (#) and this text - "Week 6 Relating Part 2" and commit with message:
+    - **COMMIT MESSAGE - "db and README.md ready"**
 
 ## Timemark 55:50 to end
 

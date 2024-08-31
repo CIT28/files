@@ -1,17 +1,13 @@
 ## CS50 Relating Part 1
-Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Querying](https://www.youtube.com/watch?v=_2t18Hy9Z0Y)
+Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relating](https://www.youtube.com/watch?v=_2t18Hy9Z0Y)
 
 ## Setup
 - I'll cover how to looks at .tables and .schemes. 
 - Create a new folder named relating at the same level as querying, then create the README.md and p1-r.sql files.
 - From your codespace terminal make sure your current directory is relating folder and then copy the following command:
-    - ```wget https://cdn.cs50.net/sql/2023/x/lectures/1/src1.zip```
-    - Then you need to unzip the src1.zip with this:
-    - ```unzip src1.zip```
+-- ```curl -o longlist.db https://raw.githubusercontent.com/CIT28/files/main/w5/longlist.db```
 - Before you start taking notes in your README.md file use a h1 (#) and this text - "Week 5 Relating Part 1" and commit with message:
-    - **COMMIT MESSAGE - "src1 unzipped, query file and README.md ready"**
-- Cover how to start sqlite3 with src1 files. 
-
+    - **COMMIT MESSAGE - "setup, longlist database and README.md ready"**
 
 ## Timemark 26:35 to 55:50
 
@@ -28,7 +24,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 This is how I will grade your work:
   1. Did you provide the correct URL for relating folder = 5 points
   2. Did you do all the commits required for this work = 20 points
-  3. Did you have all the queries in the p1-q.sql file = 30 points
+  3. Did you have all the queries in the p1-r.sql file = 30 points
   3. Did you create the powp1.txt file correctly and include all the required output = 20 points
   4. Did you include all the required content in the README.md file = 25 points
   5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

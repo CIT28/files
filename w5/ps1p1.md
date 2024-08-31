@@ -5,7 +5,7 @@
 - In your codespace create a new folder named ps1 folder, make sure it is at the same level as ps0,  then create another folder named packages.
 -  Change the current folder to packages, then use the following command to copy the database file:
     - ```curl -o packages.db https://raw.githubusercontent.com/CIT28/files/main/w5/packages.db```
-    - Create a file to store the queries name it p1-q.sql and a README.md include heading "Solve Lost Letter" and a heading for each Static Query and another heading with Nested query, commit with message:
+    - Create a file to store the queries name it p1-q.sql and a README.md include heading "Solve Lost Letter" and commit with message:
         - **COMMIT MESSAGE - "setup complete"**
 
 ### Steps
@@ -13,17 +13,20 @@
     
     - Review https://cs50.harvard.edu/sql/2024/psets/1/packages/
 
-    - Write at least 2 queries, in the p1-q.sql, that help you get to know the database. Don't work on the Lost Letter problem yet. Write queries one line at time (static query) and have a sub heading for each query and the text should reflect what the query is "doing".  Make sure your static queries includes at least 2 tables, once you have a working queries, output to proof of work (pow1.txt) file and then commit with message:
+    - Write at least 2 queries, in the p1-q.sql, that help you get to know the database. Create a subheading for "playing around w statics queries" 
+    - Don't work on the Lost Letter problem yet. 
+    - Write queries one line at time (static query) and have a sub heading for each query and the text should reflect what the query is "doing".  
+    - Make sure your static queries includes at least 2 tables, once you have a working queries, output to proof of work (pow1.txt) file and then commit with message:
     - **COMMIT MESSAGE - "playing around queries - static"**
 
-2. Now add a heading "Get to know the packages dataset nested queries"
-    - Take static queries form step 1 and refactor into nested query, once you have working query, update the proof of work file and then commit with message:
+2. Now add a heading "playing around w nested queries"
+    - Comment out static queries from above and then take static queries from step 1 and refactor into nested query, once you have working query, update the proof of work file and then commit with message:
         - **COMMIT MESSAGE - "playing around queries - nested"**
 
 3. Review the problem
     - Clerk, my name’s Anneke. I live over at 900 Somerville Avenue. Not long ago, I sent out a special letter. It’s meant for my friend Varsha. She’s starting a new chapter of her life at 2 Finnegan Street, uptown. (That address, let me tell you: it was a bit tricky to get right the first time.) The letter is a congratulatory note—a cheery little paper hug from me to her, to celebrate this big move of hers. Can you check if it’s made its way to her yet?
 
-    - Unlike the CS50 example here is what you will need to write queries to answer what time was the package picked up and dropped off timestamps and related action.  
+    - Unlike the CS50 example here is what you will need to write queries to answer -  "What time was the package picked up and dropped off include timestamps and related action" .  
 
 4. Write static queries
     - In your README.md file create a heading for "Static Queries for Lost Letter" and write about how you would approach the problem.  

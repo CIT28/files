@@ -9,7 +9,7 @@
         - **COMMIT MESSAGE - "setup complete"**
 
 ### Steps
-1. In your README.md file have a heading "Get to know the packages dataset static queries"
+1. In your README.md file have a heading "Get to know the packages dataset"
     
     - Review https://cs50.harvard.edu/sql/2024/psets/1/packages/
 

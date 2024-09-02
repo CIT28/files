@@ -39,8 +39,8 @@ For each of the following questions, you should write a single SQL query that ou
     - The equator’s ocean surface temperatures can be found at all longitudes between the latitudes -0.5° and 0.5°, inclusive.
 8. Write a SQL query to find the 10 locations with the lowest normal ocean surface temperature, sorted coldest to warmest. If two locations have the same normal ocean surface temperature, sort by latitude, smallest to largest. Include latitude, longitude, and surface temperature columns.
 9. Write a SQL query to find the 10 locations with the highest normal ocean surface temperature, sorted warmest to coldest. If two locations have the same normal ocean surface temperature, sort by latitude, smallest to largest. Include latitude, longitude, and surface temperature columns.
-There are 180 whole degrees of latitude. 
-10. Write a SQL query to determine how many points of latitude we have at least one data point for. (Why might we not have data points for all latitudes?)
+
+10. There are 180 whole degrees of latitude. Write a SQL query to determine how many points of latitude we have at least one data point for. (Why might we not have data points for all latitudes?)
 
 
 ## How to Test

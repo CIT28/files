@@ -1,11 +1,12 @@
 # CS50 Problem Set 1 Part 1 
-## Solve Lost Letter
+## Department of Elementary and Secondary Education
+## 1 thru 6
 
 ### Setup
-- In your codespace create a new folder named ps1 folder, make sure it is at the same level as ps0,  then create another folder named packages.
--  Change the current folder to packages, then use the following command to copy the database file:
-    - ```curl -o packages.db https://raw.githubusercontent.com/CIT28/files/main/w5/packages.db```
-    - Create a file to store the queries name it p1-q.sql and a README.md include heading "Solve Lost Letter" and commit with message:
+- Inside the folder ps1 folder, make sure it is at the same level as packages,  then create another folder named dese.
+-  Change the current folder to dese, then use the following command to copy the database file:
+    - ```curl -o dese.db https://raw.githubusercontent.com/CIT28/files/main/w6/dese.db```
+    - Create a file to store the queries name it p1-q.sql and a README.md include heading "DESE 1 thru 6" and commit with message:
         - **COMMIT MESSAGE - "setup complete"**
 
 ### Steps
@@ -19,23 +20,14 @@
     - Make sure your static queries includes at least 2 tables, once you have a working queries, output to proof of work (pow1.txt) file and then commit with message:
     - **COMMIT MESSAGE - "playing around queries - static"**
 
-2. Now add a heading "playing around w nested query"
+2. Now add a heading "playing around w nested queries"
     - Comment out static queries from above and then take static queries from step 1 and refactor into nested query, once you have working query, update the proof of work file and then commit with message:
         - **COMMIT MESSAGE - "playing around queries - nested"**
 
 3. Review the problem
     - Clerk, my name’s Anneke. I live over at 900 Somerville Avenue. Not long ago, I sent out a special letter. It’s meant for my friend Varsha. She’s starting a new chapter of her life at 2 Finnegan Street, uptown. (That address, let me tell you: it was a bit tricky to get right the first time.) The letter is a congratulatory note—a cheery little paper hug from me to her, to celebrate this big move of hers. Can you check if it’s made its way to her yet?
 
-    - Unlike the CS50 example here is what you will need to write query(s) to answer -  "What time was the package picked up and dropped off include timestamps and related action" .  
-    - Here is the correct output for both the static and nest queries:
-        <pre>
-        ┌────────┬────────────────────────────┐
-        │ action │         timestamp          │
-        ├────────┼────────────────────────────┤
-        │ Pick   │ 2023-07-11 19:33:55.241794 │
-        │ Drop   │ 2023-07-11 23:07:04.432178 │
-        └────────┴────────────────────────────┘
-        </pre>
+    - Unlike the CS50 example here is what you will need to write queries to answer -  "What time was the package picked up and dropped off include timestamps and related action" .  
 
 4. Write static queries
     - In your README.md file create a heading for "Static Queries for Lost Letter" and write about how you would approach the problem.  
@@ -43,9 +35,9 @@
     -  Then write the queries to solve the problem, there should be at least 4 queries here and once you have working code, update the proof of work file (pow1.txt) and commit with message
         - **COMMIT MESSAGE - "Lost Letter static queries"**
 
-5. Write nested query
-    - In your README.md file create a heading for "Nested Query for Lost Letter". 
-    - Then have create a comment line for the query you will write in the p1-q.sql, -- Lost Letter Static Queries. Then write the query to solve the problem (only 1 nested query here) and once you have working code, update the proof of work file (pow1.txt) and commit with message
+5. Write nested queries
+    - In your README.md file create a heading for "Nested Queries for Lost Letter". 
+    - Then in the create a comment line for he query you will write in the p1-q.sql, -- Lost Letter Static Queries. Then write the query to solve the problem (only 1 nested query here) and once you have working code, update the proof of work file (pow1.txt) and commit with message
             - **COMMIT MESSAGE - "Lost Letter nested query"**
 
 6. Write about your experience

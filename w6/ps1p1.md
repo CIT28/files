@@ -3,52 +3,67 @@
 ## 1 thru 6
 
 ### Setup
-- Inside the folder ps1 folder, make sure it is at the same level as packages,  then create another folder named dese.
+- Inside the folder ps1 folder, make sure it is at the same level as packages create another folder named dese.
 -  Change the current folder to dese, then use the following command to copy the database file:
     - ```curl -o dese.db https://raw.githubusercontent.com/CIT28/files/main/w6/dese.db```
     - Create a file to store the queries name it p1-q.sql and a README.md include heading "DESE 1 thru 6" and commit with message:
         - **COMMIT MESSAGE - "setup complete"**
 
-### Steps
-1. In your README.md file have a heading "Get to know the packages dataset"
-    
-    - Review https://cs50.harvard.edu/sql/2024/psets/1/packages/
+### For each problem you need to do the following
+- For each problem, you need to:
+1. Write the query in the p1-q.sql file and make sure you get the correct output (see below) 
+2. In the README.md, authenticate your work by describing how you answered you approached the question, do this under the heading for each question.  
+3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
+  - **COMMIT MESSAGE - "1. query, pow  and README.md complete"**
+  - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query, pow  and README.md complete")
 
-    - Write at least 2 queries, in the p1-q.sql, that help you get to know the database. Create a subheading for "playing around w statics queries" 
-    - Don't work on the Lost Letter problem yet. 
-    - Write queries one line at time (static query) and have a sub heading for each query and the text should reflect what the query is "doing".  
-    - Make sure your static queries includes at least 2 tables, once you have a working queries, output to proof of work (pow1.txt) file and then commit with message:
+  ## Schema and Getting to know the databset. 
+
+  - Review the schema - https://cs50.harvard.edu/sql/2024/psets/1/dese/#schema
+  - In the README.md add a heading for schema above first query, add a heading for "Schema" and run the .schema command and copy the terminal output into the README.md OR you can copy the tables and description from the cs50 site.  
+  - Write at least 2 queries, in the p1-q.sql, that help you get to know the database. Create a sub heading for "playing around the DESE database" 
+    - 1 query can be for only 1 table but needs to implements GROUP BY and the other needs to include at least 2 tables and implements either JOIN or sets.  
+    - Create a sub heading for each query and the text should reflect what the query is "doing".  
+    - Output to proof of work (pow1.txt) file and then commit with message:
     - **COMMIT MESSAGE - "playing around queries - static"**
 
-2. Now add a heading "playing around w nested queries"
-    - Comment out static queries from above and then take static queries from step 1 and refactor into nested query, once you have working query, update the proof of work file and then commit with message:
-        - **COMMIT MESSAGE - "playing around queries - nested"**
+# Specification
+For each of the following questions, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query. You should not assume anything about the ids of any particular rows: your queries should be accurate even if the ids were different. Finally, each query should return only the data necessary to answer the question.
 
-3. Review the problem
-    - Clerk, my name’s Anneke. I live over at 900 Somerville Avenue. Not long ago, I sent out a special letter. It’s meant for my friend Varsha. She’s starting a new chapter of her life at 2 Finnegan Street, uptown. (That address, let me tell you: it was a bit tricky to get right the first time.) The letter is a congratulatory note—a cheery little paper hug from me to her, to celebrate this big move of hers. Can you check if it’s made its way to her yet?
+1. Your colleague is preparing a map of all public schools in Massachusetts. Write a SQL query to find the names and cities of all public schools in Massachusetts.
 
-    - Unlike the CS50 example here is what you will need to write queries to answer -  "What time was the package picked up and dropped off include timestamps and related action" .  
+    - Keep in mind that not all schools in the schools table are considered traditional public schools. Massachusetts also recognizes charter schools, which (according to DESE!) are considered distinct.
 
-4. Write static queries
-    - In your README.md file create a heading for "Static Queries for Lost Letter" and write about how you would approach the problem.  
-    - Then in the create a comment line for he queries you will write in the p1-q.sql, -- Lost Letter Static Queries. 
-    -  Then write the queries to solve the problem, there should be at least 4 queries here and once you have working code, update the proof of work file (pow1.txt) and commit with message
-        - **COMMIT MESSAGE - "Lost Letter static queries"**
+    - Results in a table with 2 columns and 1,761 rows.
 
-5. Write nested queries
-    - In your README.md file create a heading for "Nested Queries for Lost Letter". 
-    - Then in the create a comment line for he query you will write in the p1-q.sql, -- Lost Letter Static Queries. Then write the query to solve the problem (only 1 nested query here) and once you have working code, update the proof of work file (pow1.txt) and commit with message
-            - **COMMIT MESSAGE - "Lost Letter nested query"**
+2. Your team is working on archiving old data. Write a SQL query to find the names of districts that are no longer operational.
 
-6. Write about your experience
-    - Create a new heading in your README.md file "My Experience"
-    - Under that heading write paragraph about doing this work.  
+    - Districts that are no longer operational have “(non-op)” at the end of their name.
+
+    - Results in a table with 1 column and 121 rows.
+
+3. The Massachusetts Legislature would like to learn how much money, on average, districts spent per-pupil last year. Write a SQL query to find the average per-pupil expenditure. Name the column “Average District Per-Pupil Expenditure”.
+
+    - Note the per_pupil_expenditure column in the expenditures table contains the average amount, per pupil, each district spent last year. You’ve been asked to find the average of this set of averages, weighting all districts equally regardless of their size.
+
+    - Results in a table with 1 column and 1 row.
+
+4. Some cities have more public schools than others. Write a SQL query to find the 10 cities with the most public schools. Your query should return the names of the cities and the number of public schools within them, ordered from greatest number of public schools to least. If two cities have the same number of public schools, order them alphabetically.
+
+    - Results in a table with 2 columns and 10 rows.
+
+5. DESE would like you to determine in what cities additional public schools might be needed. Write a SQL query to find cities with 3 or fewer public schools. Your query should return the names of the cities and the number of public schools within them, ordered from greatest number of public schools to least. If two cities have the same number of public schools, order them alphabetically.
+    - Results in a table with 2 columns and 201 rows.
+
+6. DESE wants to assess which schools achieved a 100% graduation rate. In 6.sql, write a SQL query to find the names of schools (public or charter!) that reported a 100% graduation rate.
+
+    - Results in a table with 1 column and 9 rows.
 
 ## Grading
-- Submit your commit history URL the packages folder in your private repo for grading
+- Submit your commit history URL your normals in your private repo for grading
 - This is how I will grade your work:
-    1. Did you provide the correct URL for packages folder commits = 5 points.
+    1. Did you provide the correct URL for DESE folder commits = 5 points.
     2. Did you do all the commits required for this work = 65 points
-        -  There should be 5 commits, 1 for the setup and 4 that show the current query (or quweries) (uncommented), proof of work and autenciate work in README.md and output the correct data. 
+        -  There should be 8 commits, proof of work and authenitcate work in README.md
     3. Did your README.md file show authenicate work =  30 points
     4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

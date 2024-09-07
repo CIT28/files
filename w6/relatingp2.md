@@ -11,29 +11,27 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 ## Timemark 55:50 to end
 
 - Start watching 55:50:35 and in your README.md file use a heading for "JOINs" and then under that heading take a few notes on what JOIN does in our query. No need to write the query yet
-- At 59:13, open the sea_loins.db and run the sqlite3 terminal, in the p2-r.sql write the output .tables and 3 queries, once you get it to output the correct data, open another terminal and change run the sqlite3 shell and run this command .output powp2.txt and run the queries. 
-- At 1:02:33 make a new sub-heading named "Inter JOINs" and take notes on how they work and listens to question(s).
-- Start back at 10:06  in your README.md and add a sub heading "Left, Right and Full Joins" and then code along with the example in your query file of the LEFT and RIGHT JOINs. Then take a few notes in your README.md file for how the different JOINs logic works and add the additional details from the questions asked, Carter didn't update any code on that last question, but take note of the temp nature of the resulting table. 
+- At 59:13, open the sea_loins.db by running the sqlite3 terminal with that db reference.  In the p2-r.sql write queries 3 queries, once you get it to output the correct data, open another terminal and change run the sqlite3 shell and run this command .output powp2.txt and run the queries. 
+- At 1:02 make a new sub-heading named "Inter JOINs" and take notes on how they work and listens to question(s).
+- Start back at 1:06  in your README.md and add a sub heading "Left, Right and Full Joins" and then code along with the example in your query file of the LEFT and RIGHT JOINs. 
+- Then take a few notes in your README.md file for how the different JOINs logic works and add the additional details from the questions asked, Carter didn't update any code on that last question, but take note of the temp nature of the resulting table. Make sure to note that these are part of the family of OUTER JOIN. 
 - Finish by coding the NATURAL example and take note of how it works as well.  
 - There are a total of 4 queries here, so make sure you have updated your pow file and then commit with message:
     - **COMMIT MESSAGE - "Types of JOINs"**
 ## Consider Taking a break here!  
+
 - Start watching 1:17 and in your README.md add a sub heading for "Sets", and take a few notes the different sets and SQL keywords (EXCEPT, INTERSECT).
 - Now code along and code along with longlist.db, then write the first 2 queries, no need to output to proof of work file, but comment then out before writing the UNION queries and then output to the proof of work file. 
-- Finish writing the last 2 queries, upate the proof of work file and add some notes from the quesitons asked, then at 1:31 commit with message:
-    - **COMMIT MESSAGE - "Sets EXCEPT INTERSECT"**
-- Start wataching at 1:31 and in your README.md add a sub heading for "GROUP", then code along writing the queries using GROUP BY make sure to have by AVG and COUNT here and the last example from the question.  
-
-
-- Now code along in your p1-r.sql and make sure you write each query that will be in th nested query and once you get nested query creating the corret output, output to the proof of work file.  Listen to the question and take a few notes in your README.md file about your understanding of the "IN" SQL command. Then code up the example,  yes write each on seperately and once you get the correct output, update your proof of work file and then in your README.md write about indention styles and when to use "IN" and the difference between "IN" and =.  Listen to the last question and then commit with message:
-    - **COMMIT MESSAGE - "nested subqueries w many-to-many and notes"**
-
+- Finish writing the last 2 queries, update the proof of work file and add some notes from the quesitons asked, then at 1:31 commit with message:
+    - **COMMIT MESSAGE - "Sets w EXCEPT INTERSECT"**
+- Start wataching at 1:31 and in your README.md add a sub heading for "GROUP BY", then code along writing the 3 queries using GROUP BY make sure to have by AVG and COUNT here and the last example from the question and then watch until the end.  
+    - **COMMIT MESSAGE - "GROUP BY"**
 
 ## Grading
 This is how I will grade your work:
-  1. Did you provide the correct URL for relating folder = 5 points
+  1. Did you provide the correct commit history URL for relating folder = 5 points
   2. Did you do all the commits required for this work = 20 points
-  3. Did you have all the queries in the p1-r.sql file = 30 points
-  3. Did you create the powp1.txt file correctly and include all the required output = 20 points
-  4. Did you include all the required content in the README.md file = 25 points
+  3. Did you have all the queries in the p2-r.sql file = 25 points
+  3. Did you create the powp2.txt file correctly and include all the required output = 20 points
+  4. Did you include all the required content in the README.md file = 30 points
   5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

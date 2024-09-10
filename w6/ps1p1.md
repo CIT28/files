@@ -25,7 +25,7 @@
     - 1 query can be for only 1 table but needs to implements GROUP BY and the other needs to include at least 2 tables and implements either JOIN or sets.  
     - Create a sub heading for each query and the text should reflect what the query is "doing".  
     - Output to proof of work (pow1.txt) file and then commit with message:
-    - **COMMIT MESSAGE - "playing around queries - static"**
+    - **COMMIT MESSAGE - "getting to know new DESE dataset"**
 
 # Specification
 For each of the following questions, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query. You should not assume anything about the ids of any particular rows: your queries should be accurate even if the ids were different. Finally, each query should return only the data necessary to answer the question.

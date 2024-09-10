@@ -11,7 +11,7 @@
 
 ### For each problem you need to do the following
 - For each problem, you need to:
-1. Write the query in the p1-q.sql file and make sure you get the correct output (see below) 
+1. Write the query in the p2-q.sql file and make sure you get the correct output (see below) 
 2. In the README.md, authenticate your work by describing how you answered you approached the question, do this under the heading for each question.  
 3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
   - **COMMIT MESSAGE - "1. query, pow  and README.md complete"**
@@ -21,7 +21,7 @@
 
   - Review the schema - https://cs50.harvard.edu/sql/2024/psets/1/dese/#schema
   - In the README.md add a heading for schema above first query, add a heading for "Schema" and run the .schema command and copy the terminal output into the README.md OR you can copy the tables and description from the cs50 site.  
-  - Write at least 2 queries, in the p1-q.sql, that help you get to know the database. Create a sub heading for "playing around the DESE database" 
+  - Write at least 2 queries, in the p2-q.sql, that help you get to know the database. Create a sub heading for "playing around the DESE database" 
     - 1 query can be for only 1 table but needs to implements GROUP BY and the other needs to include at least 2 tables and implements either JOIN or sets.  
     - Create a sub heading for each query and the text should reflect what the query is "doing".  
     - Output to proof of work (pow1.txt) file and then commit with message:

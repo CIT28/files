@@ -10,7 +10,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 
 ## Timemark 55:50 to end
 
-- Start watching 55:50:35 and in your README.md file use a heading for "JOINs" and then under that heading take a few notes on what JOIN does in our query. No need to write the query yet
+- Start watching 55:50 and in your README.md file use a heading for "JOINs" and then under that heading take a few notes on what JOIN does in our query. No need to write the query yet
 - At 59:13, open the sea_loins.db by running the sqlite3 terminal with that db reference.  In the p2-r.sql write queries 3 queries, once you get it to output the correct data, open another terminal and change run the sqlite3 shell and run this command .output powp2.txt and run the queries. 
 - At 1:02 make a new sub-heading named "Inter JOINs" and take notes on how they work and listens to question(s).
 - Start back at 1:06  in your README.md and add a sub heading "Left, Right and Full Joins" and then code along with the example in your query file of the LEFT and RIGHT JOINs. 

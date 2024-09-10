@@ -52,10 +52,10 @@ For each of the following questions, you should write a single SQL query that ou
 
     - Results in a table with 2 columns and 10 rows.
 
-5. DESE would like you to determine in what cities additional public schools might be needed. Write a SQL query to find cities with 3 or fewer public schools. Your query should return the names of the cities and the number of public schools within them, ordered from greatest number of public schools to least. If two cities have the same number of public schools, order them alphabetically.
+5. DESE would like me to determine in what cities additional public schools might be needed. Help me to problem solve who to find cities with 3 or fewer public schools. My query should return the names of the cities and the number of public schools within them, ordered from greatest number of public schools to least. If two cities have the same number of public schools, order them alphabetically.
     - Results in a table with 2 columns and 201 rows.
 
-6. DESE wants to assess which schools achieved a 100% graduation rate. In 6.sql, write a SQL query to find the names of schools (public or charter!) that reported a 100% graduation rate.
+6. DESE wants to assess which schools achieved a 100% graduation rate. Write a SQL query to find the names of schools (public or charter!) that reported a 100% graduation rate.
 
     - Results in a table with 1 column and 9 rows.
 

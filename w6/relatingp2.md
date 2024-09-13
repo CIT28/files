@@ -22,6 +22,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 
 - Start watching 1:17 and in your README.md add a sub heading for "Sets", and take a few notes the different sets and SQL keywords (EXCEPT, INTERSECT).
 - Now code along and code along with longlist.db, then write the first 2 queries, no need to output to proof of work file, but comment then out before writing the UNION queries and then output to the proof of work file. 
+    - Thanks for Breanna for pointing this out! When changing db in sqlite3 you loss the .output, so you can name this proof of work file. pow2ll.txt (longlist ll)
 - Finish writing the last 2 queries, update the proof of work file and add some notes from the quesitons asked, then at 1:31 commit with message:
     - **COMMIT MESSAGE - "Sets w EXCEPT INTERSECT"**
 - Start wataching at 1:31 and in your README.md add a sub heading for "GROUP BY", then code along writing the 3 queries using GROUP BY make sure to have by AVG and COUNT here and the last example from the question and then watch until the end.  

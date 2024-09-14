@@ -9,6 +9,10 @@
     - Create a file to store the queries name it p1-q.sql and a README.md include heading "DESE 1 thru 6" and commit with message:
         - **COMMIT MESSAGE - "setup complete"**
 
+### Comment on my video
+-  In your README.md, watch the video from me and either give me your thoughts, then commit with message:
+    - **COMMIT MESSAGE - "My thoughts"**
+
 ### For each problem you need to do the following
 - For each problem, you need to:
 1. Write the query in the p2-q.sql file and make sure you get the correct output (see below) 

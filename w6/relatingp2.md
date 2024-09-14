@@ -30,9 +30,9 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 
 ## Grading
 This is how I will grade your work:
-  1. Did you provide the correct commit history URL for relating folder = 5 points
-  2. Did you do all the commits required for this work = 20 points
-  3. Did you have all the queries in the p2-r.sql file = 25 points
-  3. Did you create the powp2.txt file correctly and include all the required output = 20 points
-  4. Did you include all the required content in the README.md file = 30 points
-  5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
+    1. Did you provide the correct commit history URL for relating folder = 5 points
+    2. Did you do all the commits required for this work = 20 points
+    3. Did you have all the queries in the p2-r.sql file = 25 points
+    3. Did you create the powp2.txt and powp2ll.txt file correctly and include all the required output = 20 points
+    4. Did you include all the required content in the README.md file = 30 points
+    5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

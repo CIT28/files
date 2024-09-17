@@ -34,11 +34,6 @@
     3. https://youtu.be/iUpyZUATYUI
     4. https://youtu.be/pY6rUZ1UF0Q
     5. https://youtu.be/iy2fF0HzQZg
-    6. https://youtu.be/WrIA1_iaZIk
-    7. https://youtu.be/Kxt4jVeS57I
-    8. https://youtu.be/pPLuMETZ6rE
-    9. https://youtu.be/Ay6XTWD7u-0
-    10. ?
 
 
 # Specification

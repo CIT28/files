@@ -6,7 +6,7 @@
 - Inside the folder ps1 folder, make sure it is at the same level as packages create another folder named dese.
 -  Change the current folder to dese, then use the following command to copy the database file:
     - ```curl -o dese.db https://raw.githubusercontent.com/CIT28/files/main/w6/dese.db```
-    - Create a file to store the queries name it p1-q.sql and a README.md include heading "DESE 1 thru 6" and commit with message:
+    - Create a file to store the queries name it p2-q.sql and a README.md include heading "DESE 1 thru 6" and commit with message:
         - **COMMIT MESSAGE - "setup complete"**
 
 ### Comment on my video
@@ -17,7 +17,7 @@
 - For each problem, you need to:
 1. Write the query in the p2-q.sql file and make sure you get the correct output (see below) 
 2. In the README.md, authenticate your work by describing how you answered you approached the question, do this under the heading for each question.  
-3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
+3. Open another terminal session to change the standard output to sent the output to powp2.txt, commit with message:
   - **COMMIT MESSAGE - "1. query, pow  and README.md complete"**
   - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query, pow  and README.md complete")
 
@@ -28,7 +28,7 @@
   - Write at least 2 queries, in the p2-q.sql, that help you get to know the database. Create a sub heading for "playing around the DESE database" 
     - 1 query can be for only 1 table but needs to implements GROUP BY and the other needs to include at least 2 tables and implements either JOIN or sets.  
     - Create a sub heading for each query and the text should reflect what the query is "doing".  
-    - Output to proof of work (pow1.txt) file and then commit with message:
+    - Output to proof of work (pow2.txt) file and then commit with message:
     - **COMMIT MESSAGE - "getting to know new DESE dataset"**
 
 # Specification

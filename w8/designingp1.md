@@ -37,7 +37,7 @@ You can copy the queries from before then update with new data affinites, but DO
     - **COMMIT MESSAGE - "table constrains and schema update"**
 
 ## Grading
-This is how I will grade your work:
+-This is how I will grade your work:
     1. Did you provide the correct commit history URL for the designing folder = 5 points
     2. Did you do all the commits required for this work = 20 points
     3. Did you have all the queries in the schema.sql file = 25 points

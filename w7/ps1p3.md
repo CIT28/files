@@ -3,7 +3,7 @@
 ## 1 thru 5
 
 ## Code along OR new level for authenticate
-- I will have covered the different paths available to students in this week's attendance video.
+- I will have covered the different paths available to students in this week's attendance video. 
 
 ### Setup (same for both)
 - Inside the folder ps1 folder, make sure it is at the same level as packages create another folder named moneyball.
@@ -37,6 +37,7 @@
 
 
 # Specification
+https://cs50.harvard.edu/sql/2024/psets/1/moneyball/#schema
 For each of the following questions, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query. You should not assume anything about the ids of any particular rows: your queries should be accurate even if the ids were different. Finally, each query should return only the data necessary to answer the question.
 
 1. You should start by getting a sense for how average player salaries have changed over time. Write a SQL query to find the average player salary by year.

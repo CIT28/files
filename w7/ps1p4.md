@@ -35,6 +35,8 @@
 
 
 # Specification
+https://cs50.harvard.edu/sql/2024/psets/1/moneyball/#schema
+
 For each of the following questions, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query. You should not assume anything about the ids of any particular rows: your queries should be accurate even if the ids were different. Finally, each query should return only the data necessary to answer the question.
 
 6. Which teams might be the biggest competition for the A’s this year? Write a SQL query to return the top 5 teams, sorted by the total number of hits by players in 2001.

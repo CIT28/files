@@ -7,7 +7,7 @@
 
 ### Setup (same for both)
 - Inside the folder ps1 folder, make sure it is at the same level as packages create another folder named moneyball.
--  Change the current folder to dese, then use the following command to copy the database file:
+-  Change the current folder to moneyball, then use the following command to copy the database file:
     - ```curl -o moneyball.db https://raw.githubusercontent.com/CIT28/files/main/w7/moneyball.db```
     - Create a file to store the queries name it p3-q.sql and a README.md include heading "Moneyball 1 thru 5" and commit with message:
         - **COMMIT MESSAGE - "setup complete"**

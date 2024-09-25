@@ -68,9 +68,10 @@ For each of the following questions, you should write a single SQL query that ou
   - Your query should return three columns, one for players’ first names, one for their last names, and one for their salaries.
   - Results in a table with 3 columns and 50 rows.
 
-5. It’s a bit of a slow day in the office. Though Satchel no longer plays, in 5.sql, write a SQL query to find all teams that Satchel Paige played for.
+5. It’s a bit of a slow day in the office. Though Satchel no longer plays, write a SQL query to find all teams that Satchel Paige played for.
 
   - Your query should return a table with a single column, one for the name of the teams.
+  - Executing results in a table with 1 column and 3 rows.
 
 ## Grading
 - Submit your commit history URL your normals in your private repo for grading

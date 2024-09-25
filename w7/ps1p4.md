@@ -78,6 +78,7 @@ For each of the following questions, you should write a single SQL query that ou
     - Consider a corner case: suppose a player has multiple salaries or performances for a given year. Order them first by number of home runs, in descending order, followed by salary, in descending order.
     - Be careful to ensure that, for a single row, the salary’s year and the performance’s year match.
     See cs50 website for table example
+    - Executing results in a table with 5 columns and 14,915 rows.
 
 ## Grading
 - Submit your commit history URL your normals in your private repo for grading

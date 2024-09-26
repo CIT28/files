@@ -28,8 +28,10 @@
   - Make sure you right click and open in a new tab or window. 
 
     6. https://youtu.be/WrIA1_iaZIk
+        - FYI at the beginning of the video I mention to identify the tables, but I don't say commit. So make sure you are commit before continuing to code along. 
     7. https://youtu.be/Kxt4jVeS57I
-    8. https://youtu.be/pPLuMETZ6rE
+    8. https://youtu.be/pPLuMETZ6rE 
+        - FYI I think my query is a bit off here, but if you are coding along it is fine.  Just wanted you to know. 
     9. https://youtu.be/Ay6XTWD7u-0
     10. https://youtu.be/3ssyacYciWU
 

@@ -48,4 +48,5 @@
     - After submitting your work, watch the solution video and then make any changes needed and update your README.md with a new sub heading My Grade and then based on the work you completed and how it compared to mine give you self a grade. If you feel you solution was better or how your approach was different you can discuss that in this part of your work. 
     - FYI the more justifiy your grade the more likely I would agree. = 15 points
         - **COMMIT MESSAGE - "my grade"**
+        - Then resubmit your commit history again for this assignment. 
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

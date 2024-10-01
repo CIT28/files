@@ -1,4 +1,4 @@
-## CS50 Problem Set 2 - Happy to Connect
+## CS50 Problem Set 2 - ATL
 
 ## Setup
 - Create a folder ps2 at the same level as ps1 and ps0, then inside ps2 folder create another folder named alt and then inside that folder create a file named schema.sql and README.md, then commit with message:
@@ -50,7 +50,7 @@
     - 10 points
 5. Did you include all the required content in the README.md file
     - 25 points
-6. Create and ERD from your schema, this will be covered in attendance and link it from your README.md file
+6. Create an ERD image file from the output of your .schema, this will be covered in attendance and link it from your README.md file
     - 10 points 
     
 7. After submitting your work, watch the solution video and then make any changes needed and update your README.md with a new sub heading My Grade and then based on the work you completed and how it compared to mine give you self a grade. If you feel you solution was better or how your approach was different you can discuss that in this part of your work. The more justifiy your grade the more likely I would agree

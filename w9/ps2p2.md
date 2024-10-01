@@ -45,7 +45,7 @@
     - 15 points
 5. Did you include all the required content in the README.md file
     - 25 points
-6. Create an ERD from your schema, this will be covered in attendance, link it from your README.md file
+6. Create an ERD image file from the output of your .schema, this will be covered in attendance and link it from your README.md file ()
     - 10 points
     No solution video for this work, but I will record one for the part 2. Once you submit I will give you feedback and you can update your schema before part 2 and get any points you missed here.
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

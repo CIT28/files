@@ -1,5 +1,5 @@
 ## CS50 Problem Set 2 - Happy to Connect
-# Part 1 
+# Part 2
 
 ## Setup
 - Create a folder ps2 at the same level as ps1 and ps0, then inside ps2 folder create another folder named connect and then inside that folder create a file named schema.sql and README.md, then commit with message:
@@ -34,7 +34,7 @@
 
 ## Grading
 -This is how I will grade your work:
-1. Did you provide the correct commit history URL for the atl folder = 5 points
+1. Did you provide the correct commit history URL for the connect folder = 5 points
 2. Did you do all the commits required for this work = 20 points
 3. Did you have all the queries in the schema.sql file = 25 points
     - make sure you don't include notes in your sql file. 

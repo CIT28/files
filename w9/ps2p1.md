@@ -1,8 +1,8 @@
-## CS50 Problem Set 2 - ATL
+## CS50 Problem Set 2 - Happy to Connect
 
 ## Setup
-- Create a folder ps2 at the same level as ps1 and ps0, then inside ps2 folder create another folder named atl and then inside that folder create a file named schema.sql and README.md, then commit with message:
-    - **COMMIT MESSAGE - "ATL"**
+- Create a folder ps2 at the same level as ps1 and ps0, then inside ps2 folder create another folder named alt and then inside that folder create a file named schema.sql and README.md, then commit with message:
+    - **COMMIT MESSAGE - "connect ready"**
 
 ## Problem to Solve
 - Review the Problem to Solve - https://cs50.harvard.edu/sql/2024/psets/2/atl/
@@ -16,17 +16,17 @@
         - **COMMIT MESSAGE - "first draft of passenager"**
 - Step 2 - Check-Ins
     - Based on your understanding of the requirements create your query for Check-Ins.  
-    - In your README.md file create a sub heading for Check-Ins and using the requirements, identify what in the requirements you used to create this part of the schema.  This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your REAMD.md file.
+    - In your README.md file create a sub heading for Check-Ins and using the requirements, identify what in the requirements you used to create this part of the schema.  This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your README.md file.
     - For example: column name > what text in the requirements does this meet
         - **COMMIT MESSAGE - "first draft of checkins"**
 - Step 3 - Airlines
     - Based on your understanding of the requirements create your query for Airlines.  
-    - In your README.md file create a sub heading for Airlines and using the requirements, identify what in the requirements you used to create this part of the schema.  This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your REAMD.md file. 
+    - In your README.md file create a sub heading for Airlines and using the requirements, identify what in the requirements you used to create this part of the schema.  This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your README.md file. 
     - For example: column name > what text in the requirements does this meet
         - **COMMIT MESSAGE - "first draft of airlines"**
 - Step 4 - Flights
     - Based on your understanding of the requirements create your query for Flights.  
-    - In your README.md file create a sub heading for Flights and using the requirements, identify what in the requirements you used to create this part of the schema.  This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your REAMD.md file.
+    - In your README.md file create a sub heading for Flights and using the requirements, identify what in the requirements you used to create this part of the schema.  This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your README.md file.
     - For example: column name > what text in the requirements does this meet
         - **COMMIT MESSAGE - "first draft of atl schema"**
 - Step 5 - Check your schema.sql
@@ -48,5 +48,5 @@
     - After submitting your work, watch the solution video and then make any changes needed and update your README.md with a new sub heading My Grade and then based on the work you completed and how it compared to mine give you self a grade. If you feel you solution was better or how your approach was different you can discuss that in this part of your work. 
     - FYI the more justifiy your grade the more likely I would agree. = 15 points
         - **COMMIT MESSAGE - "my grade"**
-        - Then resubmit your commit history again for this assignment. 
+        - ADDED AFTER SOLUTION VIDEO - Then resubmit your commit history again for this assignment, you will have 2 submission for this item. 
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

@@ -34,11 +34,18 @@
 
 ## Grading
 -This is how I will grade your work:
-1. Did you provide the correct commit history URL for the connect folder = 5 points
-2. Did you do all the commits required for this work = 20 points
-3. Did you have all the queries in the schema.sql file = 25 points
-    - make sure you don't include notes in your sql file. 
-4. Did you create the powp2.txt include all the required output = 10 points
-5. Did you include all the required content in the README.md file = 30 points
-    No solution video for this work, but I will record one for the part 2, here once you submit I will give you feedback and you can update your schema before part 2. 
+1. Did you provide the correct commit history URL for the connect folder 
+    - 5 points
+2. Did you do all the commits required for this work 
+    - 20 points
+3. Did you have all the queries in the schema.sql file
+    - make sure you don't include notes in your sql file
+    - 25 points
+4. Did you create the powp2.txt include all the required output
+    - 15 points
+5. Did you include all the required content in the README.md file
+    - 25 points
+6. Create an ERD from your schema, this will be covered in attendance, link it from your README.md file
+    - 10 points
+    No solution video for this work, but I will record one for the part 2. Once you submit I will give you feedback and you can update your schema before part 2 and get any points you missed here.
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

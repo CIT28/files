@@ -39,14 +39,22 @@
 
 ## Grading
 -This is how I will grade your work:
-1. Did you provide the correct commit history URL for the atl folder = 5 points
-2. Did you do all the commits required for this work = 20 points
-3. Did you have all the queries in the schema.sql file = 25 points
+1. Did you provide the correct commit history URL for the atl folder
+    - 5 points
+2. Did you do all the commits required for this work 
+    - 15 points
+3. Did you have all the queries in the schema.sql file 
+    - 25 points
     - make sure you don't include notes in your sql file. 
-4. Did you create the powp1.txt include all the required output = 10 points
-5. Did you include all the required content in the README.md file = 15 points
-    - After submitting your work, watch the solution video and then make any changes needed and update your README.md with a new sub heading My Grade and then based on the work you completed and how it compared to mine give you self a grade. If you feel you solution was better or how your approach was different you can discuss that in this part of your work. 
-    - FYI the more justifiy your grade the more likely I would agree. = 15 points
+4. Did you create the powp1.txt include all the required output
+    - 10 points
+5. Did you include all the required content in the README.md file
+    - 25 points
+6. Create and ERD from your schema, this will be covered in attendance and link it from your README.md file
+    - 10 points 
+    
+7. After submitting your work, watch the solution video and then make any changes needed and update your README.md with a new sub heading My Grade and then based on the work you completed and how it compared to mine give you self a grade. If you feel you solution was better or how your approach was different you can discuss that in this part of your work. The more justifiy your grade the more likely I would agree
+    - 10 points
         - **COMMIT MESSAGE - "my grade"**
         - ADDED AFTER SOLUTION VIDEO - Then resubmit your commit history again for this assignment, you will have 2 submission for this item. 
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

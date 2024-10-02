@@ -1,8 +1,8 @@
 ## CS50 Problem Set 2 - Happy to Connect
-# Part 2
+# Part 2 (1 of 2)
 
 ## Setup
-- Create a folder ps2 at the same level as ps1 and ps0, then inside ps2 folder create another folder named connect and then inside that folder create a file named schema.sql and README.md, then commit with message:
+- Create a new folder inide of the ps2 at the same level as atl, then create another folder named connect and then inside that folder create a file named schema.sql and README.md, then commit with message:
     - **COMMIT MESSAGE - "connect ready"**
 
 ## Problem to Solve
@@ -30,7 +30,15 @@
 - Step 5 - Check your schema.sql
     - Create a new database file ```sqlite3 connect.db``` and then run ```.read schema.sql``` and fix any errors you encounter.  Then on different terminal session run ```sqlite3 connect.db``` and then ```.output pow2.txt``` and ```.schema```. Commit with message:
         - **COMMIT MESSAGE - "first run of schema"**
-
+- Step 6 - Create a ERD image
+    - Once you have your database schema finished, then from the output of .schema copy the schema into chatGPT
+    - Have it create the DBML markup and the copy that into https://dbdiagram.io/
+    - Arrange the tables so they are easy to view the relationships
+    - Take a printscreen, name the file erd.png (or whatever file extension you want)
+    - Upload (like I showed in the attendance you can just drag the file into the ps2/connect folder)
+    - In your README.md, place this at the bottom of your file ![image info](erd.png)
+    - Update the filename as needed and commit with message:
+        - **COMMIT MESSAGE - "ERD image file created"**     
 
 ## Grading
 -This is how I will grade your work:
@@ -45,7 +53,7 @@
     - 15 points
 5. Did you include all the required content in the README.md file
     - 25 points
-6. Create an ERD image file from the output of your .schema, this will be covered in attendance and link it from your README.md file ()
+6. Correctly created and upload the ERD image file into your README.md file
     - 10 points
-    No solution video for this work, but I will record one for the part 2. Once you submit I will give you feedback and you can update your schema before part 2 and get any points you missed here.
+    No solution video for this work, but I will record one for the part 2. Once you submit I will give you feedback and you can update your schema before part 2 and get any points you missed here. No need to update your ERD, but you are welcome to do so if you want.
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

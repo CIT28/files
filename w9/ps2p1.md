@@ -36,6 +36,15 @@
     - Review the Sample Data and update any schema area you feel is needed and update the README.md with your reasoning, once you feel your code meets the needs. 
     - Either DROP all the tables created or delete the atl.db file and then Repeat Step 5
         - **COMMIT MESSAGE - "sample data updates"**
+- Step 7 - Create a ERD image
+    - Once you have your database schema finished, then from the output of .schema copy the schema into chatGPT
+    - Have it create the DBML markup and the copy that into https://dbdiagram.io/
+    - Arrange the tables so they are easy to view the relationships
+    - Take a printscreen, name the file erd.png (or whatever file extension you want)
+    - Upload (like I showed in the attendance you can just drag the file into the ps2/atl folder)
+    - In your README.md, place this at the bottom of your file ![image info](erd.png)
+    - Update the filename as needed and commit with message:
+        - **COMMIT MESSAGE - "ERD image file created"**        
 
 ## Grading
 -This is how I will grade your work:
@@ -50,10 +59,10 @@
     - 10 points
 5. Did you include all the required content in the README.md file
     - 25 points
-6. Create an ERD image file from the output of your .schema, this will be covered in attendance and link it from your README.md file
+6. Correctly created and upload the ERD image file into your README.md file
     - 10 points 
-    
-7. After submitting your work, watch the solution video and then make any changes needed and update your README.md with a new sub heading My Grade and then based on the work you completed and how it compared to mine give you self a grade. If you feel you solution was better or how your approach was different you can discuss that in this part of your work. The more justifiy your grade the more likely I would agree
+7. After submitting your work, watch the solution video and then make any changes needed and update your README.md with a new sub heading My Grade and then based on the work you completed and how it compared to mine give you self a grade. 
+    - If you feel you solution was better or how your approach was different you can discuss that in this part of your work. The more justifiy your grade the more likely I would agree. No need to update your ERD, but you are welcome to do so if you want.  
     - 10 points
         - **COMMIT MESSAGE - "my grade"**
         - ADDED AFTER SOLUTION VIDEO - Then resubmit your commit history again for this assignment, you will have 2 submission for this item. 

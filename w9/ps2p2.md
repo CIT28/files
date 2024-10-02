@@ -36,7 +36,7 @@
     - Arrange the tables so they are easy to view the relationships
     - Take a printscreen, name the file erd.png (or whatever file extension you want)
     - Upload (like I showed in the attendance you can just drag the file into the ps2/connect folder)
-    - In your README.md, place this at the bottom of your file ![image info](erd.png)
+    - In your README.md, place this at the bottom of your file ![image info](erd.png) Yes this does show as a broken link when you are viewing the markdown file here, make sure you does show up. 
     - Update the filename as needed and commit with message:
         - **COMMIT MESSAGE - "ERD image file created"**     
 

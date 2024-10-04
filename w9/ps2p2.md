@@ -63,6 +63,7 @@
         - **COMMIT MESSAGE - "first draft of connections with companies"**        
 
 - Step 6 - Check your schema.sql
+    - Review the Sample Data and make any adjustment you feel are needed. 
     - Create a new database file ```sqlite3 connect.db``` and then run ```.read schema.sql``` and fix any errors you encounter.  Then on different terminal session run ```sqlite3 connect.db``` and then ```.output pow2.txt``` and ```.schema```. Commit with message:
         - **COMMIT MESSAGE - "first run of schema"**
 

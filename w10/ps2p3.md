@@ -1,13 +1,11 @@
-## CS50 Problem Set 2 - Finish Happy to Connect and start Union Square Donuts
-# Part 3 
+# CS50 Problem Set 2 Part 3 - Finish Happy to Connect and start Union Square Donuts
 
-# Happy to Connect 
+## Happy to Connect 
 - In the ps2/connect folder, update your schema with any feedback you got from me regarding your submitted schema.
-- In the ps2/atl folder, update your schema with any feedback you got from me regarding your submitted schema.  
     - **COMMIT MESSAGE - "updates done"** 
 
 ## Setup for Union Square Donuts
-- Create a new folder inide of the ps2 at the same level as atl, then create another folder named donuts and then inside that folder create a file named schema.sql and README.md, then commit with message:
+- Create a new folder inside of the ps2 at the same level as atl, then create another folder named donuts and then inside that folder create a file named schema.sql and README.md, then commit with message:
     - **COMMIT MESSAGE - "donuts ready"**
 
 ## Problem to Solve
@@ -67,5 +65,8 @@
     - 25 points
 6. Correctly created and upload the ERD image file into your README.md file
     - 10 points
-    No solution video for this work, but I will record one for the Thursday night submission. Once you submit I will give you feedback and you can update your schema before Thursday and get any points you missed here. Based on your changes you will need to update your ERD
+    - Connect 
+        - My solution video will be available after you submit this assignment
+    - Donut
+        - No solution video for this work, but I will record one for the Thursday night submission. Once you submit I will give you feedback and you can update your schema before Thursday and get any points you missed on that submission. 
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

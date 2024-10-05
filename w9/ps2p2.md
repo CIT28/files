@@ -1,5 +1,5 @@
 ## CS50 Problem Set 2 - Happy to Connect
-# Part 2 (1 of 2)
+# Part 2 
 
 ## Setup
 - Create a new folder inide of the ps2 at the same level as atl, then create another folder named connect and then inside that folder create a file named schema.sql and README.md, then commit with message:

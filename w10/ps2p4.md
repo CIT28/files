@@ -18,18 +18,6 @@
 
 ## Grading
 -This is how I will grade your work:
-1. Did you provide the correct commit history URL for the ps2 folder 
-    - 5 points
-2. Did you do all the commits required for this work 
-    - 15 points
-3. Did you have all the queries in the schema.sql file
-    - make sure you don't include notes in your sql file
-    - does the schema you created meet the requirements
-    - 45 points
-4. Did you create the powp4.txt include all the required output
-    - 5 points
-5. Did you include all the required content in the README.md file
-    - 25 points
-6. Correctly created and upload the ERD image file into your README.md file
-    - 10 points
+1. Did you update your schema based on feedback you received? If not changes were suggest you get the points from resubmitting your commit history URL for the connecdt folder. 
+    100 points 
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

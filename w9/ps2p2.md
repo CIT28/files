@@ -34,19 +34,26 @@
       - For example: column name > what text in the requirements does this meet 
         - **COMMIT MESSAGE - "first draft of connections with people"**
 
-- Step 5 - Connections with Companies
+- Step 5 - Connections with Schools
+    - Based on your understanding of the requirements create your query(s) for Connections with Schools, you can create more than table if you feel it is neded.  
+    - In your README.md file create a sub heading for Connections with Schools and using the requirements, identify what in the requirements you used to create this part of the schema.  
+    - This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your README.md file. 
+      - For example: column name > what text in the requirements does this meet 
+        - **COMMIT MESSAGE - "first draft of connections with schools"**        
+
+- Step 6 - Connections with Companies
     - Based on your understanding of the requirements create your query(s) for Connections with Companies, you can create more than table if you feel it is neded.  
     - In your README.md file create a sub heading for Connections with Companies and using the requirements, identify what in the requirements you used to create this part of the schema.  
     - This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your README.md file. 
       - For example: column name > what text in the requirements does this meet 
-        - **COMMIT MESSAGE - "first draft of connections with companies"**        
+        - **COMMIT MESSAGE - "first draft of connections with companies"**   
 
-- Step 6 - Check your schema.sql
+- Step 7 - Check your schema.sql
     - Review the Sample Data and make any adjustment you feel are needed. 
     - Create a new database file ```sqlite3 connect.db``` and then run ```.read schema.sql``` and fix any errors you encounter.  Then on different terminal session run ```sqlite3 connect.db``` and then ```.output pow2.txt``` and ```.schema```. Commit with message:
         - **COMMIT MESSAGE - "first run of schema"**
 
-- Step 7 - Create a ERD image
+- Step 8 - Create a ERD image
     - Once you have your database schema finished, then from the output of .schema copy the schema into chatGPT
     - Have it create the DBML markup and the copy that into https://dbdiagram.io/
     - Arrange the tables so they are easy to view the relationships

@@ -42,12 +42,24 @@ Note your thoughts or what you did to figure it out in your README.md, then watc
 - Continue at 41:22 and then before hear the answer to what conditional would we need, write your thoughts in the README.md file and then listen to the answers and update based on what Carter suggested. 
 - Code the DELETE, run the query, make sure it worked and update your pow file and commit with message:
     - **COMMIT MESSAGE - "conditional DELETE"**
-- Continue at 45:36, adding a subheading Foreign Key Constraints and key a few notes on content covered. 
-- Before coding delete the mfa.db, copy the [schema](#MFA1) and insert code here into a file named schema.sql and run that to create the db and data.  
-- Now code the DELETE, yes it will throw an error. 
+
+- Continue at 45:36, adding a subheading Foreign Key Constraints and take a few notes on content covered. 
+- Before coding, delete the mfa.db, copy the [schema](#MFA1) code here into a file named schema.sql and run that to create the db and data.  
+- Now code the DELETE in your write.sql, yes it will throw an error, then commet it out. 
 - In your write.sql, now write the DELETE with the subquery, yes the correct one and make sure it runs successfully, commet it out and uncomment the DELETE above and run it again. 
 - In the README.md, write your understanding of why we needed to do the subquery to delete.
-- Now add ON DELETE into the README.md and add the what this SQL commands does and the associated options and how they work. 
+- At 55:07, update your pow file and commit with message:
+    - **COMMIT MESSAGE - "foreign key constraints & DELETE"**
+
+- Now add ON DELETE into the README.md and add the what this SQL commands does and the associated options (params) and how they work. 
+- Delete the mfa.db and copy the [schema](#MFA2) into the schema.sql file, no need to save the previous schema code and run this query to create the db and data.
+- Comment out previous query and code along with in the write.sql. 
+- Review the .schema to see make sure the ON DELETE CASCADE is there.
+- Make sure your DELETE work on both artists and the created table. 
+
+
+
+
 ## Grading
 -This is how I will grade your work:
 1. Did you provide the correct commit history URL for the writing (all lowercase) folder = 5 points
@@ -59,7 +71,8 @@ Note your thoughts or what you did to figure it out in your README.md, then watc
 6. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
 
 ## MFA1 
-```CREATE TABLE "collections" (
+```
+CREATE TABLE "collections" (
     "id" INTEGER,
     "title" TEXT NOT NULL,
     "accession_number" TEXT NOT NULL UNIQUE,
@@ -93,6 +106,55 @@ CREATE TABLE "created" (
     PRIMARY KEY("artist_id", "collection_id"),
     FOREIGN KEY("artist_id") REFERENCES "artists"("id"),
     FOREIGN KEY("collection_id") REFERENCES "collections"("id")
+);
+
+INSERT INTO "created" ("artist_id", "collection_id")
+VALUES 
+((SELECT "id" FROM "artists" WHERE "name" = 'Li Yin'), (SELECT "id" FROM "collections" WHERE "title" = 'Imaginative landscape')),
+((SELECT "id" FROM "artists" WHERE "name" = 'Qian Weicheng'), (SELECT "id" FROM "collections" WHERE "title" = 'Profusion of flowers')),
+((SELECT "id" FROM "artists" WHERE "name" = 'Unidentified artist'), (SELECT "id" FROM "collections" WHERE "title" = 'Farmers working at dawn')),
+((SELECT "id" FROM "artists" WHERE "name" = 'Zhou Chen'), (SELECT "id" FROM "collections" WHERE "title" = 'Spring outing'));
+```
+
+
+## MFA2
+```
+-- Add ON DELETE CASCADE
+
+CREATE TABLE "collections" (
+    "id" INTEGER,
+    "title" TEXT NOT NULL,
+    "accession_number" TEXT NOT NULL UNIQUE,
+    "acquired" NUMERIC,
+    PRIMARY KEY("id")
+);
+
+INSERT INTO "collections" ("title", "accession_number", "acquired")
+VALUES 
+('Farmers working at dawn', '11.6152', '1911-08-03'),
+('Imaginative landscape', '56.496', NULL),
+('Profusion of flowers', '56.257', '1956-04-12'),
+('Spring outing', '14.76', '1914-01-08');
+
+CREATE TABLE "artists" (
+    "id" INTEGER,
+    "name" TEXT NOT NULL,
+    PRIMARY KEY("id")
+);
+
+INSERT INTO "artists" ("name") 
+VALUES 
+('Li Yin'),
+('Qian Weicheng'),
+('Unidentified artist'),
+('Zhou Chen');
+
+CREATE TABLE "created" (
+    "artist_id" INTEGER,
+    "collection_id" INTEGER,
+    PRIMARY KEY("artist_id", "collection_id"),
+    FOREIGN KEY("artist_id") REFERENCES "artists"("id") ON DELETE CASCADE,
+    FOREIGN KEY("collection_id") REFERENCES "collections"("id") ON DELETE CASCADE
 );
 
 INSERT INTO "created" ("artist_id", "collection_id")

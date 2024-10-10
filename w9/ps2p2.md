@@ -2,8 +2,10 @@
 # Part 2 
 
 ## Setup
-- Create a new folder inide of the ps2 at the same level as atl, then create another folder named connect and then inside that folder create a file named schema.sql and README.md, then commit with message:
+- Inside of the ps2 at the same level as atl *, create a new folder  connect and then inside that folder create a file named schema.sql and README.md, then commit with message:
     - **COMMIT MESSAGE - "connect ready"**
+
+    * Yes I realized that last week in the detail instructions I did have alt and not atl.  I noticed about half you saw my mistake! My apologies. 
 
 ## Problem to Solve
 - Review the Problem to Solve - https://cs50.harvard.edu/sql/2024/psets/2/connect/

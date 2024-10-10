@@ -55,19 +55,25 @@ Note your thoughts or what you did to figure it out in your README.md, then watc
 - Delete the mfa.db and copy the [schema](#MFA2) into the schema.sql file, no need to save the previous schema code and run this query to create the db and data.
 - Comment out previous query and code along with in the write.sql. 
 - Review the .schema to see make sure the ON DELETE CASCADE is there.
-- Make sure your DELETE work on both artists and the created table. 
-
-
-
+- Make sure your DELETE work on both artists and the created table??????
+    - Mine did not and I'm guessing yours did not!  Like before see if you can determine why and in your README.md file add a subheading for ON DELETE did not work and tell me what you searched or what prompts you used, then commit with message:
+    - **COMMIT MESSAGE - "what I tried"**
+    - Now watch how I fixed it - https://youtu.be/wLv4vRcIJMQ
+    ```PRAGMA foreign_keys = ON```
+    - Then try the query again to make sure it worked!  
+    - **COMMIT MESSAGE - "works now"**
+- Listen to the question!
 
 ## Grading
 -This is how I will grade your work:
 1. Did you provide the correct commit history URL for the writing (all lowercase) folder = 5 points
 2. Did you do all the commits required for this work = 20 points
-3. Did you have all the queries in the schema.sql file = 25 points
+3. Did you have all the queries in the write.sql file = 25 points
     - make sure you not include notes in your sql file. 
-4. Did you create the powp1.txt include all the required output = 20 points
-5. Did you include all the required content in the README.md file and comoplete the ICA = 30 points
+    - You can include, but don't need to include the SELECT * FROM queries that Carter does on the terminal
+    - I counted 16 queries in my write.sql
+4. Did you create the powp1.txt include all the required output = 15 points
+5. Did you include all the required content in the README.md file = 35 points
 6. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
 
 ## MFA1 

@@ -14,12 +14,12 @@
 - Review the Problem to Solve - https://cs50.harvard.edu/sql/2024/psets/2/donuts
 - This work will be completed over 2 canvas assignment, for this item you need to complete the following:
 
-- Step 1 - Donuts
+- Step 1 - Donuts and Ingredients
     - Based on your understanding of the requirements create your query for donuts, you can create more than table if you feel it is needed.  
     - In your README.md file create a sub heading for donuts and using the requirements, identify what in the requirements you used to create this part of the schema. 
     - This does not need to be long and will be modified as we move into the other area.
     - For example: column name > what text in the requirements does this meet
-        - **COMMIT MESSAGE - "first draft of donuts"**
+        - **COMMIT MESSAGE - "first draft of donuts and ingredients"**
 - Step 2 - Orders
     - Based on your understanding of the requirements create your query for orders, you can create more than table if you feel it is needed.  
     - In your README.md file create a sub heading for orders and using the requirements, identify what in the requirements you used to create this part of the schema.  - This does not need to be long and will be modified as we move into the other areas. If you feel it is important to add additional tables make note on your README.md file.

@@ -2,7 +2,7 @@
 Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Writing](https://www.youtube.com/watch?v=BD08USRd2M8)
 
 
-### Timemark 1:02 to ?
+### Timemark 1:02 to end
 - Continue working in the writing folder, in the README.md add a heading for 'Writing Part 2'.
 - Rename the write.sql to write-1.sql and create a new file write-2.sql 
 - Recreate the mfa.db from the code in the schema.sql file we used for the last version of the mfa.db. 

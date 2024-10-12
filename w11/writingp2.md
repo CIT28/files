@@ -1,10 +1,14 @@
-# CS50 Writing Part 1
+# CS50 Writing Part 2
 Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Writing](https://www.youtube.com/watch?v=BD08USRd2M8)
 
-## Attendance
-### Timemark 00:00 to 21:00
-- Create a new folder at the same level as designing and name it writing, then inside that folder add the README.md, so here add a heading for 'Writing Part 1'. 
-- In your README.md file add a heading for INSERT INTO and code along with Carter to setting up the new database (mfa.db) and stop the video to write the schema query into a new file named schema.sql, then run that file.  
+
+### Timemark 1:02 to ?
+- Continue working in the writing folder, in the README.md add a heading for 'Writing Part 2'.
+- Rename the write.sql to write-1.sql and create a new file write-2.sql and delete all the code in the schema.sql file.  
+- Delete the mfa.db and rec-create it with [schema](writingp1.md#MFA2)
+-
+    - **COMMIT MESSAGE - "setup done"**
+- 
 - Create another new file named write.sql and in that file write the first INSERT INTO query, comment it out and then write the second one.  No need to include the query to view the data in the table. 
 - Now write the thrid INSERT INTO and in your notes explain what happens when you leave off the id and also include the concepts covered by the questions. 
     - **COMMIT MESSAGE - "INSERT INTO and notes"**
@@ -14,8 +18,6 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Writin
 - Second a second terminal output to pow1.txt and run a query to output all the data. 
     - **COMMIT MESSAGE - "INSERT INTO w contrains & > 1 row"**
 
-## Part 1 - Writing
-### Timemark 21:00 to 37:08
 - You will need the following files:
     -```curl -o mfa.csv https://raw.githubusercontent.com/CIT28/files/main/w11/mfa.csv```
 - In the README.md, add a subheading for Importing and a note about what is a CSV file. 

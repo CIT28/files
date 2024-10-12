@@ -15,7 +15,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Writin
     - **COMMIT MESSAGE - "INSERT INTO w contrains & > 1 row"**
 
 ## Part 1 - Writing
-### Timemark 21:00 to 37:08
+### Timemark 21:00 to 01:00
 - You will need the following files:
     -  ```curl -o mfa.csv https://raw.githubusercontent.com/CIT28/files/main/w11/mfa.csv```
 - In the README.md, add a subheading for Importing and a note about what is a CSV file. 
@@ -64,8 +64,7 @@ Note your thoughts or what you did to figure it out in your README.md, then watc
     - **COMMIT MESSAGE - "works now"**
 - Listen to the question!
 
-## Grading
-## Grading
+
 ## Grading
 -This is how I will grade your work:
 1. Did you provide the correct commit history URL for the writing (all lowercase) folder = 5 points

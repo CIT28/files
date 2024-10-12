@@ -17,14 +17,14 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Writin
 ## Part 1 - Writing
 ### Timemark 21:00 to 37:08
 - You will need the following files:
-    -```curl -o mfa.csv https://raw.githubusercontent.com/CIT28/files/main/w11/mfa.csv```
+    -  ```curl -o mfa.csv https://raw.githubusercontent.com/CIT28/files/main/w11/mfa.csv```
 - In the README.md, add a subheading for Importing and a note about what is a CSV file. 
 - DROP the tables in the mfa.db file or delete it and re-create as Carter does. You are doing this to remove the data from the database. 
 - Write the .import in your write.sql, note in your README.md what each parameter (ex --csv) in the .import command does. 
 - Now run the .import and the SELECT * to make sure the csv was successfully imported and output that to the pow1.txt. 
 - Remove the id from the csv file and then run the .import again with the new temp parameter and in the README.md explain why this will no longer
 be imported correctly. 
-- HEADS UP - Be careful not to run the .import more than once as it will cause issues with the INSERT INTO.
+    - HEADS UP - Be careful not to run the .import more than once as it will cause issues with the INSERT INTO.
 - Now code the INSERT INTO to populate the collections table with the temp table data, delete the temp table (DROP). 
 - Listen to the questions and note what happens on error for INSERT TO from temp file and fields without values.
 - Then commit with message,

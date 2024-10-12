@@ -44,12 +44,11 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Writin
 -This is how I will grade your work:
 1. Did you provide the correct commit history URL for the writing (all lowercase) folder = 5 points
 2. Did you do all the commits required for this work = 15 points
-3. Did you have all the queries in the write.sql file = 25 points
+3. Did you have all the queries in the write.sql file = 30 points
     - make sure you not include notes in your sql file. 
     - You can include, but don't need to include the SELECT * FROM queries that Carter does on the terminal
     - I counted 17 queries in my write-2.sql
-4. Did you create the powp2.txt include all the required output = 10 points
-5. Did you include all the required content in the README.md file = 20 points
-6. Did I complete the ICA by answering questino and/or code challenges for at least 4 topics. 20 points
-7. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
+4. Did you create the powp2.txt include all the required output = 20 points
+5. Did you include all the required content in the README.md file = 30 points
+6. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
 

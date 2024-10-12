@@ -65,16 +65,18 @@ Note your thoughts or what you did to figure it out in your README.md, then watc
 - Listen to the question!
 
 ## Grading
+## Grading
 -This is how I will grade your work:
 1. Did you provide the correct commit history URL for the writing (all lowercase) folder = 5 points
-2. Did you do all the commits required for this work = 20 points
+2. Did you do all the commits required for this work = 15 points
 3. Did you have all the queries in the write.sql file = 25 points
     - make sure you not include notes in your sql file. 
     - You can include, but don't need to include the SELECT * FROM queries that Carter does on the terminal
     - I counted 16 queries in my write.sql
-4. Did you create the powp1.txt include all the required output = 15 points
-5. Did you include all the required content in the README.md file = 35 points
-6. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
+4. Did you create the powp2.txt include all the required output = 10 points
+5. Did you include all the required content in the README.md file = 25 points
+6. Did I complete the ICA by answering questions and/or code challenges for at least 4 topics. 20 points
+7. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
 
 ## MFA1 
 ```

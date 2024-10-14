@@ -3,9 +3,10 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Writin
 
 ## Attendance
 ### Timemark 00:00 to 21:00
-- Create a new folder at the same level as designing and name it writing, then inside that folder add the README.md, so here add a heading for 'Writing Part 1'. 
-- In your README.md file add a heading for INSERT INTO and code along with Carter to setting up the new database (mfa.db) and stop the video to write the schema query into a new file named schema.sql, then run that file.  
-- Create another new file named write.sql and in that file write the first INSERT INTO query, comment it out and then write the second one.  No need to include the query to view the data in the table. 
+- Create a new folder at the same level as designing and name it writing, then inside that folder add the README.md, now add a heading for 'Writing Part 1'. 
+- In your README.md file add a sub heading for INSERT INTO and code along with Carter to setting up the new database (mfa.db) and stop the video to write the schema query into a new file named schema.sql, then run that file to create the mfa.db schema.
+- Create another new file named write.sql and in that file write the first INSERT INTO query and run it.
+- Then comment it out and then write the second one.  No need to include the query to view the data in the table. 
 - Now write the thrid INSERT INTO and in your notes explain what happens when you leave off the id and also include the concepts covered by the questions. 
     - **COMMIT MESSAGE - "INSERT INTO and notes"**
 - Continue at 13:46 to code along just try to run the write.sql again to see the error and note your README.md the error and note how the table constrain work in this case. 
@@ -61,9 +62,8 @@ Note your thoughts or what you did to figure it out in your README.md, then watc
     - Now watch how I fixed it - https://youtu.be/wLv4vRcIJMQ
     ```PRAGMA foreign_keys = ON```
     - Then try the query again to make sure it worked!  
-    - **COMMIT MESSAGE - "works now"**
-- Listen to the question!
-
+- Listen to the question and take note of AUTOINCREMENT changes the datbase update behavior, in your README.md. 
+        - **COMMIT MESSAGE - "works now and notes"**
 
 ## Grading
 -This is how I will grade your work:

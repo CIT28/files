@@ -1,7 +1,7 @@
 # CS50 Problem Set 3 Part 1 - Don't Panic
 
 ## Setup
--   Create a new folder at the same level as ps2 name it ps3 and inside that folder create a new folder dont-panic. 
+-   Create a new folder at the same level as ps2 name it ps3 and inside that folder create another new folder dont-panic. 
 -   Open the dont-panic folder and copy this [schema](#RESET) schema and write query into a new file you name reset.sql. 
 -   Now from that same folder  ```sqlite3 dont-panic.db``` and then run the reset.sql file. 
 - In that same folder (dont-panic) create a README.md and add a heading for "Don't Panic" and create another new file named hack.sql.
@@ -10,22 +10,22 @@
 ## Step 1
 
 -   Review the problem - https://cs50.harvard.edu/sql/2024/psets/3/dont-panic/
-- In the hack.sql write query to show all the columns in the users table.
-- In the hack.sql write a query to show all the columns in the user_logs table and output the query into pow1.txt.
+-   In the hack.sql write query to show all the columns in the users table.
+-   In the hack.sql write a query to show all the columns in the user_logs table and output the query into pow1.txt.
 -   Review the .schema and add a new subheading for TRIGGERs and write your understanding of each TRIGGER in the schema.  
         - **COMMIT MESSAGE - "review done"** 
 
 -   Create the new admin password here - https://www.md5hashgenerator.com/ and copy it into your README.md file with a heading md5hash admin password. 
 -   Now write query to "Alter the password of the website’s administrative account".
--   Review the user_logs and the users table and in your README.md add a subheading 'User Log on Delete' and describe what updates you see in the after successfully alerting the admin password. 
+-   Review the user_logs and the users table and in your README.md add a subheading 'User Log on Delete' and describe what updates you observed after successfully alerting the admin password. 
 -   Commet out the query and rerun the query to output the user_logs table and output it to pow1.txt. 
         - **COMMIT MESSAGE - "first reset of db"** 
 -   Now consider 'Erase any logs of the above password change recorded by the database'. 
 -   In the hack.sql file write a query to accomplish this requirement. 
 -   If you need to reset the database, no worries, just commit with message:
     - **COMMIT MESSAGE - "num of reset of db"** 
-    - Here num of rest is the number second, or third time you needed to reset the database. 
-    - Now this is a good thing, it shows you are authenicately doing the work. 
+        - Here num of rest is the number second, or third time you needed to reset the database. 
+        - Now this is a good thing, it shows you are authenicately doing the work. 
 -   Once you have successfully accomplished the task, output the user_log table to the pow1.txt. 
     - Remember here you need to run the change user admin password and erase the the user logs related to password change.
     - **COMMIT MESSAGE - "user log admin pw erased"** 
@@ -38,21 +38,21 @@
 -   Then code the query and run the query to adddress this last requirement. 
     -   If you need to reset the database, no worries, just commit with message:
         - **COMMIT MESSAGE - "num of reset of db"** 
-        - Here num of rest is the number second, or third (etc) time you needed to reset the database. 
+            - Here num of rest is the number second, or third (etc) time you needed to reset the database. 
 -   If you needed to change your Plan from above then add to that content
 -   Once you feel you solved the problem, then update the hack.sql to output the following:
     - Copy all the queries in the hack.sql into a new file named backup.sql file. 
     - Copy the pow1.txt to pow1bk.txt and delete the pow1.txt, you will create it in the next step. 
     - Reset the database. 
-    - Add a comment ```-- user_logs before``` to the hack.sql and then copy the query to output the data in the user_logs
-    - Add a comment ```-- Step 1 ``` to the hack.sql and then copy the query you will run first 
-    - Add a comment ```-- user_logs after s1``` to the hack.sql and then copy the query to output the data in the user_logs
-    - Add a comment ```-- Step 2 ``` to the hack.sql and then copy the query you will run second
-    - Add a comment ```-- user_logs after s2``` to the hack.sql and then copy the query to output the data in the user_log
-    - Add a comment ```-- Step 3 ``` to the hack.sql and then copy the query you will run second
-    - Add a comment ```-- user_logs after s3``` to the hack.sql and then copy the query to output the data in the user_log
-    - Add a comment ```-- user table after``` to the hack.sql and then copy the or write the code to output the user table data
-    - Once you have this successfully creating the otuput, then reset db, run the hack.sql and this time output it to the pow1.txt. 
+    - Add a comment ```-- user_logs before``` to the hack.sql and then on the next line copy the query to output the data in the user_logs
+    - Add a comment ```-- Step 1 ``` to the hack.sql and then on the next line copy the query you will run first 
+    - Add a comment ```-- user_logs after s1``` to the hack.sql and then on the next line copy the query to output the data in the user_logs
+    - Add a comment ```-- Step 2 ``` to the hack.sql and then on the next line copy the query you will run second
+    - Add a comment ```-- user_logs after s2``` to the hack.sql and then on the next line copy the query to output the data in the user_log
+    - Add a comment ```-- Step 3 ``` to the hack.sql and then on the next line copy the query you will run second
+    - Add a comment ```-- user_logs after s3``` to the hack.sql and then on the next line copy the query to output the data in the user_log
+    - Add a comment ```-- user table after``` to the hack.sql and then on the next line copy the or write the code to output the user table data
+    - Once you have this successfully creating the output to meet the requirements, then reset db, run the hack.sql and this time output it to the pow1.txt. 
 - **COMMIT MESSAGE - "hacking done"** 
 
 

@@ -16,7 +16,7 @@
 
 # Audit report finished
 - Here is the content that needs to be added to your report
-
+<pre>
 S8 meteorites table created 
 S9 order and insert complete 
 output first 10 records of meteorites table 
@@ -35,7 +35,7 @@ output first 10 records of meteorites table
 │ Czestochowa Rakow I │ 10 │ Iron          │ 0.0      │ Found     │      │ 50.8   │ 19.12   │
 └─────────────────────┴────┴───────────────┴──────────┴───────────┴──────┴────────┴─────────┘
 finished
-
+</pre>
 - Once you done, the delete and create pow1.txt with the entire audit report. 
 
 ## Grading

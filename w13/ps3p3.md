@@ -16,6 +16,7 @@
     - ``` cat import.sql | meteorites.db```
 
 # Audit report
+<pre>
 temp table created 
 ┌───────────────────────────┐
 │ S1 total records imported │
@@ -78,6 +79,7 @@ temp table created
 │ 45716                        │
 └──────────────────────────────┘
 cleaning finished
+</pre>
 
 - Once you have this done, the output it to pow1.txt
 

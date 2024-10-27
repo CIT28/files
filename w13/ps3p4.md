@@ -1,4 +1,4 @@
-# CS50 Problem Set 3 Part 2 - Step 2 Order and Insert
+# CS50 Problem Set 3 Part 4 - Step 2 Order and Insert
 
 ## Create your plan
 -   Read the problem - https://cs50.harvard.edu/sql/2024/psets/3/meteorites/

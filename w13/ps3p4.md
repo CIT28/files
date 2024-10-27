@@ -22,7 +22,7 @@
 <pre>
 S9 meteorites table created 
 S10 order and insert complete 
-output first 10 records of meteorites table 
+S11 output first 10 records of meteorites table 
 ┌─────────────────────┬────┬───────────────┬──────────┬───────────┬──────┬────────┬─────────┐
 │        name         │ id │     class     │   mass   │ discovery │ year │  lat   │  long   │
 ├─────────────────────┼────┼───────────────┼──────────┼───────────┼──────┼────────┼─────────┤
@@ -125,7 +125,7 @@ temp table created
 cleaning finished
 S9 meteorites table created
 S10 order and insert complete
-output first 10 records of meteorites table
+S11 output first 10 records of meteorites table
 ┌─────────────────────┬────┬───────────────┬──────────┬───────────┬──────┬────────┬─────────┐
 │        name         │ id │     class     │   mass   │ discovery │ year │  lat   │  long   │
 ├─────────────────────┼────┼───────────────┼──────────┼───────────┼──────┼────────┼─────────┤

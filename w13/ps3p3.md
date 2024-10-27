@@ -10,8 +10,10 @@
 
 ## Recreate my cleaning audit report 
 - Commit after each step (ex S1 total records imported)
-- Write you queries in the import.sql
-- Here was my workflow:
+- Write your queries in the import.sql
+    - For queries that needed to ouptut a message I used .print 'message' in the import.sql file, 
+    but for most just use the alias. 
+- Here was my workflow, from the meteorites folder you can run:
     - ``` rm meteorites.db```
     - ``` cat import.sql | meteorites.db```
 
@@ -73,8 +75,19 @@ temp table created
 ├──────────────────────────────┤
 │ 0                            │
 └──────────────────────────────┘
+
+┌─────────────────────────────┐
+│ S7 total records for delete │
+├─────────────────────────────┤
+│ 75                          │
+└─────────────────────────────┘
+┌───────────┐
+│ AF delete │
+├───────────┤
+│ 0         │
+└───────────┘
 ┌──────────────────────────────┐
-│ S7 total records AF cleaning │
+│ S8 total records AF cleaning │
 ├──────────────────────────────┤
 │ 45716                        │
 └──────────────────────────────┘

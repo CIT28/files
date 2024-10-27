@@ -8,17 +8,20 @@
 
 ## Finish Recreating my cleaning audit report 
 
-- Commit after each step (ex S8 meteorites table created)
-- Write you queries in the import.sql
-- Here was my workflow:
+- Commit after each step (ex S9 meteorites table created)
+- - Write your queries in the import.sql
+    - For queries that needed to ouptut a message I used .print 'message' in the import.sql file, 
+    but for most just use the alias. 
+- Here was my workflow, from the meteorites folder you can run:
     - ``` rm meteorites.db```
     - ``` cat import.sql | meteorites.db```
 
 # Audit report finished
 - Here is the content that needs to be added to your report
+- There is a complete audit report at the bottom of this file.
 <pre>
-S8 meteorites table created 
-S9 order and insert complete 
+S9 meteorites table created 
+S10 order and insert complete 
 output first 10 records of meteorites table 
 ┌─────────────────────┬────┬───────────────┬──────────┬───────────┬──────┬────────┬─────────┐
 │        name         │ id │     class     │   mass   │ discovery │ year │  lat   │  long   │
@@ -104,14 +107,24 @@ temp table created
 ├──────────────────────────────┤
 │ 0                            │
 └──────────────────────────────┘
+┌─────────────────────────────┐
+│ S7 total records for delete │
+├─────────────────────────────┤
+│ 75                          │
+└─────────────────────────────┘
+┌───────────┐
+│ AF delete │
+├───────────┤
+│ 0         │
+└───────────┘
 ┌──────────────────────────────┐
-│ S7 total records AF cleaning │
+│ S8 total records AF cleaning │
 ├──────────────────────────────┤
 │ 45716                        │
 └──────────────────────────────┘
 cleaning finished
-S8 meteorites table created
-S9 order and insert complete
+S9 meteorites table created
+S10 order and insert complete
 output first 10 records of meteorites table
 ┌─────────────────────┬────┬───────────────┬──────────┬───────────┬──────┬────────┬─────────┐
 │        name         │ id │     class     │   mass   │ discovery │ year │  lat   │  long   │

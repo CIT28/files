@@ -27,7 +27,7 @@
         - Here num of rest is the number second, or third time you needed to reset the database. 
         - Now this is a good thing, it shows you are authenicately doing the work. 
 -   Once you have successfully accomplished the task, output the user_log table to the pow1.txt. 
-    - Remember here you need to run the change user admin password and erase the the user logs related to password change.
+    - Remember here you need to run query to the change user admin password and erase the the user logs related to password change. DO NOT DELETE all the user_logs table data. 
     - **COMMIT MESSAGE - "user log admin pw erased"** 
 
 # Step 2

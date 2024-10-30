@@ -44,6 +44,7 @@
     - Copy all the queries in the hack.sql into a new file named backup.sql file. 
     - Copy the pow1.txt to pow1bk.txt and delete the pow1.txt, you will create it in the next step. 
     - Reset the database. 
+    - Add ```.mode box```
     - Add a comment ```-- user_logs before``` to the hack.sql and then on the next line copy the query to output the data in the user_logs
     - Add a comment ```-- Step 1 ``` to the hack.sql and then on the next line copy the query you will run first 
     - Add a comment ```-- user_logs after s1``` to the hack.sql and then on the next line copy the query to output the data in the user_logs

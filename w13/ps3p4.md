@@ -14,7 +14,9 @@
     but for most just use the alias. 
 - Here was my workflow, from the meteorites folder you can run:
 - ```rm meteorites.db```
-- ```sqlite3 meteorites.db < import.sql```
+- ```sqlite3 meteorites.db < .output pow1.txt < import.sql ```
+- or you want to also output to the pow file you can do this
+- ```sqlite3 meteorites.db ".output pow1.txt" ".read import.sql"```
 # Audit report finished
 - Here is the content that needs to be added to your report
 - There is a complete audit report at the bottom of this file.

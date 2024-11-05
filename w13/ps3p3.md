@@ -16,6 +16,8 @@
 - Here was my workflow, from the meteorites folder you can run:
 - ```rm meteorites.db```
 - ```sqlite3 meteorites.db < import.sql```
+- or you want to also output to the pow file you can do this
+- ```sqlite3 meteorites.db ".output pow1.txt" ".read import.sql"```
 
 # Audit report
 <pre>

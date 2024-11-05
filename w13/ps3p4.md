@@ -49,6 +49,7 @@ finished
 5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
 
 ## Complete audio report ex
+<pre>
 
 temp table created
 ┌───────────────────────────┐
@@ -140,3 +141,4 @@ S11 output first 10 records of meteorites table
 │ Czestochowa Rakow I │ 10 │ Iron          │ 0.0      │ Found     │      │ 50.8   │ 19.12   │
 └─────────────────────┴────┴───────────────┴──────────┴───────────┴──────┴────────┴─────────┘
 FINISHED
+</pre>

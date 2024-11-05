@@ -11,11 +11,11 @@
 ## Recreate my cleaning audit report 
 - Commit after each step (ex S1 total records imported)
 - Write your queries in the import.sql
-    - For queries that needed to ouptut a message I used .print 'message' in the import.sql file, 
+    - For queries that needed to output a message I used .print 'message' in the import.sql file, 
     but for most just use the alias. 
 - Here was my workflow, from the meteorites folder you can run:
-    - ``` rm meteorites.db```
-    - ``` cat import.sql | meteorites.db```
+        - ``` rm meteorites.db```
+        - ``` sqlite3 meteorites.db < import.sql```
 
 # Audit report
 <pre>

@@ -14,8 +14,8 @@
     - For queries that needed to output a message I used .print 'message' in the import.sql file, 
     but for most just use the alias. 
 - Here was my workflow, from the meteorites folder you can run:
-        - ``` rm meteorites.db```
-        - ``` sqlite3 meteorites.db < import.sql```
+        ```rm meteorites.db```
+        ```sqlite3 meteorites.db < import.sql```
 
 # Audit report
 <pre>

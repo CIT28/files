@@ -18,7 +18,7 @@
 - or you want to also output to the pow file you can do this
 - ```sqlite3 meteorites.db ".output pow1.txt" ".read import.sql"```
 # Audit report finished
-- Here is the content that needs to be added to your report
+- Here is the content that needs to be added to your report from the work you did from cleaning the data.
 - There is a complete audit report at the bottom of this file.
 <pre>
 S9 meteorites table created 
@@ -46,7 +46,7 @@ finished
 -This is how I will grade your work:
 1. Did you provide the correct commit history URL for the meteorites  (all lowercase) folder = 5 points
 2. Did you do all the commits required for this work = 10 points
-3. Did you have all the queries in the import.sql file = 40 points
+3. Did you have all the queries in the import.sql file and produce the results listed = 40 points
 4. Did you create the powp1.txt and include all the required output = 25 points
 5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
 

@@ -7,7 +7,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 2 - Viewin
     - **COMMIT MESSAGE - "part 2 setup done"**
 
 ### Time mark 52.57 to ?
--   Add a sub heading Viewing Part 1 and then add another sub heading for Security and write about how we can use views for securing data.
+-   Add a sub heading Viewing Part 2 and then add another sub heading for Security and write about how we can use views for securing data.
 -   In the viewing folder download the rideshare database file ```curl -o rideshare.db https://raw.githubusercontent.com/CIT28/files/main/w14/rideshare.db```
 -   Code along with Carter and write queries and create the view, then output the .schema and the query output to pow2.txt
 -   Code the question, and your notes discuss the downside of sqlite here.

@@ -21,7 +21,7 @@
 - Now create the Nepal Census Report, see my example below
 - You will notice in my output below I have commas, this is a good time to introduce printf
     - ```SELECT printf('%,d', your_column) AS formatted_number FROM your_table;```
-- At the end of the report to .schema, I don't include this in my example below.
+- At the end of the report include .schema, I don't include this in my example below.
 - Once you have the correct output created
     - **COMMIT MESSAGE - "report complete"**
 ## Example

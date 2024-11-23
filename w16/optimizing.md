@@ -11,6 +11,14 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
         - Option 1 - Since we have already created the .ignore in week 1, you can just add this into that file:
             - ```optimizing/movies.db```
             - Then do the git workflow and now you can use the normal git commands and it will not track the movies.db file. 
+            - I did notice I got the following message on the terminal while during the process of doing this update, but it worked fine, here was the message I got, so don't worry:
+                <pre>
+                The following paths are ignored by one of your .gitignore files:
+                optimizing/movies.db
+                hint: Use -f if you really want to add them.
+                hint: Turn this message off by running 
+                hint: "git config advice.addIgnoredFile false"
+                </pre>
         - Option 2 - When running git add *, don't add the movies.db and only add the q.sql and the pow.txt. You can do this by changing the * to the specific file like this:
             - ```git add q.sql```
             - ```git add pow.txt```

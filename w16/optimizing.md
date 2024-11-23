@@ -9,10 +9,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
 - HEADS UP - I have had a student report that once they copied (wget) the movies.db into codespace, github throws an error when trying to push work to github because of the size of the movies.db files. 
     - Here are a couple of suggestions if you run into this issue:
         - Option 1 - Since we have already created the .ignore in week 1, you can just add this into that file:
-            - <pre>
-            # Movies.db
-            optimizing/movies.db
-            </pre>
+            - ```optimizing/movies.db```
             - Then do the git workflow and now you can use the normal git commands (git add *)
         - Option 2 - When running git add *, don't add the movies.db and only add the q.sql and the pow.txt. You can do this by changing the * to the specific file like this:
             - ```git add q.sql```
@@ -21,6 +18,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
             - ```git rm --cached movies.db```
             - ```git commit -m "Remove movies.db from tracking``` 
         - Options 4 - You can also do a bit of research on who to handle large files on git. On my setup I had upgraded to the pro level github account and I did not get the error.  
+        
 - Code along with Carter until time mark 20:36 and order your the code so that you can use the timer output of user to determine how much faster the find Cars title query runs without and index and with using timer and explain query plan. 
 - Here is my output of running my query file:
 ```

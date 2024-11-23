@@ -7,15 +7,20 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
 - In the optimizing folder get the movies.db
     - ```curl -o movies.db https://raw.githubusercontent.com/CIT28/files/main/w16/movies.db```
 - HEADS UP - I have had a student report that once they copied (wget) the movies.db into codespace, github throws an error when trying to push work to github because of the size of the movies.db files. 
-    - Here are couple of suggestions if you run into this issue:
-        1. When running git add *, don't add the movies.db and only add the q.sql and the pow.txt. You can do this by changing the * to the specific file like this:
+    - Here are a couple of suggestions if you run into this issue:
+        - Option 1 - Since we have already created the .ignore in week 1, you can just add this into that file:
+            - <pre>
+            # Movies.db
+            optimizing/movies.db
+            </pre>
+            - Then do the git workflow and now you can use the normal git commands (git add *)
+        - Option 2 - When running git add *, don't add the movies.db and only add the q.sql and the pow.txt. You can do this by changing the * to the specific file like this:
             - ```git add q.sql```
             - ```git add pow.txt```
-        2. If you have already done the git add * and the movie.db is being tracked you can untrack it this way and then only stage (git add and git commit as shown above), then you can try this:
+        - Option 3 - If you have already done the git add * and the movie.db is being tracked you can untrack it this way and then only stage (git add and git commit as shown above), then you can try this:
             - ```git rm --cached movies.db```
-            - ```git commit -m "Remove movies.db from tracking```
-    - Another option is to create a git .ignore file and include in that file to not track the movies.db.  This step is a bit more involved, but chatGPT can be helpful. 
-    - You can also do a bit of research on who to handle large files on git. On my setup I had upgraded to the pro level github account and I did not get the error.  
+            - ```git commit -m "Remove movies.db from tracking``` 
+        - Options 4 - You can also do a bit of research on who to handle large files on git. On my setup I had upgraded to the pro level github account and I did not get the error.  
 - Code along with Carter until time mark 20:36 and order your the code so that you can use the timer output of user to determine how much faster the find Cars title query runs without and index and with using timer and explain query plan. 
 - Here is my output of running my query file:
 ```

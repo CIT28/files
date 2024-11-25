@@ -4,8 +4,6 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
 ## Attendance
 ### Time mark 00:00 to 20:36
 - Create a new folder at the same level as viewing and name it optimizing, create a new sql file named q.sql.
-- In the optimizing folder get the movies.db
-    - ```curl -o movies.db https://raw.githubusercontent.com/CIT28/files/main/w16/movies.db```
 - HEADS UP - I have had a student report that once they copied (wget) the movies.db into codespace, github throws an error when trying to push work to github because of the size of the movies.db files. 
     - Here are a couple of suggestions if you run into this issue:
         - Option 1 BEST OPTION - Since we have already created the .gitignore in week 1, so do this step before you to the wget command to copy the movies.db file, you can just add this into that file:
@@ -19,7 +17,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
                 hint: Turn this message off by running 
                 hint: "git config advice.addIgnoredFile false"
                 </pre>
-        - Option 2 - When running git add *, don't add the movies.db and only add the q.sql and the pow.txt. You can do this by changing the * to the specific file like this:
+        - Option 2 - When running git add *, don't add the movies.db and only add the q.sql and the pow.txt. You can do this by changing the * to the specific file(s) like this:
             - ```git add q.sql```
             - ```git add pow.txt```
             - ```git add README.md```
@@ -28,6 +26,8 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
                 - ```git commit -m "Remove movies.db from tracking``` 
         - Options 4 - You can also do a bit of research on who to handle large files on git. On my setup I had upgraded to the pro level github account and I did not get the error.  
 
+- In the optimizing folder get the movies.db (MAKE SURE TO READ THE ABOVE INFORMATION FIRST)
+    - ```curl -o movies.db https://raw.githubusercontent.com/CIT28/files/main/w16/movies.db```
 - Code along with Carter until time mark 20:36 and order your the code so that you can use the timer output of user to determine how much faster the find Cars title query runs without and index and with using timer and explain query plan. 
 - Here is my output of running my query file:
 ```

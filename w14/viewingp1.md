@@ -12,7 +12,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Viewin
 - Then continue to code along to CREATE the view and then write the query using the view.
 - SO MUCH CLEANER!!
 - Then code along with the question to learn about how to implement ORDER BY and the better practice you could use (yes take a few notes on this concept to have the VIEW order created)
-     - **COMMIT MESSAGE - "refresh and CREATE VIEW**
+     - **COMMIT MESSAGE - "refresh and CREATE VIEW"**
 
 ## Part 1 - Viewing
 

@@ -86,7 +86,7 @@ Index decreased user time to run query by 70% on my local system
 -This is how I will grade your work:
 1. Did you provide the correct commit history URL for the optimizing (all lowercase) folder = 5 points
 2. Did you do all the commits required for this work = 15 points
-3. Did you have all the queries in the view.sql file = 30 points 
+3. Did you have all the queries in the q.sql file = 30 points 
 4. Did you create the pow.txt include all the required output = 20 points
 5. Did you include all the required content in the README.md file = 30 points
 6. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

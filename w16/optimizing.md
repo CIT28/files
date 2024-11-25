@@ -8,7 +8,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
     - ```curl -o movies.db https://raw.githubusercontent.com/CIT28/files/main/w16/movies.db```
 - HEADS UP - I have had a student report that once they copied (wget) the movies.db into codespace, github throws an error when trying to push work to github because of the size of the movies.db files. 
     - Here are a couple of suggestions if you run into this issue:
-        - Option 1 - Since we have already created the .gitignore in week 1, you can just add this into that file:
+        - Option 1 BEST OPTION - Since we have already created the .gitignore in week 1, so do this step before you to the wget command to copy the movies.db file, you can just add this into that file:
             - ```optimizing/movies.db```
             - Then do the git workflow using ```git add .gitignore```and then ```git commit -m "updating .gitignore"``` and then ```git push`` and now you can use the normal git commands and it will not track the movies.db file. 
             - I did notice I got the following message on the terminal while during the process of doing this update, but it worked fine, here was the message I got, so don't worry:
@@ -22,6 +22,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
         - Option 2 - When running git add *, don't add the movies.db and only add the q.sql and the pow.txt. You can do this by changing the * to the specific file like this:
             - ```git add q.sql```
             - ```git add pow.txt```
+            - ```git add README.md```
                 -  If you have already done the git add * and the movie.db is being tracked you can untrack it this way and then only stage (git add and git commit as shown above), then you can try this:
                 - ```git rm --cached movies.db```
                 - ```git commit -m "Remove movies.db from tracking``` 

@@ -10,7 +10,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
     - Here are a couple of suggestions if you run into this issue:
         - Option 1 BEST OPTION - Since we have already created the .gitignore in week 1, so do this step before you to the wget command to copy the movies.db file, you can just add this into that file:
             - ```optimizing/movies.db```
-            - Then do the git workflow using ```git add .gitignore```and then ```git commit -m "updating .gitignore"``` and then ```git push`` and now you can use the normal git commands and it will not track the movies.db file. 
+            - Then do the git workflow using ```git add .gitignore```and then ```git commit -m "updating .gitignore"``` and then ```git push``` and now you can use the normal git commands and it will not track the movies.db file. 
             - I did notice I got the following message on the terminal while during the process of doing this update, but it worked fine, here was the message I got, so don't worry:
                 <pre>
                 The following paths are ignored by one of your .gitignore files:
@@ -63,15 +63,15 @@ Index decreased user time to run query by 70% on my local system
     - **COMMIT MESSAGE - "how indexes are created and used"**
 
 ## Time Mark 49:05 to 59:47
-- Now add heading for partial index and add your understanding of the how and why of this concept.
+- Now add sub heading for partial index and add your understanding of the how and why of this concept.
 - Then code along to code the partial index and see how much faster the query for 2023 was compared to 1998.
 - Output the .schema to the pow.txt
 - Now add a heading for Vacuum and listen and then write your understanding of this concept and then give the linux command a try.  Heads up if you are running locally you may not have this command - ``du -b movies.db``. Very interesting, my size was different than what Carter's output was. It is good to run this if you are using codespace because it will make the db file size smaller.  Remember this is not an sqlite3 shell command, so you would run it in bash. 
         - **COMMIT MESSAGE - "partial indexes and vacuum"**
 
 ## Time Mark 59:47 tp 1:15:51
-- Now add a heading for concurrency and write your understanding of this concept.
-- Now add a heading for ACID and write your understanding of this concept. SO IMPORTANT TO UNDERSTAND each of part of ACID.
+- Now add a sub heading for concurrency and write your understanding of this concept.
+- Now add a sub heading for ACID and write your understanding of this concept. SO IMPORTANT TO UNDERSTAND each of part of ACID.
 - In the optimizing folder get the bank.db
     - ```curl -o bank.db https://raw.githubusercontent.com/CIT28/files/main/w16/bank.db```
 - Then code along with Carter to code the UPDATE, make sure to not run the UPDATE twice. I did get an runtime error, because of the constraint, but it take the balance to 0 for Alice. 

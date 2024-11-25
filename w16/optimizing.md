@@ -4,6 +4,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
 ## Attendance
 ### Time mark 00:00 to 20:36
 - Create a new folder at the same level as viewing and name it optimizing, create a new sql file named q.sql.
+- Video about how to work around the large movies.db file - https://youtu.be/OBcUPDPoGO0?si=p0JbpVZPYiPxuDiu
 - HEADS UP - I have had a student report that once they copied (wget) the movies.db into codespace, github throws an error when trying to push work to github because of the size of the movies.db files. 
     - Here are a couple of suggestions if you run into this issue:
         - Option 1 BEST OPTION - Since we have already created the .gitignore in week 1, so do this step before you to the wget command to copy the movies.db file, you can just add this into that file:
@@ -21,9 +22,10 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Optimi
             - ```git add q.sql```
             - ```git add pow.txt```
             - ```git add README.md```
-                -  If you have already done the git add * and the movie.db is being tracked you can untrack it this way and then only stage (git add and git commit as shown above), then you can try this:
+                -  If you have already done the git add * and the movies.db is being tracked you can untrack it this way and then only stage (git add and git commit as shown above), then you can try this:
                 - ```git rm --cached movies.db```
                 - ```git commit -m "Remove movies.db from tracking``` 
+            - In the video I mention my chatGPT session, here is that link - https://chatgpt.com/share/6744e789-6014-8010-90cf-7759eba872daLinks to an external site.
         - Options 4 - You can also do a bit of research on who to handle large files on git. On my setup I had upgraded to the pro level github account and I did not get the error.  
 
 - In the optimizing folder get the movies.db (MAKE SURE TO READ THE ABOVE INFORMATION FIRST)

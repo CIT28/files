@@ -42,7 +42,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Scaling](https://w
     - **COMMIT MESSAGE - "quick tour of PostgreSQL"**
 
 ## Final thoughts
--   Add a sub heading for Final Thoughts and tell me how was capturing the code without actually running the code and any related content. 
+-   Add a sub heading for Final Thoughts and tell me about your experience of writing the code without actually running the code and/or any related content. 
     - **COMMIT MESSAGE - "final"**
 
 ## Grading

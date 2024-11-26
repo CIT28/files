@@ -1,7 +1,6 @@
 # CS50 Optimizing
 Right-click and select "Open in new tab" to watch [CS50 SQL - Scaling](https://www.youtube.com/watch?v=jXbXGkgT2Xg)
 
-## Attendance
 ### Time mark 00:00 to 20:42
 -   Create new folder named scaling at the same level as optimizing and in that folder create a new file named README.md.  
 -   In the README.md add a heading for Scaling and then a sub heading for Examples and take notes examples covered.

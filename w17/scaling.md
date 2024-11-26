@@ -36,7 +36,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Scaling](https://w
 -   Take notes on programming concepts covered and commit with message:
     - **COMMIT MESSAGE - "stored procedure w/MySQL"**
 
-## 1:16:23 to ?
+## 1:16:23 to 1:28:43
 -   Add a sub heading PostgreSQL and take notes on concepts covered. 
 -   Code along to capture commands and then listen to questions and take notes on concepts covered, commit with message:
     - **COMMIT MESSAGE - "quick tour of PostgreSQL"**
@@ -49,5 +49,5 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Scaling](https://w
 -This is how I will grade your work:
 1. Did you provide the correct commit history URL for the scaling(all lowercase) folder = 5 points
 2. Did you do all the commits required for this work = 15 points
-3. Did you include all the required content in the README.md file = 70 points
+3. Did you include all the required content and code (using backticks) in the README.md file = 70 points
 4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

@@ -1,4 +1,5 @@
-# CS50 Query Part 2
+# CS50 Query Part 2 - Part of the attendance post for this week's work
+
 Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Querying](https://youtu.be/vHYeChEf2lA?si=hKFR9GDxKMU2JEYo)
 
 ## Setup

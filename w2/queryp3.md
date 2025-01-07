@@ -7,21 +7,22 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 
 ## Timemark 21:49 to 46:01
 - Start watching in 21:49 and then follow along with the Carter and write the SQL commands (query) in the terminal and once query runs without error copy it into query file (p3-q.sql) for this one there will be 6 queries using WHERE. 
-- Then at 28:20 complete the pow workflow and the git workflow to commit your work with message: 
+- Then at 28:20 complete the pow and git workflow and commit your work with message:
   - **COMMIT MESSAGE - "WHERE, operators, NOT"**: 
 
 - Comment out the queries from previous step.
 - Then continue to code along and write the SQL commands (queries) in the terminal and once query runs without error copy it into query file (p3-q.sql) for this one there will be 2 queries. 
-- At 31:49 write your understanding of NOT, AND, OR, () in your README.md file, using a markdown h2 (##) for the content, complete the pow workflow and the git workflow to commit your work with message 
+- At 31:49 write your understanding of NOT, AND, OR, () in your README.md file, using a markdown h2 (##) for the content, then complete the pow and git workflow and commit your work with message: 
   - **COMMIT MESSAGE - "WHERE, AND, OR and notes"**
 
 - Comment out the queries from previous step.
 - Then continue to learn how to write the WHERE command with NULL and IS NOT NULL, as before write the SQL commands (queries) in the terminal and once query runs without error copy it into query file (p3-q.sql) for this one there will be 2 queries. 
-- At 34:26 stop and in your README.md file, take a few notes on your understanding of the how these commands are used and use a markdown h2 ot show your content, then complete the pow workflow and the git workflow to commit your work with message:
+- At 34:26 stop and in your README.md file, take a few notes on your understanding of the how these commands are used and use a markdown h2 ot show your content, then complete the pow and git workflow and commit your work with message:
   - **COMMIT MESSAGE - "WHERE, NULL, IS NOT NULL and notes"**
-- Then continue and learn about WHERE and LIKE, % and _  and write the SQL commands (queries) in the terminal and once query runs without error copy it into query file (p3-q.sql) for this one there will be 6 queries for this work, maybe 7 if you did the SELECT *. 
 
-- At 46:01 stop and in your README.md file, take a few notes on your understanding of the how these commands, use a markdown h2 (##) to show your content, then complete the pow workflow and the git workflow to commit your work with message:
+- Comment out the queries from previous step.
+- Then continue and learn about WHERE and LIKE, % and _  and write the SQL commands (queries) in the terminal and once query runs without error copy it into query file (p3-q.sql) for this one there will be 6 queries for this work, maybe 7 if you did the SELECT *. 
+- At 46:01 stop and in your README.md file, take a few notes on your understanding of the how these commands, use a markdown h2 (##) to show your content, then complete the pow and git workflow and commit your work with message:
   - **COMMIT MESSAGE - "WHERE, LIKE, %, _ and notes"** 
 - Make sure to push your code to github
 - Submit your commit history URL the querying in your private repo for grading

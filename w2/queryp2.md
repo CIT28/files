@@ -20,8 +20,12 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
   .print 'first query'  
   
   -- SQL command (query) to view all the column contents in the longlist table   
+  -- Copy your SQL command below here
+
   SELECT * FROM "longlist";
   
+  -- After each commit comment out the queries written and then continue to write your queries in this part of the file
+
     -- changes back to stdout    
   .output stdout  
 

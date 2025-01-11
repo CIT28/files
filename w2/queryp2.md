@@ -35,7 +35,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
   - **COMMIT MESSAGE - "setup ready"**
 
 ## Timemark 12:25 to 21:49
-- After watching my video, start at 12:25 and then follow along with the Carter and write the SQL commands (query) in the terminal and once query runs without error copy it into query file (p2-q.sql) for this one there will be 3 queries. Complete the proof of work (pov) and git workflow and commit with message:
+- After watching my video, start at 12:25 and then follow along with the Carter and write the SQL commands (query) in the terminal and once query runs without error copy it into query file (p2-q.sql) for this one there will be 3 queries. Complete the proof of work (pow) and git workflow and commit with message:
   - **COMMIT MESSAGE - "SELECT command"**
 
 - Continue from 16:32 and listen to the questions asked and add any question(s) here you might have encounter and make sure you answer why we use style for our SQL commands in the README.md file at 19:37. Complete git workflow and commit with message:

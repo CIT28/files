@@ -2,7 +2,7 @@
 Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Querying](https://youtu.be/vHYeChEf2lA?si=hKFR9GDxKMU2JEYo)
 
 ## Setup
-- For this work we will still be working in the querying folder and will be saving our queries in a new file named p3-q.sql, create that file and copy the contents from p2-q.sql and then add this text as h1 (#) in your README.md file "Week 2 Querying Part 3", then commit with message: 
+- For this work we will still be working in the querying folder and will be saving our queries in a new file named p3-q.sql, create that file and copy the contents from p2-q.sql and follow along with the video to make other modifications to the pow code and then add this text as h1 (#) in your README.md file "Week 2 Querying Part 3", then commit with message: 
   - **COMMIT MESSAGE - "query file and README.md ready"**
 
 ## Timemark 21:49 to 46:01
@@ -33,6 +33,6 @@ This is how I will grade your work:
   1. Did you provide the correct URL for querying folder = 5 points
   2. Did you do all the commits required for this work = 20 points
   3. Does your p3-q.sql contains all the queries written in the section = 30 points
-  3. Does your pow.txt have all the query output = 20 points
+  3. Does your powp3.txt have all the query output = 20 points
   4. Did you include all the required content in the README.md file = 25 point
   5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

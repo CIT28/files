@@ -9,7 +9,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 
 - Now create a new file named p2-q.sql and copy this code into that file, I'll go over what is happening in each line of this code:
 ```
-  -- Setting the pow workflow
+  -- starting the pow workflow
   -- changes terminal output for readability 
   .mode box
   
@@ -22,8 +22,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
   -- SQL command (query) to view all the column contents in the longlist table   
   SELECT * FROM "longlist";
   
-  
-  -- changes back to stdout    
+    -- changes back to stdout    
   .output stdout  
 
   -- bash command sqlite3 longlist.db < p2-q.sql

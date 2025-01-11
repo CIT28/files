@@ -24,6 +24,8 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 - Then continue and learn about WHERE and LIKE, % and _  and write the SQL commands (queries) in the terminal and once query runs without error copy it into query file (p3-q.sql) for this one there will be 6 queries for this work, maybe 7 if you did the SELECT *. 
 - At 46:01 stop and in your README.md file, take a few notes on your understanding of the how these commands, use a markdown h2 (##) to show your content, then complete the pow and git workflow and commit your work with message:
   - **COMMIT MESSAGE - "WHERE, LIKE, %, _ and notes"** 
+
+  
 - Make sure to push your code to github
 - Submit your commit history URL the querying in your private repo for grading
 ## Grading

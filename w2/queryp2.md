@@ -42,7 +42,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
   - **COMMIT MESSAGE - "questions and style"**
 
 - Comment out previous queries  
-- Continue coding along from 19:37 and learn the LIMIT SQL command and once you reach 21:49 complete the pow and git workflow and commit with message:
+- Continue coding along from 19:37 and learn the LIMIT SQL command and once you reach 21:49 there should be 2 queries for this commit, then complete the pow and git workflow and commit with message:
   - **COMMIT MESSAGE - "LIMIT command"**
   
 - Complete instructions in canvas for attendance post requirements.

@@ -12,7 +12,7 @@ Then open another terminal session and change it to querying folder. You will us
 
 - Start watching in 46:01 and in your README.md add a heading 2 (##) for Operators and take notes on the operators. 
 -  Then follow along by first writing each query on the terminal and once the query runs without error copy it into the p4-q.sql file.  
-- Repeat this for all in the queries Carters writes, there will be a total of 8 queries.  For each query use the .print 'what does this query to' to describe each query.
+- Repeat this for all in the queries Carters writes, there will be a total of 6 queries.  For each query use the .print 'what does this query to' to describe each query.
 - At 53:10 complete the pow and the git workflows and commit with message:
   - **COMMIT MESSAGE - "Operators and range queries"**
 - Comment out the queries from above.

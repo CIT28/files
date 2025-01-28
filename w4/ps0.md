@@ -1,21 +1,26 @@
 # CS50 Problem Set 0 
 ## Cyberchase 
+- https://cs50.harvard.edu/sql/2024/psets/0/cyberchase/
 
-In the video I will walk how to complete this work:
-### Setup
-- Create a new folder at the same level querying, name it ps0 (short for "Problem Set 0") and then inside that folder create another folder named cyberchase.   
-- Change the current folder to cyberchase, then use the following command to copy the database file:
-    - ```curl -o cyberchase.db https://raw.githubusercontent.com/CIT28/files/main/w4/cyberchase.db```
-    - Create a file to store the queries name it q.sql and a README.md with a heading for each problem 1 thru 7, commit with message:
-      - **COMMIT MESSAGE - "setup complete"**
+## Setup
+- Create a new sql file named p1-q.sql and copy the a-q.sql and remove previous queries and update for new sql filename. 
+- In the README.md create a new heading 1 md with text
+    - Problem set 0 - Problems 1 thru 7 
+
+
 ### For each problem you need to do the following
-- For each problem, you need to:
-1. Write the query in the q.sql file and make sure you get the correct output (see below) 
-2. In the README.md, authenicate your work by copying the steps you took to get the correct output, do this under the heading for each problem.    
-3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
-  - **COMMIT MESSAGE - "1. query and pow complete"**
-  - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query and pow")
- 
+- Start the normal terminal sessions
+- For each problem you need to:
+    1. Add heading 2 md text for each problem with text
+        - 'Problem #'
+    2. Use the SQLITE3 terminal to write your SQL commands to solve the problem. 
+    3. Once you have solved with the correct output (see below for test)
+        - Complete the authentic, pow and git workflow
+    4. Commit with message:
+        - **COMMIT MESSAGE - "Prob 1 complete"**
+
+**CONTENT FROM CS50 SITE STARTS HERE**
+
 ## Schema
 
 Each database has some “schema” 
@@ -43,14 +48,6 @@ Make sure you commit before moving on to the next problem.
 5. Find the title of the holiday episode that aired on December 31st, 2004.
 6. List the titles of episodes from season 6 (2008) that were released early, in 2007.
 7. Write a SQL query to list the titles and topics of all episodes teaching fractions.
-8. Write a query that counts the number of episodes released in the last 6 years, from 2018 to 2023, inclusive.
-  - You might find it helpful to know you can use BETWEEN with dates, such as BETWEEN '2000-01-01' AND '2000-12-31'.
-9. Write a query that counts the number of episodes released in Cyberchase’s first 6 years, from 2002 to 2007, inclusive.
-10. Write a SQL query to list the ids, titles, and production codes of all episodes. Order the results by production code,   from earliest to latest.
-11. List the titles of episodes from season 5, in reverse alphabetical order.
-12. Count the number of unique episode titles.
-13. Write a SQL query to explore a question of your choice. This query should:
- - Involve at least one condition, using WHERE with AND or OR
 
 
 ## How to Test
@@ -61,17 +58,13 @@ Make sure you commit before moving on to the next problem.
 - Executing 5. results in a table with 1 column and 1 row.
 - Executing 6. results in a table with 1 column and 2 rows.
 - Executing 7. results in a table with 2 columns and 6 rows.
-- Executing 8.sql results in a table with 1 column and 1 row.
-- Executing 9.sql results in a table with 1 column and 1 row.
-- Executing 10.sql results in a table with 3 columns and 140 rows.
-- Executing 11.sql results in a table with 1 column and 10 rows.
-- Executing 12.sql results in a table with 1 column and 1 row.
+
+**CONTENT FROM CS50 SITE END HERE**
 
 ## Grading
 - Submit your commit history URL your cyberchase in your private repo for grading
 - This is how I will grade your work:
-1. Did you provide the correct URL for cyberchase folder = 5 points.
-2. Did you do all the commits required for this work = 65 points
-    -  There should be 8 commits, 1 for the setup and 7 that show the current query (uncommented), proof of work and autenciate work in README.md
-3. Did your README.md file show authenicate work =  30 points
-4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
+1. Did you provide the correct URL for cyberchase folder = 10 points.
+2. Did you do all the commits required for this work = 30 points
+3. Did the commits contain the workflow (authentic, pow and git ) data =  60 points
+4. Work submitted after the due date will be reduced by 25 points. 

@@ -1,12 +1,11 @@
 # CS50 Problem Set 0 
-## Cyberchase 
+## Cyberchase Part 1
 - https://cs50.harvard.edu/sql/2024/psets/0/cyberchase/
 
 ## Setup
 - Create a new sql file named p1-q.sql and copy the a-q.sql and remove previous queries and update for new sql filename. 
 - In the README.md create a new heading 1 md with text
     - Problem set 0 - Problems 1 thru 7 
-
 
 ### For each problem you need to do the following
 - Start the normal terminal sessions
@@ -22,9 +21,7 @@
 **CONTENT FROM CS50 SITE STARTS HERE**
 
 ## Schema
-
 Each database has some “schema” 
-
 The tables and columns into which the data is organized. In cyberchase.db you’ll find a single table, episodes. In the episodes table, you’ll find the following columns:
 
 - id, which uniquely identifies each row (episode) in the table

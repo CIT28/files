@@ -1,5 +1,5 @@
 # Week 4 Attendance
-## Getting to know cyberchase database and learning the new authentic workflow
+## Getting to know cyberchase database and learning the new "Proof of Effect" poe workflow
 - https://cs50.harvard.edu/sql/2024/psets/0/cyberchase/
 
 ### Setup

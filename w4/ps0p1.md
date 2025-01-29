@@ -9,15 +9,16 @@
 - Start the normal terminal sessions
 
 ### For each problem you need to do the following
-- For each problem you need to:
-    1. Add heading 2 md text for each problem with the following text
-        - 'Problem #'
-        - add the backticks 
-    2. Use the SQLITE3 terminal to write your SQL commands to solve the problem. 
-    3. Once you have solved with the correct output (see below for test)
-    4. Refer back to Week 4 Attendance instructions for how to complete the poe workflow.
-    5. Clear the sqlite terminal with ```.shell clear```
-    6. Complete the new poe, pow and git workflow, commit with message:
+1. Add heading 2 md text for each problem with the following text
+    - 'Problem #'
+    - add the backticks 
+2. Use the SQLITE3 terminal to write your SQL commands to solve the problem. 
+    - If you get help from the CS50 AI Duck or other gen ai sources, note this with the ```.print 'what you did to get help'``` in your README.md for this problem
+3. Once you have solved with the correct output (see below for test) comoplete the poe workflow. 
+    - Refer back to Week 4 Attendance instructions for how to complete the poe workflow.
+5. Clear the sqlite terminal with ```.shell clear``` 
+    - DON'T DO THIS UNTIL you have copied the effort (SQL commands) you did to get the correct output.
+6. Complete the pow and git workflow, commit with message:
         - **COMMIT MESSAGE - "Prob 1 complete"**
 
 **CONTENT FROM CS50 SITE STARTS HERE**

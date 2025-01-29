@@ -1,23 +1,23 @@
-# CS50 Problem Set 0 
-## Cyberchase Part 1
+# CS50 Problem Set 0 - Part 1
+## Cyberchase - Problems 1 thru 7
 - https://cs50.harvard.edu/sql/2024/psets/0/cyberchase/
 
 ## Setup
 - Create a new sql file named p1-q.sql and copy the a-q.sql and remove previous queries and update for new sql filename. 
 - In the README.md create a new heading 1 md with text
     - Problem set 0 - Problems 1 thru 7 
+- Start the normal terminal sessions
 
 ### For each problem you need to do the following
-- Start the normal terminal sessions
 - For each problem you need to:
-    1. Add heading 2 md text for each problem with text
+    1. Add heading 2 md text for each problem with the following text
         - 'Problem #'
         - add the backticks 
     2. Use the SQLITE3 terminal to write your SQL commands to solve the problem. 
     3. Once you have solved with the correct output (see below for test)
     4. Refer back to Week 4 Attendance instructions for how to complete the poe workflow.
-        - Complete the new poe, pow and git workflow
-    5. Commit with message:
+    5. Clear the sqlite terminal with ```.shell clear```
+    6. Complete the new poe, pow and git workflow, commit with message:
         - **COMMIT MESSAGE - "Prob 1 complete"**
 
 **CONTENT FROM CS50 SITE STARTS HERE**
@@ -62,7 +62,6 @@ Make sure you commit before moving on to the next problem.
 
 ## OPTIONAl BREAK!
 - If you have complete 1 thru 4 you can submit your commit history and finish by the next due date. Make sure you tell me in your commits you are taking a break. If you do complete before the due date and want to review your work, then let me know in your submission comments.
-
 
 
 ## Grading

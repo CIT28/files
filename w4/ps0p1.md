@@ -12,10 +12,12 @@
 - For each problem you need to:
     1. Add heading 2 md text for each problem with text
         - 'Problem #'
+        - add the backticks 
     2. Use the SQLITE3 terminal to write your SQL commands to solve the problem. 
     3. Once you have solved with the correct output (see below for test)
-        - Complete the authentic, pow and git workflow
-    4. Commit with message:
+    4. Refer back to Week 4 Attendance instructions for how to complete the poe workflow.
+        - Complete the new poe, pow and git workflow
+    5. Commit with message:
         - **COMMIT MESSAGE - "Prob 1 complete"**
 
 **CONTENT FROM CS50 SITE STARTS HERE**
@@ -58,10 +60,15 @@ Make sure you commit before moving on to the next problem.
 
 **CONTENT FROM CS50 SITE END HERE**
 
+## OPTIONAl BREAK!
+- If you have complete 1 thru 4 you can submit your commit history and finish by the next due date. Make sure you tell me in your commits you are taking a break. If you do complete before the due date and want to review your work, then let me know in your submission comments.
+
+
+
 ## Grading
 - Submit your commit history URL your cyberchase in your private repo for grading
 - This is how I will grade your work:
 1. Did you provide the correct URL for cyberchase folder = 10 points.
 2. Did you do all the commits required for this work = 30 points
-3. Did the commits contain the workflow (authentic, pow and git ) data =  60 points
+3. Did the commits contain the workflow (poe, pow and git ) data =  60 points
 4. Work submitted after the due date will be reduced by 25 points. 

@@ -61,8 +61,8 @@ Make sure you commit before moving on to the next problem.
 
 **CONTENT FROM CS50 SITE END HERE**
 
-## OPTIONAl BREAK!
-- If you have complete 1 thru 4 you can submit your commit history and finish by the next due date. Make sure you tell me in your commits you are taking a break. If you do complete before the due date and want to review your work, then let me know in your submission comments.
+## OPTIONAL BREAK!
+- If you've completed problems 1 through 3, you can submit your commit history for the cyberchase folder and continue with steps 4 through 7 by the next due date. Be sure to include a commit message indicating that you're taking a break. If you finish early and would like to review your work, let me know in your submission comments.
 
 
 ## Grading

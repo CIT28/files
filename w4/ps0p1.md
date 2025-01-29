@@ -14,7 +14,7 @@
     - add the backticks 
 2. Use the SQLITE3 terminal to write your SQL commands to solve the problem. 
     - If you get help from the CS50 AI Duck or other gen ai sources, note this with the ```.print 'what you did to get help'``` in your README.md for this problem
-3. Once you have solved with the correct output (see below for test) comoplete the poe workflow. 
+3. Once you have the correct output (see below for test) complete the poe workflow. 
     - Refer back to Week 4 Attendance instructions for how to complete the poe workflow.
 5. Clear the sqlite terminal with ```.shell clear``` 
     - DON'T DO THIS UNTIL you have copied the effort (SQL commands) you did to get the correct output.

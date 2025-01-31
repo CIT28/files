@@ -3,7 +3,7 @@
 - https://cs50.harvard.edu/sql/2024/psets/0/cyberchase/
 
 ## Setup
-- In the cyberchase folder, create a new sql file named p1-q.sql and copy the a-q.sql and remove previous queries and update for new sql filename. 
+- In the cyberchase folder, create a new sql file named p1-q.sql and copy the a-q.sql and remove previous queries and update for new sql filename and use filename pow-p1.txt
 - In the README.md create a new heading 1 md with text
     - Problem set 0 - Problems 1 thru 7 
 - Start the normal terminal sessions 

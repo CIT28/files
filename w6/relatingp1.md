@@ -7,11 +7,14 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 2. In the terminal change the current folder to relating, then use the following command to copy the database file:
     - ```curl -o longlist.db https://raw.githubusercontent.com/CIT28/files/main/w6/longlist.db```
 3. In the relating folder create the file we will use for notes - README.md, using heading 1 markdown (md) style and have this heading text:
-    - 'Week 6 Attendance' 
+    - 'Week 6 Relating Part 1' 
+    - below that create a heading 2 with this heading text:
+    - 'Week 6 Attendance
 4. In the relating folder create a file a-q.sql and copy the contents of the p2-q.sql from the cyberchase folder into this file.
     - Update the a-q.sql to reference the pow-ds.txt and bash command at the end to be a-q.sql.
     - Remove all previous queries
 5. Setup the SQLITE3 and Bash terminals
+     - **COMMIT MESSAGE - "setup done"**
 6. Code along with me
 
 ### Start here for Relating Part 1 
@@ -21,7 +24,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 - Start the terminal sessions   
 - In the README.md file add heading 2 md style and have this heading text:
     - 'Overview of Relating Concepts'
-    - **COMMIT MESSAGE - "setup done"**
+    - **COMMIT MESSAGE - "updates done"**
 
 ## Take notes from timestamp 00:00 to 26:40
 - In the README.md file organize your notes in the following using heading 3 md style.

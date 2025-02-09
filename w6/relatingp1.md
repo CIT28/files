@@ -8,7 +8,10 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
     - ```curl -o longlist.db https://raw.githubusercontent.com/CIT28/files/main/w6/longlist.db```
 3. In the relating folder create the file we will use for notes - README.md, using heading 1 markdown (md) style and have this heading text:
     - 'Week 6 Attendance' 
-### Complete for Relating Part 1 
+4. Setup the SQLITE3 and Bash terminals
+5. Follow along with attendance code along
+
+### Start here for Relating Part 1 
 - In the relating folder create a file p1-q.sql and copy the contents of the p2-q.sql from the cyberchase folder into this file.
     - Update the p1-q.sql to reference the pow-p1.txt and bash command at the end to be p1-q.sql.
     - Remove all previous queries

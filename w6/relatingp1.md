@@ -70,7 +70,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 - If you got this far you can take a break and complete the rest of this work by the Thursday night deadline.  
 - To "GET" this break you will submit your commit history for the relating folder now.
 - I will do a review and give you feedback.
-- If you complete before Thurs morning, then you can commit that you are ready for a second review. 
+- If you complete before Thurs morning, then you can submit again your commit history URL and tell me that you are ready for a second review. 
 
 ## M:N Subquery
 - Code Along - From timestamp 40:31
@@ -83,7 +83,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
         - Listen to the questions
 
 - Code Along - From timestamp 47:35
-    - Listen concepts of how to use IN SQL commands
+    - Listen to concepts of how to use IN SQL commands
     - Code along write combination of static queries and subquery  (either on the terminal or in the query file)
         - There will be total of 3 queries here
         - Once your have the query running without error.
@@ -94,9 +94,9 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 
 # Grading
 This is how I will grade your work:
-  1. Did you provide the correct URL for relating folder = 5 points
+  1. Did you provide the correct URL for relating folder commit history = 10 points
   2. Did you do all the commits required for this work = 20 points
-  3. Did you have all the queries in the p1-q.sql file = 30 points
-  3. Did you create the powp1.txt file correctly and include all the required output = 20 points
-  4. Did you include all the required content in the README.md file = 25 points
+  3. Did you have all the queries in the p1-q.sql file = 25 points
+  3. Did you create the powp1.txt file include all the required output and short description of each query = 25 points
+  4. Did you include all the required content in the README.md file = 20 points
   5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

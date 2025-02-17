@@ -46,7 +46,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
         - No need to write the query yet, just follow along. 
         - Make sure to note which part of the subquery runs first and the syntax that is used to show the subquery
 - Code Along - From timestamp 33:58
-    - Make sure the p1-r.sql is setup correctly to output to the pow-p1.txt and bash command at the bottom is correct for p1-q.sql
+    - Make sure the p1-q.sql is setup correctly to output to the pow-p1.txt and bash command at the bottom is correct for p1-q.sql
     - In the SQLITE3 terminal (or in the query file), code along with Carter and write the 2 static queries. 
         - Once the queries runs without error make sure they are in the p1-q.sql file.
         - Use the .print 'what does this query to' to describe each query.

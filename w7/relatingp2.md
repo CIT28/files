@@ -33,7 +33,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
     - Code the LEFT,  RIGHT, and FULL JOIN query
     - Update the heading we create above and take and add the text of 'OUTER' to the heading and take notes on how each one works. 
     - Make sure to include in your notes answer this question: "How is left and right determined", not necessary for 3 table, but for 2 as we have done here.
-    - Also include the answer to do we get back a separate table, no need to write the last query here. 
+    - Also include the answer to "do we get back a separate table" question, no need to write the last query here. 
     - Then add to the heading we are been building for these join type, add the text of 'NATURAL' and take a few notes on what a natural join is and then code along. 
     - Complete the pow and git workflow with commit message:
         - **COMMIT MESSAGE - "LEFT, RIGHT, FULL and NATURAL JOIN query"** 

@@ -6,7 +6,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relati
 - Continue working in the relating folder, in the README.md add a heading 1 with the following content:
     'Week 7 Relating Part 2"
 - Make sure you are in the relating folder and run this command to get sea_loins db:
-- ```curl -o sea_lions.db https://raw.githubusercontent.com/CIT28/files/main/w7/sea_lions.db```
+    - ```curl -o sea_lions.db https://raw.githubusercontent.com/CIT28/files/main/w7/sea_lions.db```
 - Copy the p1-q.sql content into a new file p2-q.sql, remove previous queries and update for pow-p2.txt and update the bash command with the sea_lions.db, then commit with message:
     - **COMMIT MESSAGE - "setup ready"**
 

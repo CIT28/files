@@ -1,5 +1,5 @@
 ## CS50 Relating Part 1
-Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Relating](https://www.youtube.com/watch?v=_2t18Hy9Z0Y)
+Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture - Relating](https://www.youtube.com/watch?v=_2t18Hy9Z0Y)
 
 ## Setup
 ### Week 6 Attendance 

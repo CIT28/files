@@ -35,11 +35,12 @@
     - Make sure you copy your query attempts under the heading for each problem using this syntax:
         - ```backticks your query attempt```
 - Write a regular query, static or subquery in the w8-q.sql to answer the following:
-    1. Retrieves all the information about drivers whose name is "Derek" from the drivers table.
-    2. Count how many times driver "Derek" performed a "Pick" action in 2023 from the scans table.
-    3. Count the number of residential addresses in the addresses table
-    4. Count the number of business addresses in the addresses table
-    5. Count how many times each type of content appears in the packages table and lists the contents along with their count, sorting them from most to least common.
+
+1. Retrieves all the information about drivers whose name is "Derek" from the drivers table.
+2. Count how many times driver "Derek" performed a "Pick" action in 2023 from the scans table.
+3. Count the number of residential addresses in the addresses table
+4. Count the number of business addresses in the addresses table
+5. Count how many times each type of content appears in the packages table and lists the contents along with their count, sorting them from most to least common.
 - After each query complete the poe, pow and git workflow with message:
     - *** Query 1 ***
     - There should be a total of 5 commits and here is a link to the results of having a correct query for each one. [link](results.txt)

@@ -69,8 +69,8 @@
     - In your README.md file create a heading 2 for "Static Queries for Lost Letter - Proof of Effect.  
     -  Then write the static queries (one at time) to solve the problem, there should be at least 4 queries here. 
     - After each query complete the poe, pow and git workflow with message 
-        - **COMMIT MESSAGE - "Lost Letter static queries"**
-    - Comment out these queries before coming on. 
+        - **COMMIT MESSAGE - "Lost Letter static queries 1"**
+    - Comment out these queries before coming on to the next static query.
 
 ## BREAK OPTIONAL  
 - If you got this far you can take a break and complete the rest of this work by the Thursday night deadline.  
@@ -81,11 +81,11 @@
 
 3. Write nested query
 - In your README.md file create a heading 2 for "Nested Queries for Lost Letter - Proof of Effect.  
-    -  Then write the next queries (one at time) to solve the Lost Letter, there should be at 1 query here. 
+    -  Then write the nested subquery  to solve the Lost Letter, there should be at 1 query here. 
     - Same output as the static query
     - Once you have a working query complete the poe, pow and git workflow with message 
         - **COMMIT MESSAGE - "Lost Letter nested query"**
-    - Comment out these queries before coming on. 
+
 
 
 4. Write about your experience

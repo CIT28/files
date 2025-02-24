@@ -1,0 +1,241 @@
+Retrieves all the information about drivers whose name is "Derek" from the drivers table.
+┌────┬───────┐
+│ id │ name  │
+├────┼───────┤
+│ 7  │ Derek │
+└────┴───────┘
+Count how many times driver "Derek" performed a "Pick" action in 2023 from the scans table.
+┌──────────────────────────────────┐
+│ Number Pickups for Derek in 2023 │
+├──────────────────────────────────┤
+│ 1221                             │
+└──────────────────────────────────┘
+Count the number of residential addresses in the addresses table
+┌────────────────────────────────┐
+│ Number of Residential Addresses │
+├────────────────────────────────┤
+│ 6617                           │
+└────────────────────────────────┘
+Count the number of business addresses in the addresses table
+┌──────────────────────────────┐
+│ Number of Business Addresses │
+├──────────────────────────────┤
+│ 3310                         │
+└──────────────────────────────┘
+Count how many times each type of content appears in the packages table and lists the content types along with their count, sorting them from most to least common. ;
+┌───────────┬────────────────────────┐
+│ Number of │        contents        │
+├───────────┼────────────────────────┤
+│ 100       │ Tissue paper           │
+│ 92        │ Undisclosed            │
+│ 71        │ Sandpaper              │
+│ 64        │ Bias tape              │
+│ 62        │ Plastic lids           │
+│ 61        │ Sketching set          │
+│ 61        │ Apron                  │
+│ 60        │ Writing utensils       │
+│ 60        │ Rubber bands           │
+│ 60        │ Origami paper          │
+│ 60        │ Glue stick             │
+│ 60        │ Craft sticks           │
+│ 59        │ CD                     │
+│ 58        │ Sealing wax            │
+│ 58        │ Newsprint paper        │
+│ 57        │ Wax seals              │
+│ 57        │ Trading cards          │
+│ 57        │ Ink pad                │
+│ 57        │ Graph paper            │
+│ 57        │ Address labels         │
+│ 56        │ Stationery set         │
+│ 56        │ Sketchpad              │
+│ 56        │ Paper plates           │
+│ 56        │ Glitter glue           │
+│ 56        │ Bows                   │
+│ 56        │ Binder clips           │
+│ 56        │ Ballpoint pen          │
+│ 55        │ Sponges                │
+│ 55        │ Sewing needles         │
+│ 55        │ Paper shredder         │
+│ 55        │ Measuring tape         │
+│ 55        │ Jewelry findings       │
+│ 55        │ Colored pencils        │
+│ 54        │ Plastic containers     │
+│ 54        │ Pipe cleaners          │
+│ 54        │ Label maker            │
+│ 54        │ Gift bags              │
+│ 54        │ Folders                │
+│ 54        │ Desk calendar          │
+│ 54        │ Beads                  │
+│ 53        │ Shears                 │
+│ 53        │ Rollerball pen         │
+│ 53        │ Postcard               │
+│ 53        │ Patterned paper        │
+│ 53        │ Paper clips            │
+│ 53        │ Foam sheets            │
+│ 53        │ Desk lamp              │
+│ 53        │ Construction paper     │
+│ 52        │ Snap fasteners         │
+│ 52        │ Shipping labels        │
+│ 52        │ Mechanical pencil      │
+│ 52        │ Calculator             │
+│ 52        │ Aluminum foil          │
+│ 51        │ Washi tape             │
+│ 51        │ Tracing paper          │
+│ 51        │ Sewing thread          │
+│ 51        │ Scissors               │
+│ 51        │ Rubber duck            │
+│ 51        │ Parcel tape            │
+│ 51        │ Heat gun               │
+│ 51        │ Garbage bin            │
+│ 51        │ File organizers        │
+│ 51        │ Egg cartons            │
+│ 51        │ Drawing compass        │
+│ 51        │ Coloring book          │
+│ 51        │ Calendar               │
+│ 50        │ Yarn                   │
+│ 50        │ Wooden dowels          │
+│ 50        │ Quilting fabric        │
+│ 50        │ Pencil sharpener       │
+│ 50        │ Laundry detergent      │
+│ 50        │ Hole puncher           │
+│ 50        │ Fabric glue            │
+│ 50        │ Envelop opener         │
+│ 50        │ Dry erase markers      │
+│ 50        │ Crossword puzzle       │
+│ 50        │ Colored cardstock      │
+│ 50        │ Calligraphy set        │
+│ 49        │ Wine corks             │
+│ 49        │ Trash bags             │
+│ 49        │ Mouse pad              │
+│ 49        │ Mop                    │
+│ 49        │ Ironing board          │
+│ 49        │ Highlighters           │
+│ 49        │ Greeting card          │
+│ 49        │ Glitter                │
+│ 49        │ Felt sheets            │
+│ 49        │ Feathers               │
+│ 49        │ Embroidery hoop        │
+│ 49        │ Embroidery floss       │
+│ 49        │ Crayons                │
+│ 49        │ Craft scissors         │
+│ 49        │ Bulletin board         │
+│ 48        │ Sequins                │
+│ 48        │ Postage stamps         │
+│ 48        │ Plastic wrap           │
+│ 48        │ Index cards            │
+│ 48        │ Gel pens               │
+│ 48        │ Empty jars             │
+│ 48        │ Elastic bands          │
+│ 48        │ Craft foam             │
+│ 48        │ Bookmark               │
+│ 47        │ USB drive              │
+│ 47        │ Scrapbook paper        │
+│ 47        │ Return labels          │
+│ 47        │ Plastic gloves         │
+│ 47        │ Fabric scissors        │
+│ 47        │ Envelopes              │
+│ 47        │ Embossing tool         │
+│ 47        │ Cross-stitch kit       │
+│ 47        │ Crochet hooks          │
+│ 47        │ Clothespins            │
+│ 46        │ Zippers                │
+│ 46        │ Scrapbooking materials │
+│ 46        │ Recipe cards           │
+│ 46        │ Puzzle book            │
+│ 46        │ Paper towels           │
+│ 46        │ Markers                │
+│ 46        │ Map                    │
+│ 46        │ Drawing paper          │
+│ 46        │ Cotton balls           │
+│ 46        │ Cardboard boxes        │
+│ 45        │ Writing desk           │
+│ 45        │ Wooden beads           │
+│ 45        │ Satin ribbons          │
+│ 45        │ Popsicle sticks        │
+│ 45        │ Playing cards          │
+│ 45        │ Packing peanuts        │
+│ 45        │ Iron-on patches        │
+│ 45        │ Decorative paper       │
+│ 45        │ Comic book             │
+│ 45        │ Cardboard tubes        │
+│ 45        │ Buttons                │
+│ 44        │ Ziplock bags           │
+│ 44        │ Storage boxes          │
+│ 44        │ Ribbon cutter          │
+│ 44        │ Quilting ruler         │
+│ 44        │ Push pins              │
+│ 44        │ Poster                 │
+│ 44        │ Plastic straws         │
+│ 44        │ Paperweight            │
+│ 44        │ Newspaper              │
+│ 44        │ Knitting needles       │
+│ 44        │ Jigsaw puzzle          │
+│ 44        │ Hook and loop tape     │
+│ 44        │ Eraser                 │
+│ 44        │ Dustpan                │
+│ 44        │ Dryer sheets           │
+│ 44        │ DVD                    │
+│ 44        │ Craft adhesive         │
+│ 44        │ Cleaning brush         │
+│ 44        │ Card game              │
+│ 44        │ Calligraphy pen        │
+│ 44        │ Bucket                 │
+│ 44        │ Bottle caps            │
+│ 43        │ Tape dispenser         │
+│ 43        │ Stapler                │
+│ 43        │ Photographs            │
+│ 43        │ Desk organizer         │
+│ 42        │ Toilet paper rolls     │
+│ 42        │ Safety scissors        │
+│ 42        │ Protractor             │
+│ 42        │ Pom-poms               │
+│ 42        │ Plastic bottles        │
+│ 42        │ Painting set           │
+│ 42        │ Origami kit            │
+│ 42        │ Notebook               │
+│ 42        │ Craft kit              │
+│ 42        │ Cotton swabs           │
+│ 42        │ Corkboard              │
+│ 42        │ Board game             │
+│ 41        │ Stencils               │
+│ 41        │ Stamps                 │
+│ 41        │ Ribbons                │
+│ 41        │ Quilting thread        │
+│ 41        │ Mechanical eraser      │
+│ 41        │ Letter                 │
+│ 41        │ Gift wrap              │
+│ 41        │ Bubble wrap            │
+│ 40        │ Sudoku puzzle          │
+│ 40        │ Journal                │
+│ 40        │ Googly eyes            │
+│ 40        │ Chalkboard             │
+│ 40        │ Activity book          │
+│ 39        │ Watercolor paper       │
+│ 39        │ Sticky notes           │
+│ 39        │ Letter opener          │
+│ 39        │ Fountain pen           │
+│ 39        │ Craft punches          │
+│ 39        │ Broom                  │
+│ 39        │ Art prints             │
+│ 38        │ Sticker book           │
+│ 38        │ Postage meter          │
+│ 38        │ Carbon paper           │
+│ 38        │ Book                   │
+│ 37        │ Rubber gloves          │
+│ 37        │ Fabric markers         │
+│ 37        │ Dish soap              │
+│ 37        │ Crepe paper            │
+│ 37        │ Chalk                  │
+│ 36        │ String                 │
+│ 36        │ Brain teaser           │
+│ 35        │ Sewing machine needles │
+│ 35        │ Modeling clay          │
+│ 33        │ Whiteboard             │
+│ 33        │ Magazine               │
+│ 33        │ Cleaning cloths        │
+│ 32        │ Ruler                  │
+│ 32        │ Art supplies           │
+│ 1         │ Flowers                │
+│ 1         │ Duck debugger          │
+│ 1         │ Congratulatory letter  │
+└───────────┴────────────────────────┘

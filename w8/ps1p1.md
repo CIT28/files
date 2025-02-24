@@ -1,4 +1,4 @@
-# CS50 Problem Set 1 - Static queries
+# CS50 Problem Set 1 - Lost Letter Static and Subquery
 
 ## Attendance
 
@@ -68,7 +68,7 @@
     - In your README.md file create a heading 2 for "Static Queries for Lost Letter - Proof of Effect.  
     -  Then write the static queries (one at time) to solve the problem, there should be at least 4 queries here. 
     - After each query complete the poe, pow and git workflow with message 
-        - **COMMIT MESSAGE - "Lost Letter static queries - 1"**
+        - **COMMIT MESSAGE - "Lost Letter static queries"**
     - Comment out these queries before coming on. 
 
 ## BREAK OPTIONAL  
@@ -93,9 +93,10 @@
 
 ## Grading
 - Submit your commit history URL the packages folder in your private repo for grading
-- This is how I will grade your work:
-    1. Did you provide the correct URL for packages folder commits = 10 points.
-    2. Did you do all the commits required for this work = 30 points
-    3. Did your poe show authenticate work and include 'My Experience' =  30 points
-    4. Did you get the correct output for both static and nested queries = 30 points
-    Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
+
+This is how I will grade your work:
+1. Did you provide the correct URL for packages folder commits = 10 points.
+2. Did you do all the commits required for this work = 30 points
+3. Did your poe show authenticate work and include 'My Experience' =  30 points
+4. Did you get the correct output for both static and nested queries = 30 points
+- Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

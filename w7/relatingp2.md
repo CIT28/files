@@ -1,7 +1,6 @@
 ## CS50 Relating Part 2
 Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture - Relating](https://www.youtube.com/watch?v=_2t18Hy9Z0Y)
 
-
 ## Setup
 - Continue working in the relating folder, in the README.md add a heading 1 with the following content:
     'Week 7 Relating Part 2"
@@ -62,17 +61,17 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture - Relating
     - Then under that heading take notes on the concepts of groups
 
 - Code Along
-    - Write the queries for this section, for a total of 3 here and then update your notes regarding group above.
-    - Listen to the questions code the queries for a total of  5 queries here.
+    - Write the queries for this section, for this part will be 3 here and then update your notes regarding group above.
+    - Listen to the questions code the queries for a total of 5 queries here.
     - Complete the pow and git workflows and commit with message:
          - **COMMIT MESSAGE - "GROUP BY"**
 
 
 ## Grading
 This is how I will grade your work:
-    1. Did you provide the correct commit history URL for relating folder = 10 points
-    2. Did you do all the commits required for this work = 20 points
-    3. Did you have all the queries in the p2-q.sql file = 25 points
-    3. Did you create the pow-p2.txt (my pow had 1328 lines) file correctly and include all the required output = 20 points
-    4. Did you include all the required content in the README.md file = 30 points
-    5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
+1. Did you provide the correct commit history URL for relating folder = 10 points
+2. Did you do all the commits required for this work = 20 points
+3. Did you have all the queries in the p2-q.sql file = 25 points
+4. Did you create the pow-p2.txt (my pow had 1328 lines) file correctly and include all the required output = 20 points
+5. Did you include all the required content in the README.md file = 30 points
+- Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

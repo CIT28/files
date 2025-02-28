@@ -32,13 +32,14 @@
 - In your README.md file create a heading 2 for "Join Query for Devious Delivery - Proof of Effect.  
     - Then write the nested subquery to solve the Devious Delivery, there should be at 1 JOIN query here. 
     - Here the output is different but the query logic is these same:
-    - <pre>
-┌──────────────────┬─────────────────────┐
-│ Drop Off Address │ Contents of Package │
-├──────────────────┼─────────────────────┤
-│ 7 Humboldt Place │ Duck debugger       │
-└──────────────────┴─────────────────────┘
-</pre>
+    - 
+    <pre>
+    ┌──────────────────┬─────────────────────┐
+    │ Drop Off Address │ Contents of Package │
+    ├──────────────────┼─────────────────────┤
+    │ 7 Humboldt Place │ Duck debugger       │
+    └──────────────────┴─────────────────────┘
+    </pre>
     - Once you have a working query complete the poe, pow and git workflow with message 
         - **COMMIT MESSAGE - "Devious Delivery Join Query"**
 

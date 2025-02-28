@@ -61,7 +61,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture - Relating
     - Then under that heading take notes on the concepts of groups
 
 - Code Along
-    - Write the queries for this section, for this part will be 3 here and then update your notes regarding group above.
+    - Write the queries for this section, for this part will be 3 queries here and then update your notes regarding group above.
     - Listen to the questions code the queries for a total of 5 queries here.
     - Complete the pow and git workflows and commit with message:
          - **COMMIT MESSAGE - "GROUP BY"**

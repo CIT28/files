@@ -32,7 +32,6 @@
 - In your README.md file create a heading 2 for "Join Query for Devious Delivery - Proof of Effect.  
     - Then write the nested subquery to solve the Devious Delivery, there should be at 1 JOIN query here. 
     - Here the output is different but the query logic is these same:
-    - 
     <pre>
     ┌──────────────────┬─────────────────────┐
     │ Drop Off Address │ Contents of Package │

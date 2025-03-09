@@ -24,16 +24,22 @@
 ## Follow attendance instructions
 
 
-
 ### Query 2 thru 6
 - For each query, you need to:
-1. Write the query in the dese-q.sql file and make sure you get the correct output (see below) 
-2. In the README.md, authenticate your work by describing how you answered you approached the question, do this under the heading for each question.  
-3. Open another terminal session to change the standard output to sent the output to powp2.txt, commit with message:
-  - **COMMIT MESSAGE - "1. query, pow  and README.md complete"**
-  - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query, pow  and README.md complete")
+    - Use the poe file to show your attempt and thinking progress
+    - Write the query in the dese-q.sql file and make sure you get the correct output (see below) 
+    - Once you have the correct output, run the pow and include both query output and count 
+        - **COMMIT MESSAGE - "2. query, pow  and README.md complete"** 
+    - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "3. query, pow  and README.md complete")
 
   
+## BREAK OPTIONAL  
+- If you get query 2 and 3 done than you can take a break and complete the rest of this work by the Thursday night deadline.
+- To "GET" this break you will submit your commit history for the packages folder now.
+- I will do a review and give you feedback.
+- If you complete before Thurs morning, then you can submit again your commit history URL and tell me that you are ready for a second review. 
+
+
 # Specification
 For each of the following questions, you should write a single SQL query that outputs the results specified by each problem. Your response must take the form of a single SQL query. You should not assume anything about the ids of any particular rows: your queries should be accurate even if the ids were different. Finally, each query should return only the data necessary to answer the question.
 
@@ -68,10 +74,11 @@ For each of the following questions, you should write a single SQL query that ou
     - Results in a table with 1 column and 9 rows.
 
 ## Grading
-- Submit your commit history URL your normals in your private repo for grading
-- This is how I will grade your work:
-    1. Did you provide the correct URL for DESE folder commits = 5 points.
-    2. Did you do all the commits required for this work = 65 points
-        -  There should be 8 commits, proof of work and authenitcate work in README.md
-    3. Did your README.md file show authenicate work =  30 points
-    4. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
+- Submit your commit history URL the packages folder in your private repo for grading
+
+This is how I will grade your work:
+1. Did you provide the correct URL for packages folder commits = 5 points.
+2. Did you do all the commits required for this work = 20 points
+3. Did your poe show authenticate work =  45 points
+4. Did you get the correct output each query = 30 points
+- Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

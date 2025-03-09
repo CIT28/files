@@ -26,7 +26,7 @@
 
 ### Query 2 thru 6
 - For each query, you need to:
-    - Use the poe file to show your attempt and thinking progress
+    - Use the poe file to show your attempts and thinking progress
     - Write the query in the dese-q.sql file and make sure you get the correct output (see below) 
     - Once you have the correct output, run the pow and include both query output and count 
         - **COMMIT MESSAGE - "2. query, pow  and README.md complete"** 

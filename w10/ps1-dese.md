@@ -15,11 +15,14 @@
         - **COMMIT MESSAGE - "new dataset"**
 
 ### Week 10 Attendance Code Along - Query 1
--  Create a new query file (dese-q.sql) by copying a previous sql file we have used. Remove any queries in the file and update bash command and pow reference to be pow-dese.txt.
+-  Update dese-q.sql file to output to pow-dese.txt.
     - Create the poe file (README.md) and a heading 1 for DESE query 1 thru 6
     - Then for create a heading 2 md for each query
-    - Code along with me and once you have the query tne and you see how I want the pow to be completed. 
+    - Code along with me and once you have the query running correctly and you see how I want the pow to be completed. 
         - **COMMIT MESSAGE - "query 1"**  
+
+## Follow attendance instructions
+
 
 
 ### Query 2 thru 6

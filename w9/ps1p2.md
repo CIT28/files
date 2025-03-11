@@ -20,7 +20,7 @@
 - In the packages folder create a new file named dd-q.sql and copy previous sql file, update pow reference to be pow-dd.txt and update the bash reference.
     - Then write the nested subquery to solve the Devious Delivery,  only 1 nested subquery here. 
     - Once you have a working query complete the poe, pow and git workflow with message 
-        - **COMMIT MESSAGE - "Lost Letter nested subquery"**
+        - **COMMIT MESSAGE - "Devious Delivery nested subquery"**
 
 ## BREAK OPTIONAL  
 - If you got this far you can take a break and complete the rest of this work by the Thursday night deadline.  

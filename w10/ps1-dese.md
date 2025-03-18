@@ -77,7 +77,7 @@ For each of the following questions, you should write a single SQL query that ou
 - Submit your commit history URL the packages folder in your private repo for grading
 
 This is how I will grade your work:
-1. Did you provide the correct URL for packages folder commits = 5 points.
+1. Did you provide the correct URL for dese folder commits = 5 points.
 2. Did you do all the commits required for this work = 20 points
 3. Did your poe show authenticate work =  45 points
 4. Did you get the correct output each query = 30 points

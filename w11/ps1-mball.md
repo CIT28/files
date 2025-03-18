@@ -11,22 +11,17 @@
         2. .schema
         3. Code a query for listing the first 10 records of each table
     -  Create a new query file (mball-q.sql) by copying a previous sql file we have used. Remove any queries in the file and update bash command and pow reference to be pow-mb.txt.
-    - Create a new poe file (README.md) and have a heading 1 for each problem 1 thru 5.
+    - Create a new poe file (README.md) and have a heading 1 md for each problem 1 thru 5.
         - **COMMIT MESSAGE - "setup for moneyball complete"**
 
+### Follow instructions in Week 11 Attendance
 
 ### For each problem you need to do the following 
-- For each problem, you need to:
-1. Write the query in the p3-q.sql file and make sure you get the correct output (see below) 
-2. In the README.md, authenticate your work by describing how you answered you approached the question, do this under the heading for each question.  
-3. Open another terminal session to change the standard output to sent the output to powp1.txt, commit with message:
-  - **COMMIT MESSAGE - "1. query, pow  and README.md complete"**
-  - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query, pow  and README.md complete")
 
 - For each query, you need to:
     - Use the poe file to show your attempts and thinking progress
     - Write the query in the mball-q.sql file and make sure you get the correct output (see below) 
-    - Once you have the correct output, run the pow and include both query output and count 
+    - Once you have the correct output, run the pow and include both query output and count (like we did in week 10)
         - **COMMIT MESSAGE - "1. query, pow  and README.md complete"** 
     - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query, pow  and README.md complete")
 
@@ -75,7 +70,7 @@ For each of the following questions, you should write a single SQL query that ou
   - Executing results in a table with 1 column and 3 rows.
 
 ## Grading
-- Submit your commit history URL the packages folder in your private repo for grading
+- Submit your commit history URL the moneyball folder in your private repo for grading
 
 This is how I will grade your work:
 1. Did you provide the correct URL for moneyball folder commits = 5 points.

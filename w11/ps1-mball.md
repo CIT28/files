@@ -20,10 +20,11 @@
 
 - For each query, you need to:
     - Use the poe file to show your attempts and thinking progress
-    - Write the query in the mball-q.sql file and make sure you get the correct output (see below) 
+    - Write the query in the mball-q.sql file and make sure you get the correct output (see below)
+    - Use .print to identify each query and related count
     - Once you have the correct output, run the pow and include both query output and count (like we did in week 10)
-        - **COMMIT MESSAGE - "1. query, pow  and README.md complete"** 
-    - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query, pow  and README.md complete")
+        - **COMMIT MESSAGE - "1. query, poe, pow complete"** 
+    - Comment out the current query and then work on next query and use the same commit message, just updating the number (ex. "2. query, poe, pow complete")
 
 ## BREAK OPTIONAL  
 - If you get query 1, 2 and 3 done than you can take a break and complete the rest of this work by the Thursday night deadline.

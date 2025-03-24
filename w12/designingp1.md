@@ -14,7 +14,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Design
 - Create a new folder ```designing``` at the same level as querying and relating.
 - In ```designing``` create a new file ```README.md``` and create new query file named w12-q.sql and copy previous query file and update for pow of pow-a.txt and update the bash command for w12-q.sql query file.
     - **COMMIT MESSAGE - "w12 setup done"**
-- Code along with me to how the SQL we are going to write this week will be different!  
+- Code along with me to see how the SQL we are going to write this week will be different!  
 
 ### 2. Take notes from Beginning to 20:16
 - In your README.md, add md h1 w/ text:

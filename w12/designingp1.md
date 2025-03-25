@@ -14,7 +14,8 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Design
 - Create a new folder ```designing``` at the same level as querying and relating.
 - In ```designing``` create a new file ```README.md``` and create new query file named w12-q.sql and copy previous query file and update for pow of pow-a.txt and update the bash command for w12-q.sql query file.
     - **COMMIT MESSAGE - "w12 setup done"**
-- Code along with me to see how the SQL we are going to write this week will be different!  
+- Code along with me to see how the SQL we are going to write this week will be different!
+    - **COMMIT MESSAGE - "coding along done"**
 
 ### 2. Take notes from Beginning to 20:16
 - In your README.md, add md h1 w/ text:
@@ -38,6 +39,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Design
 - Write the first query and run it, then make SURE to comment out the following queries. There will be 3 queries, therefore 3 tables. 
 - At 27:02, comment out the last query and have the ```.schema``` in p1-sql, complete the pow and git workflows commit with message:
     - **COMMIT MESSAGE - "CREATE TABLE"**
+
 
 ## 27:02 to 37:52 Data Types and Storage Classes
 - At 27:35, in your README.md file using md h2 for 'Storage Classes' takes notes on the different classes and note the difference between data type and storage classes. 

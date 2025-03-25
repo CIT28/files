@@ -56,7 +56,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 1 - Design
 
 ## 38:10 to 53:35 Table Constrains
 - At 38:10, code along and code the ```DROP TABLE``` in the p1-q.sql, make sure to comment out the CREATE TABLES before running the to ``DROP (delete) the tables. 
-- You can copy the queries from before then update with new data affinities, but DO NOT remove previous queries and comment out the DROP TABLES so that you don't delete the tables your schema has created. 
+- You can copy the queries from before then update with new data affinities, but DO NOT remove previous queries and comment out the ``1DROP TABLES``` so that you don't delete the tables in the schema. 
 - Carter is doing showing the ```.read schema.sql```, I think I'll talk about this next week.  
 - Once you have new tables created comment out queries and uncomment or include ```.schema``` then run pow workflow, and make sure to listen to the question.  
 - In README.md tell me if you have heard of boolean and if not do some research to understand this term and update your notes with your new (or existing) understanding. 

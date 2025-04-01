@@ -67,6 +67,6 @@ This is how I will grade your work:
 1. Did you provide the correct commit history URL for designing folder = 10 points
 2. Did you do all the commits required for this work = 20 points
 3. Did you have all the queries in the p2-q.sql file = 25 points
-4. Did you create the pow-p2.txt file correctly and include all the required output = 20 points
+4. Did you create the pow-p1.txt file correctly and include all the required output = 20 points
 5. Did you include all the required content in the README.md file = 30 points
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

@@ -62,6 +62,7 @@ Use these Markdown syntaxes in your `README.md` file:
      ```
    - 💾 **Commit Message:** `"column constraints"`
 
+
 ---
 
 ## Altering the Schema
@@ -95,6 +96,12 @@ Carter uses an earlier version of the schema. Make sure yours matches before con
 3. Run the queries to create the schema.
 4. **Important:** Comment out these lines after running them.
 5. Start writing `ALTER` commands below in `p2-q.sql`, commenting out each one after it’s run.
+
+## BREAK OPTIONAL  
+- If you got this far you can take a break and complete the rest of this work by the Thursday night deadline.  
+- To "GET" this break you will submit your commit history for the designing folder now.
+- I will do a review and give you feedback.
+- If you complete before Thurs morning, then you can submit again your commit history URL and tell me that you are ready for a second review. 
 
 ### Altering Tables
 

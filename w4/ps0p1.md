@@ -16,6 +16,7 @@
     - If you get help from the CS50 AI Duck or other gen ai sources, note this with the ```.print 'what you did to get help'``` in your README.md for this problem
 3. Once you have the correct output (see below for test) complete the poe workflow. 
     - Refer back to Week 4 Attendance instructions for how to complete the poe workflow.
+    - Each problem need a second query that does a record count. 
 5. Clear the sqlite terminal with ```.shell clear``` 
     - DON'T DO THIS UNTIL you have copied the effort (SQL commands) you did to get the correct output.
 6. Complete the pow and git workflow, commit with message:

@@ -25,14 +25,16 @@
         - 3 backticks <code>```</code> 
 
 - Now in your SQLITE3 terminal attempt this query:
-    - Query 1 - Write a query to list all data in the episodes table in the cyberchase database. Format your output for readability. 
+    - Query 1 - Write a query to list all data in the episodes table in the cyberchase database. Format your output for readability. Use .print 'Query 1'
         - Successful output will have 140 records and 7 columns
+        - Write another query here to count the number of resulting records, use .print 'Counting results'
         - Between the backticks (done above) copy the commands and code you wrote in SQLITE3 terminal to get successful output
         - DO NOT INCLUDE SUCCESSFUL OUTPUT, just the commands you wrote
         - THIS IS THE NEW POE WORKFLOW
         - Complete the pow and the git workflow and commit with message:
             - %sure is how sure you got this correct
             - **COMMIT MESSAGE - "query 1 and workflows done %sure"**
+        - Comment out the queries written
         -run this command to clear your terminal ```.shell clear``` before starting the next query. 
     - In the README.md, after the heading 2 from Query1
         - Using heading 2 md style have this text 
@@ -41,8 +43,9 @@
             - 3 backticks <code>```</code>
             - blank line
             - 3 backticks <code>```</code> 
-        - Query 2 - Write a query to list all the episode title that have 'or' in their text.
+        - Query 2 - Write a query to list all the episode title that have 'or' in their text. Use .print 'Query 2'
             - Successful output will be 19 titles and 1 column
+            - Write another query here to count the number of resulting records, use .print 'Counting results'
             - Between the backticks (done above) copy the commands and code you wrote in SQLITE3 terminal to get successful output
             - DO NOT INCLUDE SUCCESSFUL OUTPUT, just the commands you wrote
             - THIS IS THE NEW POE WORKFLOW

@@ -1,5 +1,6 @@
 # CS50 Problem Set 0 - Part 1
 ## Cyberchase - Problems 1 thru 7
+
 - https://cs50.harvard.edu/sql/2024/psets/0/cyberchase/
 
 ## Setup
@@ -12,14 +13,11 @@
 1. Add heading 2 md text for each problem with the following text
     - 'Problem #'
     - add the backticks 
-2. Use the SQLITE3 terminal to write your SQL commands to solve the problem. 
-    - If you get help from the CS50 AI Duck or other gen ai sources, note this with the ```.print 'what you did to get help'``` in your README.md for this problem
+2. Use the SQLITE3 terminal to write your attempt to get the correct output for the problem.  Yes you should have several attempts for most problems.  
 3. Once you have the correct output (see below for test) complete the poe workflow. 
     - Refer back to Week 4 Attendance instructions for how to complete the poe workflow.
-    - Each problem need a second query that does a record count. 
-5. Clear the sqlite terminal with ```.shell clear``` 
-    - DON'T DO THIS UNTIL you have copied the effort (SQL commands) you did to get the correct output.
-6. Complete the pow and git workflow, commit with message:
+4. Each problem need a second query that does a record count to confirm you are getting the correct output. 
+5. Complete the pow and git workflow, commit with message:
         - **COMMIT MESSAGE - "Prob 1 complete"**
 
 **CONTENT FROM CS50 SITE STARTS HERE**
@@ -71,5 +69,7 @@ Make sure you commit before moving on to the next problem.
 - This is how I will grade your work:
 1. Did you provide the correct URL for cyberchase folder = 10 points.
 2. Did you do all the commits required for this work = 30 points
-3. Did the commits contain the workflow (poe, pow and git ) data =  60 points
+3. Did the commits contain the workflow outputs of the Proof of Effort (poe), Proof of Work (pow) and correct commit message =  60 points
+    - For 7 problems there will be 14 queries in the p1-q.sql file once you you have finished the this problem set.
+    - For each commit of the problem make sure it includes poe in the README.md, queries in the p1-q.sql and pow-p1.txt
 4. Work submitted after the due date will be reduced by 25 points. 

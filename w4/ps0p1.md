@@ -61,15 +61,16 @@ Make sure you commit before moving on to the next problem.
 **CONTENT FROM CS50 SITE END HERE**
 
 ## OPTIONAL BREAK!
-- If you've completed problems 1 through 3, you can submit your commit history for the cyberchase folder and continue with steps 4 through 7 by the next due date. Be sure to include a commit message indicating that you're taking a break. If you finish early and would like to review your work, let me know in your submission comments.
+- If you've completed problems 1 through 3, you can submit your commit history for the cyberchase folder and continue with steps 4 through 7 by the next due date. Be sure to include a comment in the canvas submission indicating that you're taking a break. If you finish early and would like to review your work, let me know in your submission comments.
 
 
 ## Grading
-- Submit your commit history URL your cyberchase in your private repo for grading
+- Submit your commit history URL for the cyberchase folder that will be in your private repo for grading
 - This is how I will grade your work:
 1. Did you provide the correct URL for cyberchase folder = 10 points.
 2. Did you do all the commits required for this work = 30 points
 3. Did the commits contain the workflow outputs of the Proof of Effort (poe), Proof of Work (pow) and correct commit message =  60 points
-    - For 7 problems there will be 14 queries in the p1-q.sql file once you you have finished the this problem set.
+    - For 7 problems there will be 14 queries in the p1-q.sql file once you you have finished the this problem set. 
+    - The pow-p1.txt should have 153 lines
     - For each commit of the problem make sure it includes poe in the README.md, queries in the p1-q.sql and pow-p1.txt
 4. Work submitted after the due date will be reduced by 25 points. 

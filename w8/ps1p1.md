@@ -1,4 +1,4 @@
-# CS50 Problem Set 1 - Lost Letter Static and Subquery
+# CS50 Problem Set 1 - Lost Letter Static and Nested Subqueries
 
 ## Attendance
 
@@ -79,7 +79,7 @@
 - If you complete before Thurs morning, then you can submit again your commit history URL and tell me that you are ready for a second review. 
 
 
-3. Write nested query
+3. Write nested subqueries
 - In your README.md file create a heading 2 for "Nested Queries for Lost Letter - Proof of Effect.  
     -  Then write the nested subquery  to solve the Lost Letter, there should be at 1 query here. 
     - Same output as the static query

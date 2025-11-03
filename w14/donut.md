@@ -16,21 +16,21 @@ ps2 (new folder)
 
 - Step 1 - Donuts and Ingredients
     - Based on your understanding of the requirements write SQL that will create 1 or more than tables.  
-    - In the donut-q.sql file use comments ```--``` to identify the requirements that your table(s) design satisfies. 
-        * This does not need to be long and will be modified as we move into the other area.
+    - In the donut-q.sql file use comments ```--``` to identify the requirements that your table(s) design satisfies including table and/or column constraints. 
+        * This does not need to be long and will be modified as we move into the other requirements.
         * Once you have your SQL ready, run it and then run the pow and git workflows.
             - **COMMIT MESSAGE - "first draft of donuts and ingredients"**
 
 - Step 2 - Orders
     - Based on your understanding of this requirements write SQL that will create 1 or more than tables.  
-    - In the donut-q.sql file use comments ```--``` to identify the requirements that your table(s) design satisfies. 
+    - IIn the donut-q.sql file use comments ```--``` to identify the requirements that your table(s) design satisfies including table and/or column constraints. 
         * This does not need to be long and will be modified as we move into the other area.
         * Once you have your SQL ready, run it and then run the pow and git workflows.
             - **COMMIT MESSAGE - "first draft of orders"**
 
 - Step 3 - Customers
     - Based on your understanding of this requirements write SQL that will create 1 or more than tables.  
-    - In the donut-q.sql file use comments ```--``` to identify the requirements that your table(s) design satisfies. 
+    In the donut-q.sql file use comments ```--``` to identify the requirements that your table(s) design satisfies including table and/or column constraints.  
         * This does not need to be long and will be modified as we move into the other area.
         * Once you have your SQL ready, run it and then run the pow and git workflows.
         - **COMMIT MESSAGE - "first draft of customers"**
@@ -55,5 +55,3 @@ This is how I will grade your work:
 2. Did you do all the commits required for this work = 25 points
 3. Did you have all the queries in the donut-q.sql, with all the included comments  = 50 points
 4. Did you create the pow-d.txt include all the required output = 15 points
-
-

@@ -32,7 +32,7 @@ SELECT * FROM "longlist";
 -- bash command sqlite3 longlist.db < p2-q.sql
 ```
 - Before you start watching the video in your README.md file use a h1 (#) and this text - "Week 2 Querying Part 2", then commit with message:
-  - **COMMIT MESSAGE - "setup ready"**
+  - **COMMIT MESSAGE - "setup ready"** 
 
 ## Timemark 12:25 to 21:49
 - After watching my video, start at 12:25 and then follow along with the Carter and write the SQL commands (query) in the terminal and once query runs without error copy it into query file (p2-q.sql) for this one there will be 3 queries. Complete the proof of work (pow) and git workflow and commit with message:

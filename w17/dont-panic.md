@@ -81,10 +81,10 @@ Complete each requirement one at a time. After each step:
 3. Reset the database before starting the next step and commit with message that indicate step approach.
 
 📌 **COMMIT EXAMPLES:**
-    - Your can have more steps based on your approach
-        - `requied action 1 complete – changed password`
-        - `requied action 2 complete – erased log`
-        - `requied action 3 complete – added false data`
+## Your can have more steps based on your approach
+    - `requied action 1 complete – changed password`
+    - `requied action 2 complete – erased log`
+    - `requied action 3 complete – added false data`
 
 ## Once you have completed all the required actions.
     - reset the db

@@ -82,9 +82,9 @@ Complete each requirement one at a time. After each step:
 
 📌 **COMMIT EXAMPLES:**
     - Your can have more steps based on your approach
-    - `requied action 1 complete – changed password`
-    - `requied action 2 complete – erased log`
-    - `requied action 3 complete – added false data`
+        - `requied action 1 complete – changed password`
+        - `requied action 2 complete – erased log`
+        - `requied action 3 complete – added false data`
 
 ## Once you have completed all the required actions.
     - reset the db

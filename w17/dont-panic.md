@@ -102,7 +102,7 @@ Submit your commit history for the dont-panic folder
 |-------------------------------------------------------------------------|--------|
 | ✅ Correct commit history URL for `dont-panic` folder                   | 5      |
 | ✅ `hack-q.sql` and hack.txt shows work for each action                 | 25     |
-| ✅ Final `final-hack.sql` includes all steps in student-defined order   | 30     |
+| ✅ No hardcoded data and actions are taken successfully                 | 30     |
 | ✅ Output saved to `final-hack.txt`                                     | 20     |
 | ✅ README.md` includes evolving strategy with clear structure           | 15     |
 | ❗ Late submissions will be penalized 25 points                         |        |

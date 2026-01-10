@@ -32,9 +32,9 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 - Submit your commit history URL the querying in your private repo for grading
 ## Grading
 This is how I will grade your work:
-  1. Did you provide the correct URL for querying folder = 5 points
+  1. Did you provide the correct commit history URL for querying folder = 5 points
   2. Did you do all the commits required for this work = 20 points
   3. Does your p3-q.sql contains all the queries written in the section = 30 points
-  3. Does your powp3.txt have all the query output = 20 points
+  3. Does your pow3.txt have all the query output = 20 points (Mine had 469 lines)
   4. Did you include all the required content in the README.md file = 25 point
   5. Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 

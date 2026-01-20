@@ -48,35 +48,36 @@ Then complete your Git workflow in **Terminal 2**.
 `week 3 attendance query file and README.md ready`
 
 ---
-## Challenge 1: The Top Rated Books
+## Challenge 1: The "2021 Hardcovers"
 
 **Goal**
 Find the highest-scoring books in the dataset.
 
 **Context**
-A reader wants to know which books are the "best of the best" based on their rating score. We need to provide a curated short-list of the highest-rated entries.
+We need to find a list of specific physical books for a display. We are looking for books released in 2021 that were printed in the hardcover format.
 
 **The Task**
-Write a query that retrieves the `title` and `rating` from the `longlist` table. The results must be ranked by rating, starting with the highest score. To keep the list concise, the output should contain only the top 5 results.
+Write a query that retrieves the `title` and `author` from the `longlist` table. You need to filter the results to only include books where the year is exactly 2021 AND the format is 'hardcover'.
 
 **Requirements**
-1. Print the label: `'Top Rated Query'`
-2. Select the `title` and `rating` columns.
-3. Sort the results so the highest ratings appear at the top.
-4. Ensure only the first 5 rows are displayed.
+1. Print the label: `'2021 Hardcover Query'`
+2. Select the `title` and `author` columns.
+3. Filter the results: 
+  * Year must be 2021
+  * Format must be 'hardcover'
 
 **Expected Output**
 ```text
-Top Rated Query
-┌────────────────────────────────┬────────┐
-│             title              │ rating │
-├────────────────────────────────┼────────┤
-│ The Eighth Life                │ 4.52   │
-│ A New Name: Septology VI-VII   │ 4.5    │
-│ The Other Name: Septology I-II │ 4.19   │
-│ The Years                      │ 4.18   │
-│ Still Born                     │ 4.14   │
-└────────────────────────────────┴────────┘
+┌───────────────────────────────────────┬───────────────────┐
+│                 title                 │      author       │
+├───────────────────────────────────────┼───────────────────┤
+│ The War of the Poor                   │ Éric Vuillard     │
+│ When We Cease to Understand the World │ Benajamín Labatut │
+│ An Inventory of Losses                │ Judith Schalansky │
+│ At Night All Blood is Black           │ David Diop        │
+│ I Live in the Slums                   │ Can Xue           │
+│ The Perfect Nine                      │ Ngũgĩ wa Thiong'o │
+└───────────────────────────────────────┴───────────────────┘
 ```
 
 ### 2. Code on the sqlite3 terminal and then copy the query into `w3-q.sql`
@@ -101,59 +102,34 @@ Before moving to the next section:
 - Add `--` before each line
 
 
-## Challenge 2: The "Goldilocks" Length
+## Challenge 2: The 2020 Originals
 
 **Goal**
-Filter results to find values that fall within a specific numerical range.
+Filter for "empty" or NULL values combined with other criteria.
 
 **Context**
-A reader is looking for a book that isn't too short, but also isn't a massive 1,000-page commitment. They want something "just right"—specifically, books that have between 200 and 300 pages.
+A researcher is looking for books that were written in their original language (not translated) and published in the year 2020. In our database, if a book has no translator, that column is `NULL`.
 
 **The Task**
-Write a query that selects the `title` and `pages` from the `longlist` table. You need to filter the results to show only books where the page count is 200 or more, but no higher than 300 (inclusive).
+Write a query that selects the `title` and `author` from the `longlist` table. Filter the results to find books where the `translator` is empty (NULL) AND the `year` is 2020.
 
 **Requirements**
-1. Print the label: `'Page Range Query'`
-2. Select the `title` and `pages` columns.
-3. Filter the results to include only books with a page count ranging from 200 to 300.
+1. Print the label: `'2020 Originals Query'`
+2. Select the `title` and `author` columns.
+3. Filter the results: 
+  * Translator must be `NULL`
+  * Year must be 2020
 
 **Expected Output**
 ```text
-Page Range Query
-┌────────────────────────────────────────────┬───────┐
-│                    title                   │ pages │
-├────────────────────────────────────────────┼───────┤
-│ Standing Heavy                             │ 252   │
-│ Pyre                                       │ 224   │
-│ Still Born                                 │ 200   │
-│ Ninth Building                             │ 272   │
-│ Love in the Big City                       │ 217   │
-│ The Book of Mother                         │ 224   │
-│ More Than I Love My Life                   │ 288   │
-│ Phenotypes                                 │ 232   │
-│ A New Name: Septology VI-VII               │ 228   │
-│ Cursed Bunny                               │ 251   │
-│ An Inventory of Losses                     │ 256   │
-│ Summer Brother                             │ 285   │
-│ The Perfect Nine                           │ 240   │
-│ The Adventures of China Iron               │ 200   │
-│ The Discomfort of Evening                  │ 282   │
-│ The Enlightenment of The Greengage Tree    │ 256   │
-│ The Memory Police                          │ 277   │
-│ Hurricane Season                           │ 229   │
-│ Little Eyes                                │ 256   │
-│ Mac and His Problem                        │ 224   │
-│ Celestial Bodies                           │ 243   │
-│ Drive Your Plow Over the Bones of the Dead │ 270   │
-│ Love in the New Millennium                 │ 288   │
-│ Mouthful of Birds                          │ 228   │
-│ The Years                                  │ 232   │
-│ Frankenstein in Baghdad                    │ 272   │
-└────────────────────────────────────────────┴───────┘
+2020 Originals Query
+┌─────────────────────────────────────────┬────────────────┐
+│                  title                  │     author     │
+├─────────────────────────────────────────┼────────────────┤
+│ The Enlightenment of The Greengage Tree │ Shokoofeh Azar │
+└─────────────────────────────────────────┴────────────────┘
 ```
 
-
-This prevents **duplicate output** in your text file.
 
 ### 2. Code on the sqlite3 termianl and then copy into `w3-q.sql`
 - **Test:** Write and refine your query in the SQLite terminal until it matches the expected output.
@@ -184,7 +160,7 @@ This prevents **duplicate output** in your text file.
 * Does your final `w3-q.sql` contain the valid SQL syntax for both queries?
 
 **4. Proof of Work Output (20 Points)**
-* Does your final `pow-w3.txt` contain the results **AND** the descriptions? (Mine was 41 lines)
+* Does your final `pow-w3.txt` contain the results **AND** the descriptions? (Mine was 16 lines)
 * *Check:* Did you remember to use `.print` before every query?
 
 **5. Notes  (10 Points)**

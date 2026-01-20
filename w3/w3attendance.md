@@ -183,7 +183,7 @@ This prevents **duplicate output** in your text file.
 * Does your final `w3-q.sql` contain the valid SQL syntax for both queries?
 
 **4. Proof of Work Output (20 Points)**
-* Does your final `pow-w3.txt` contain the results **AND** the descriptions?
+* Does your final `pow-w3.txt` contain the results **AND** the descriptions? (Mine was 41 lines)
 * *Check:* Did you remember to use `.print` before every query?
 
 **5. Notes  (10 Points)**

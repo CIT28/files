@@ -23,14 +23,14 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture 0 - Queryi
 ```
 ## 2. Open Your Terminals
 
-### Terminal 1 (SQlite3)
+### Terminal 1 (SQlite3 to write queries)
 - Navigate to the `querying` folder and then run the following command:
 
 - `sqlite3 longlist.db`
 
 Use this terminal to test queries interactively **before** saving them to your SQL file.
 
-### Terminal 2 (GIT and POW Workflows)
+### Terminal 2 (Bash to complete GIT and POW Workflows)
 - Navigate to the `querying` folder
 - Use this terminal for **Git** and **POW** commands
 

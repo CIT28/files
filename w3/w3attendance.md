@@ -22,14 +22,14 @@
 ```
 ## 2. Open Your Terminals
 
-### Terminal 1 (SQlite3)
+### Terminal 1 (SQlite3 to write queries)
 - Navigate to the `querying` folder and then run the following command:
 
 - `sqlite3 longlist.db`
 
 Use this terminal to test queries interactively **before** saving them to your SQL file.
 
-### Terminal 2 (GIT and POW Workflows)
+### Terminal 2 (Bash to complete GIT and POW Workflows)
 - Navigate to the `querying` folder
 - Use this terminal for **Git** and **POW** commands
 
@@ -79,7 +79,7 @@ Top Rated Query
 └────────────────────────────────┴────────┘
 ```
 
-### 2. Code on the sqlite3 termianl and then copy into `w3-q.sql`
+### 2. Code on the sqlite3 terminal and then copy the query into `w3-q.sql`
 - **Test:** Write and refine your query in the SQLite terminal until it matches the expected output.
 - **Save:** Copy your final query into `w3-q.sql`.
 - **Document:** In your `README.md`:
@@ -87,11 +87,12 @@ Top Rated Query
     - **If you could not get the correct output:** Describe the approaches you tried and where you got stuck and include your final query in `w3-q.sql`
 
 ### 3. ✅ Checkpoint
-- Run the POW:
+- In terminal 1 run the POW:
   - `sqlite3 longlist.db < w3-q.sql`
-- Commit your work
 
-📌 **Commit message to use:**  
+-   Commit your work
+
+📌 In terminal 2 **Commit message to use:**  
 `Code Challenge 1`
 
 ### 🛑 STOP & CLEAN UP

@@ -236,6 +236,7 @@ When I view your history, I click on specific commits (e.g., *"Operators and ran
 
 **4. Proof of Work Output (25 Points)**
 * Does your final `pow4.txt` contain the results **AND** the descriptions?
+  - (Mine had 758 lines)
 * *Check:* Did you remember to use `.print` before every query so the output is readable?
 
 **5. Learning Notes (20 Points)**

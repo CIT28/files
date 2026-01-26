@@ -3,7 +3,7 @@
 # Setup
 ## 1. New folder(s)
 * In your pri repo create a new folder named `ps0` and then make that the current folder and create another folder named `cyberchase`. 
-* Make sure you have the `cyberchase` as the current folder and then copy the following command and paste into the terminal:
+* Make sure you have the `cyberchase` as the current folder and then copy the following command and paste into the bash terminal:
 - ```curl -o cyberchase.db https://raw.githubusercontent.com/CIT28/files/main/w4/cyberchase.db```
 
 ## 2. Create your SQL File
@@ -34,11 +34,11 @@
 - `sqlite3 cyberchase.db`
 - `.mode box`
 
-Use this terminal to test your queries interactively **before** saving them to your SQL file. This process captures your problem-solving history, which serves as your **Proof of Effort (POE)**.
+Use this terminal to test your queries interactively **before** saving them to your SQL file. This terminal be where you capture your problem-solving history, which serves as your **Proof of Effort (POE)**.
 
 ### Terminal 2 (Bash to complete GIT and POW Workflows)
 - Navigate to the `ps0/cyberchase` folder
-- Use this terminal for **Git** and **POW** commands
+- Use this terminal for **GIT** and **POW** commands
 
 ---
 
@@ -84,7 +84,7 @@ cyberchase ds
     - to `.output '| cat >> pow-w4.txt'`
 ---
 
-# Code Challenge 
+# Problem 1 and 2
 
 ## 1. List episodes (Follow along with me)
 
@@ -101,11 +101,28 @@ On the terminal write a SQL query to list the titles of all episodes in Cybercha
 Find the title and production code for the episode “Hackerized!”.
 
 **Validation:**
-- **Columns:** 1 (`title`)
+- **Columns:**2 (`title` and `production_code`)
 - **Rows:** 21
 
 # ⚙️ The Workflow (Repeat for **EACH** Problem)
 
+For **every problem** listed below (*Problem 1 and 2*), you must perform this exact cycle:
+
+---
+## 1. Add problem heading to README.md
+
+In your `README.md`, add the following **Heading 2**:
+
+```md
+## Problem # 
+```
+
+## 🔁 The Loop 
+
+---
+
+### ✅ Attempt
+Type your best-guess query in the terminal 1.
 
 ## ❌ Fail / Verify
 
@@ -116,22 +133,26 @@ Example: `Parse error: no such column...`
 2. Select the text in the terminal (**your failed query + the error message**).  
 3. Paste it into `README.md` **inside a code block** 
     - To display a block of code, wrap the content with three backticks (```` ``` ````) on the lines immediately before and after the code.
-
-## 🔧 Refine
-Try again until you get the correct result matching the **Validation** criteria.
-
-### 🏁 Finalize
-Once correct:
-- Copy **only** the working SQL query into `w4-q.sql` for the official solution.
-
 ## If it gives **Wrong Data**
 1. Select the query + the **first few rows** of the wrong result.  
 2. Paste it into `README.md`.
 
+> **"What if I get it right on the first try?"**
+> If you type the query and it works perfectly the first time, simply paste that terminal interaction into your effort log and add a **single sentence explanation** of *why* you wrote it that way.
+> *Example:* "I used `ORDER BY air_date DESC` because the question asked for the 'most recent' episode."
+>
+> *Warning:* If you have a perfect run for **every single problem** with no typos or logic checks, I may ask you to explain your code in person.
+
+## 🔧 Refine
+Try again until you get the correct result matching the **Validation** criteria.
+
+## 🏁 Finalize
+Once correct:
+- Copy **only** the working SQL query into `w4-q.sql` for the official solution.
 
 ## ✅ Proof of Work
 - In terminal 2 run the POW:
-  - `sqlite3 cyberchase.db < w1-q.sql`
+  - `sqlite3 cyberchase.db < w4-q.sql`
 
 ---
 
@@ -141,15 +162,20 @@ Once correct:
     * 1. ```Following along with Rio```
     * 2. ```Trying it on my own```
 
-```text
-Commit Message from above
+---
+## SQL to COUNT the result - Not required:
+```sql
+SELECT COUNT(*) FROM  (
+-- Your query goes here, remove the ; and add it on the next line
+);
 ```
+* Once you have the count comment out the first and second line and add the `;` back on the query.
 ---
 
-### 🛑 STOP & CLEAN UP
+## 🛑 STOP & CLEAN UP
 Before moving to the next section:
 - Comment out the queries you just wrote in `w4-q.sql`
 - Add `--` before each line
 
 
-
+## Start next problem!

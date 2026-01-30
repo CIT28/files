@@ -1,4 +1,4 @@
-# 💻 CyberChase Part 1 Problem Set (Problem 1 thru 7)
+# 💻 CyberChase Part 2 Problem Set (Problem 8 thru 13)
 
 # Setup
 ## 1. Create your SQL File

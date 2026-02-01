@@ -243,6 +243,8 @@ When I view your history, I click on specific commits (e.g., *"Problem 8"*) to e
 * Does your final `README.md` contain all required headers and authenicate attempts?
 * *Required Sections:* Problem 8....thru Problem 13.
 
+**6. Scope of Work.**
+* Limit your code to the specific SQL concepts covered in this module. The goal is to demonstrate your understanding of the current material. Note: Using SQL functions or syntax we haven't covered yet will be flagged as AI-generated code and points will be deducted. 
 ---
 
 ### 🕒 Late Policy

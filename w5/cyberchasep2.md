@@ -19,7 +19,7 @@
 -- changes back to stdout
 .output stdout
 
--- bash command (for reference): sqlite3 cyberchase.db < p1-q.sql
+-- bash command (for reference): sqlite3 cyberchase.db < p2-q.sql
 ```
 ## 2. Open Your Terminals
 

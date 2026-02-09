@@ -146,7 +146,7 @@ Count the total number of episodes that aired in June, July, OR August (of any y
 ## Problem 10: The Shortest Titles
 
 **Task:**  
-List the id and title of the top 10 episodes with the shortest titles.
+List the id and title of the first 10 episodes when the list is sorted by title in reverse alphabetical order (Z to A).
 
 **Validation:**
 - **Columns:** 2 (`id`, `title`)

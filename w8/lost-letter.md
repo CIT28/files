@@ -1,5 +1,7 @@
 # CS50 Problem Set 1 - Lost Letter Static and Nested Subqueries
 
+https://cs50.harvard.edu/sql/psets/1/packages/
+
 ## Attendance
 
 ### Setup the .gitignore

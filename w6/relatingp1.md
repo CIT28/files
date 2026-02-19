@@ -10,7 +10,7 @@ Right-click and select "Open in new tab" to watch [CS50 SQL - Lecture - Relating
     - 'Week 6 Relating Part 1' 
     - below that create a heading 2 with this heading text:
     - 'Week 6 Attendance
-4. In the relating folder create a file a-q.sql and copy the contents of the p2-q.sql from the cyberchase folder into this file.
+4. In the relating folder create a file a-q.sql and copy the contents of the p1-q.sql from the cyberchase folder into this file.
     - Update the a-q.sql to reference the pow-ds.txt and bash command at the end to be a-q.sql.
     - Remove all previous queries
 5. Setup the SQLITE3 and Bash terminals

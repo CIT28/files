@@ -47,7 +47,7 @@ https://cs50.harvard.edu/sql/psets/1/packages/
     - *** Query 1 ***
     - There should be a total of 5 commits and here is a link to the results of having a correct query for each one. [link](results.txt)
 
-## Lost Letter - Static and Nested Queries
+## Lost Letter - Static and Nested Subqueries
 
 ### Static Queries
 
@@ -82,12 +82,11 @@ https://cs50.harvard.edu/sql/psets/1/packages/
 
 
 3. Write nested subqueries 
-- In your README.md file create a heading 2 for "Nested Queries for Lost Letter - Proof of Effect.  
+- In your README.md file create a heading 2 for "Nested Subqueries for Lost Letter - Proof of Effect.  
     -  Then write the nested subquery  to solve the Lost Letter, there should be at 1 nested subquery here. 
     - Same output as the static query
     - Once you have a working query complete the poe, pow and git workflow with message 
         - **COMMIT MESSAGE - "Lost Letter nested query"**
-
 
 
 4. Write about your experience

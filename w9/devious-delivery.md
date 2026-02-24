@@ -5,7 +5,7 @@ We are will working in the packages database and folder for this week.
 
 ## 1. The Mystery: Devious Delivery
 Review the problem context:
-> "Deliverer of the mail, I made my way from Fiftyville and handed over a certain box. My associate has been expecting it, but it seems to have grown wings! It’s the kind of parcel that would add a bit more… **quack** to someone’s bath times. Can you find where it was dropped off?"
+> "Good day to you, deliverer of the mail. You might remember that not too long ago I made my way over from the town of Fiftyville. I gave a certain box into your reliable hands and asked you to keep things low. My associate has been expecting the package for a while now. And yet, it appears to have grown wings and flown away. Ha! Any chance you could help clarify this mystery? Afraid there’s no “From” address. It’s the kind of parcel that would add a bit more… quack to someone’s bath times, if you catch my drift."
 
 Unlike the standard CS50 examples, you must write a specific subquery to answer: **"What was the Drop off address?"**
 

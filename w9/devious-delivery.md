@@ -64,6 +64,6 @@ Unlike the standard CS50 examples, you must write a specific subquery to answer:
 | **Correct URL** (Packages folder commit history) | 5 pts |
 | **Required Commits** (Must match exact messages) | 20 pts |
 | **Authentic PoE** (README shows the steps/process) | 45 pts |
-| **Correct Output** (Static and Nested queries match) | 30 pts |
+| **Correct Output** (From both nested subquery and JOIN) | 30 pts |
 
 > **Late Policy:** Submissions after the deadline incur a **25-point reduction**. Max score for late work is 75/100.

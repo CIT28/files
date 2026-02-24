@@ -35,6 +35,13 @@ Unlike the standard CS50 examples, you must write a specific subquery to answer:
 
 ---
 
+## BREAK OPTIONAL  
+- If you got this far you can take a break and complete the rest of this work by the Thursday night deadline.  
+- To "GET" this break you will submit your commit history for the packages folder now.
+- I will do a review and give you feedback.
+- If you complete before Thurs morning, then you can submit again your commit history URL and tell me that you are ready for a second review. 
+
+---
 ## 3. Part B: JOIN Query
 1. **Setup:**
    * In your `README.md`, create a `## Heading 2` titled: `Join Query for Devious Delivery - Proof of Effect`.

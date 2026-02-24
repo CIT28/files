@@ -23,7 +23,7 @@ Unlike the standard CS50 examples, you must write a specific subquery to answer:
 ## 2. Part A: Nested Subquery
 1. **Setup:**
    * In your `README.md`, create a `## Heading 2` titled: `Nested Subquery for Devious Delivery - Proof of Effect`.
-   * Inside your `packages` folder, create a new file named `dd-q.sql` and copy `lost-letter.sql` and remove previous queries.  
+   * Inside your `packages` folder, create a new file named `dd-q.sql` and copy contents of `lost-letter.sql` and remove previous queries.  
    * **Note:** Ensure you update your internal SQL references and bash scripts to point to `pow-dd.txt` so you don't overwrite previous work.
    * **COMMIT MESSAGE:** `Setup Ready`
 2. **The Task:**

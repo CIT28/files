@@ -16,11 +16,12 @@
         3. Code a query for listing the first 10 records of each table
         - **COMMIT MESSAGE - "new dataset"**
 
-## Week 10 Attendance: The "Dropout" Diagnostic
-- Update the dese-q.sql pow to be pow-dese.txt
+- Update the dese-q.sql pow to be pow-w10.txt
 - Create README.md and heading 2 `## Attendance Problem`
 - Review the Task and the Workflow Loop below
+- Commit Message - `week 10 attendance problem`
 
+## Week 10 Attendance: The "Dropout" Diagnostic
 
 **Task:**
 Find the **average dropout rate** of all schools located in districts categorized as a **"Charter District"**. 
@@ -29,7 +30,10 @@ Find the **average dropout rate** of all schools located in districts categorize
 - **Columns:** 1 (`average_dropout_rate`)
 - **Rows:** 1
 
+---
+
 ## Week 10 Problem Set - DESE
+- Update the dese-q.sql pow to be pow-dese.txt
     
 ## ⚙️ The Workflow (Repeat for **EACH** Problem)
 

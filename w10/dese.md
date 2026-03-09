@@ -10,6 +10,7 @@
 - Change the current folder to dese, then use the following command to copy the database file:
     - ```curl -o dese.db https://raw.githubusercontent.com/CIT28/files/main/w10/dese.db```
     - Create a new query file (dese-q.sql) by copying a previous sql file we have used. Remove any queries in the file and update bash command and pow reference to be pow-ds.txt.
+    - Create README.md and heading 1 `# Week 10 DESE `
     - Do the normal new dataset queries:
         1. .table
         2. .schema
@@ -17,7 +18,8 @@
         - **COMMIT MESSAGE - "new dataset"**
 
 - Update the dese-q.sql pow to be pow-w10.txt
-- Create README.md and heading 2 `## Attendance Problem`
+
+- Create heading 2 `## Attendance Problem`
 - Review the Task and the Workflow Loop below
 - Commit Message - `week 10 attendance problem`
 

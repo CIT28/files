@@ -10,6 +10,7 @@
 - Change your current folder to `moneyball`, then use the following command to download the database:
     - ```curl -o moneyball.db https://raw.githubusercontent.com/CIT28/files/main/w11/moneyball.db```
 - Create a new query file (`mball-q.sql`) from previous query file and a `README.md`.
+- Create `README.md` and heading 1 `# Week 11 Moneyball ` with Heading 2 `## Attendance Problem`
 - Update the `mball-q.sql` POW to be `pow-ds.txt`
 - Perform the standard dataset inspection:
     1. `.table`

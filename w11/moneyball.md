@@ -6,10 +6,10 @@
 ### Setup
 - Inside your `ps1` folder, create a new folder named `moneyball`.
 - Let's review the schema for this dataset:
-    * https://cs50.harvard.edu/sql/2024/psets/1/moneyball/#schema
+    * https://cs50.harvard.edu/sql/psets/1/moneyball/#schema
 - Change your current folder to `moneyball`, then use the following command to download the database:
     - ```curl -o moneyball.db https://raw.githubusercontent.com/CIT28/files/main/w11/moneyball.db```
-- Create a new query file (`mball-q.sql`) from previous query file and a `README.md`.
+- Create a new query file (`mball-q.sql`) from previous query file remove any queries written and create a new `README.md`.
 - Create `README.md` and heading 1 `# Week 11 Moneyball `
 - Update the `mball-q.sql` POW to be `pow-ds.txt`
 - Perform the standard dataset inspection:
@@ -18,7 +18,7 @@
     3. Code a query to list the first 10 records of each table in the moneyball.db: `performances`, `players`, `salaries`, and `teams`
 - **COMMIT MESSAGE - "new dataset"**
 - Comment out the queries and commands above.
-- Update the `moneyball-q.sql` POW to be `pow-w11.txt`
+- Update the `mball-q.sql` POW to be `pow-w11.txt`
 - Create `README.md` with Heading 2 `## Attendance Problem`
 - Review the Task and the Workflow Loop
 - **COMMIT MESSAGE - "week 11 attendance problem"**

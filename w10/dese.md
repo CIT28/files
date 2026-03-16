@@ -147,7 +147,7 @@ Identify the `name` of every school that belongs to a **Charter District** with 
 
 **Validation:**
 - **Columns:** 1 (`name`)
-- **Rows:** 34
+- **Rows:** 4
 
 ## Problem 5: The "Purely Public" Districts
 
@@ -158,7 +158,7 @@ Identify the `name` of every **Public School District** that contains **zero** C
 
 **Validation:**
 - **Columns:** 1 (`name`)
-- **Rows:** 346
+- **Rows:** 520
 
 ## Problem 6: The "Investment" Report
 
@@ -170,7 +170,7 @@ Identify the `name` and the **average graduation rate** of every district that s
 
 **Validation:**
 - **Columns:** 2 (`name`, `average_graduation_rate`)
-- **Rows:** 9
+- **Rows:** 99
 
 ## 💯 Grading Rubric (100 Points)
 

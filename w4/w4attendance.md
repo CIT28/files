@@ -102,7 +102,7 @@ Find the title and production code for the episode “Hackerized!”.
 
 **Validation:**
 - **Columns:**2 (`title` and `production_code`)
-- **Rows:** 21
+- **Rows:** 1
 
 # ⚙️ The Workflow (Repeat for **EACH** Problem)
 

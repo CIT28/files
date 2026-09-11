@@ -41,7 +41,8 @@ Use this terminal to test queries interactively **before** saving them to your S
 
 In your `README.md`, add the following **Heading 1**:
 
-```md2
+```md
+# Cyberchase Part 2
 ```
 
 Then complete your Git workflow in **Terminal 2**.

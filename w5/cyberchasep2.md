@@ -176,7 +176,7 @@ List the titles of episodes from Season 5 that did NOT air in the year 2006.
 
 **Validation:**
 - **Columns:** 1 (`title`)
-- **Rows:** 1
+- **Rows:** 5
 
 ---
 

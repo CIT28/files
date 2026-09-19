@@ -73,6 +73,6 @@ This is how I will grade your work:
 2. Did you do all the commits required for this work = 20 points
 3. Did you have all the queries in the p2-q.sql file = 25 points
 4. Did you create the pow-p2.txt (my pow had 1328 lines) file correctly and include all the required output = 20 points
-5. Did you include all the required content in the README.md file = 30 points
+5. Did you include all the required content in the README.md file = 25 points
 ***MAKE SURE each commit includes the queries, pow and notes for that work.***
 - Work submitted after the due date will be reduced by 25 points. If you completed all the requirements above, but submitted after the due date you will get 75 points (100 - 25) on this work. 
